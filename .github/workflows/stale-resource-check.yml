@@ -1,0 +1,34 @@
+name: Stale Resource Check
+
+on:
+  schedule:
+    - cron: '0 0 1 1,4,7,10 *'  # Quarterly
+
+jobs:
+  find-stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Find stale resources
+        id: stale
+        run: |
+          python scripts/find_stale_resources.py --months 12 --format markdown > stale-report.md
+          echo "has_stale=$(test -s stale-report.md && echo 'true' || echo 'false')" >> $GITHUB_OUTPUT
+      - name: Create issue
+        if: steps.stale.outputs.has_stale == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('stale-report.md', 'utf8');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Stale Resource Report — Resources Unreviewed for 12+ Months',
+              body: report,
+              labels: ['maintenance', 'stale-resources']
+            });

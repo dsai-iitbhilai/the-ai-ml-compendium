@@ -1,0 +1,33 @@
+name: Report Broken Link
+description: Report a link in the compendium that no longer works
+labels: [bug, broken-link]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Where is the broken link?
+      description: File path and/or section
+      placeholder: "03-machine-learning/supervised-learning.md — Logistic Regression row"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: The broken URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested replacement (if known)
+      description: A working URL that covers the same content
+      placeholder: https://...
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Resource is gone with no replacement
+        - Resource moved (new URL known)
+        - Resource is behind a new paywall

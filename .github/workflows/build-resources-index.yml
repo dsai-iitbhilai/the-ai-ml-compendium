@@ -1,0 +1,25 @@
+name: Build Resources Index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '0*/**/*.md'
+      - 'visualizers-and-playgrounds/**/*.md'
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build resources.json
+        run: python scripts/build_resources_index.py
+      - name: Commit resources.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update resources.json'
+          file_pattern: resources.json

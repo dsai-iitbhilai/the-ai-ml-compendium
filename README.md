@@ -1,0 +1,51 @@
+# AI/ML Compendium
+
+> A curated, sequential learning resource for Data Science, Machine Learning, Deep Learning, Generative AI, and Agentic AI.
+
+![License](https://img.shields.io/badge/license-CC%20BY%204.0%20%2F%20MIT-blue) ![Contributors](https://img.shields.io/github/contributors/dsai-iitbhilai/the-ai-ml-compendium) ![Stars](https://img.shields.io/github/stars/dsai-iitbhilai/the-ai-ml-compendium) ![Link Check](https://img.shields.io/github/actions/workflow/status/dsai-iitbhilai/the-ai-ml-compendium/link-checker.yml)
+
+## What This Is / Isn't
+
+**This is:** A structured, opinionated collection of the best learning resources — docs, videos, courses, papers, playgrounds, and notebooks — organized to be followed sequentially, not just browsed.
+
+**This isn't:** A collection of hosted courses or original tutorials. We curate and link to existing high-quality content, keeping the repo lightweight and focused on navigation.
+
+## Visual Roadmap
+
+```mermaid
+flowchart LR
+    A[Foundations] --> B[Data Science]
+    B --> C[Machine Learning]
+    C --> D[Deep Learning]
+    D --> E[Generative AI]
+    E --> F[Agentic AI]
+    C --> G[MLOps & Deployment]
+    F --> H[Projects]
+```
+
+## Table of Contents
+
+<!-- START doctoc generated TOC -->
+<!-- END doctoc generated TOC -->
+
+## How to Use This Repo
+
+- **Following a track:** Start with the [learning paths](./learning-paths/) for curated sequences tailored to different roles.
+- **Jumping to a topic:** Use the folder structure — each numbered folder is a module, and each file covers a subtopic.
+- **Quick reference:** The [Visualizers & Playgrounds](./visualizers-and-playgrounds/) and [Research Papers](./09-research-papers/) sections are cross-domain indexes.
+
+## Quick Links
+
+- [Visualizers & Playgrounds](./visualizers-and-playgrounds/)
+- [Latest Papers: GenAI & Agentic](./09-research-papers/genai-and-agentic-papers.md)
+- [Interview Prep](./10-interview-prep/)
+- [Community Resources](./community/)
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md). Have a single resource to suggest? Use the [Quick Add](https://github.com/dsai-iitbhilai/the-ai-ml-compendium/issues/new?template=quick-add-resource.yml) template — no Git required.
+
+## License
+
+- **Code and notebooks** in `08-projects-and-examples/` are licensed under [MIT](./LICENSE).
+- **All other content** (curated lists, READMEs, documentation) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

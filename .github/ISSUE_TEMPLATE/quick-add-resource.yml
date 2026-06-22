@@ -1,0 +1,47 @@
+name: Quick Add Resource
+description: Suggest a single resource link — no Git knowledge required
+labels: [quick-add, resource]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Resource Link
+      description: Full URL to the resource
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this worth including?
+      description: One or two sentences explaining what makes this resource valuable
+      placeholder: "This is the clearest explanation of X I've found..."
+    validations:
+      required: true
+  - type: dropdown
+    id: topic
+    attributes:
+      label: Which topic does this belong to?
+      description: If you're not sure, pick the closest match
+      options:
+        - 01-foundations/mathematics
+        - 01-foundations/programming
+        - 02-data-science
+        - 03-machine-learning
+        - 04-deep-learning
+        - 05-generative-ai
+        - 06-agentic-ai
+        - 07-mlops-and-deployment
+        - 08-projects-and-examples
+        - 09-research-papers
+        - 10-interview-prep
+        - visualizers-and-playgrounds
+        - community
+    validations:
+      required: true
+  - type: input
+    id: subtopic
+    attributes:
+      label: Specific file (if known)
+      description: Which .md file within that folder should this go into?
+      placeholder: e.g., supervised-learning.md

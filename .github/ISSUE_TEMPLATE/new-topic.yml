@@ -1,0 +1,42 @@
+name: Propose New Topic
+description: Suggest adding a new topic file or subfolder
+labels: [enhancement, new-topic]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Proposed Topic Name
+      placeholder: e.g., Graph Neural Networks
+    validations:
+      required: true
+  - type: dropdown
+    id: parent
+    attributes:
+      label: Where should this live?
+      options:
+        - 01-foundations/mathematics
+        - 01-foundations/programming
+        - 02-data-science
+        - 03-machine-learning
+        - 04-deep-learning
+        - 05-generative-ai
+        - 06-agentic-ai
+        - 07-mlops-and-deployment
+        - 08-projects-and-examples
+        - 09-research-papers
+        - 10-interview-prep
+        - New top-level module
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why should this be included?
+      description: What gap does it fill? Who is it for?
+    validations:
+      required: true
+  - type: textarea
+    id: suggested_resources
+    attributes:
+      label: Suggested Resources (optional)
+      description: Any links you already know should be in this topic
