@@ -1,0 +1,161 @@
+site_name: AI/ML Compendium
+site_description: A curated, sequential learning resource for Data Science, Machine Learning, Deep Learning, Generative AI, and Agentic AI
+site_url: https://dsai-iitbhilai.github.io/the-ai-ml-compendium/
+repo_url: https://github.com/dsai-iitbhilai/the-ai-ml-compendium
+edit_uri: edit/main/
+
+docs_dir: .
+
+exclude_docs:
+  .gitignore
+  CONTRIBUTING.md
+  LICENSE
+  CODE_OF_CONDUCT.md
+  ROADMAP.md
+  resources.json
+  .github/
+  scripts/
+  templates/
+  assets/
+  mkdocs.yml
+  .lycheeconfig.toml
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+extra_css:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.css
+
+nav:
+  - Home: README.md
+  - 01 Foundations:
+    - Overview: 01-foundations/README.md
+    - Mathematics:
+      - Linear Algebra: 01-foundations/mathematics/linear-algebra.md
+      - Calculus: 01-foundations/mathematics/calculus.md
+      - Probability & Statistics: 01-foundations/mathematics/probability-statistics.md
+      - Optimization: 01-foundations/mathematics/optimization.md
+    - Programming:
+      - Python for AI: 01-foundations/programming/python-for-ai.md
+      - Data Structures & Algorithms: 01-foundations/programming/data-structures-algorithms.md
+    - Visualizers: 01-foundations/visualizers.md
+  - 02 Data Science:
+    - Overview: 02-data-science/README.md
+    - Data Wrangling: 02-data-science/data-wrangling.md
+    - EDA & Visualization: 02-data-science/eda-and-visualization.md
+    - Statistics & Inference: 02-data-science/statistics-and-inference.md
+    - SQL & Databases: 02-data-science/sql-and-databases.md
+    - Case Studies: 02-data-science/case-studies.md
+  - 03 Machine Learning:
+    - Overview: 03-machine-learning/README.md
+    - Supervised Learning: 03-machine-learning/supervised-learning.md
+    - Unsupervised Learning: 03-machine-learning/unsupervised-learning.md
+    - Ensemble Methods: 03-machine-learning/ensemble-methods.md
+    - Model Evaluation: 03-machine-learning/model-evaluation.md
+    - Feature Engineering: 03-machine-learning/feature-engineering.md
+    - Classic ML Frameworks: 03-machine-learning/classic-ml-frameworks.md
+    - Playgrounds: 03-machine-learning/playgrounds.md
+  - 04 Deep Learning:
+    - Overview: 04-deep-learning/README.md
+    - Neural Network Fundamentals: 04-deep-learning/neural-network-fundamentals.md
+    - CNN & Computer Vision: 04-deep-learning/cnn-computer-vision.md
+    - RNN & Sequence Models: 04-deep-learning/rnn-sequence-models.md
+    - Transformers: 04-deep-learning/transformers.md
+    - Frameworks: 04-deep-learning/frameworks.md
+    - Visualizers: 04-deep-learning/visualizers.md
+  - 05 Generative AI:
+    - Overview: 05-generative-ai/README.md
+    - LLM Fundamentals: 05-generative-ai/llm-fundamentals.md
+    - Prompt Engineering: 05-generative-ai/prompt-engineering.md
+    - Fine-Tuning & PEFT: 05-generative-ai/fine-tuning-and-peft.md
+    - RAG Systems: 05-generative-ai/rag-systems.md
+    - Diffusion Models: 05-generative-ai/diffusion-models.md
+    - Multimodal Models: 05-generative-ai/multimodal-models.md
+    - Playgrounds: 05-generative-ai/playgrounds.md
+  - 06 Agentic AI:
+    - Overview: 06-agentic-ai/README.md
+    - Fundamentals:
+      - Agent Fundamentals: 06-agentic-ai/fundamentals/agent-fundamentals.md
+      - Tool Use & Function Calling: 06-agentic-ai/fundamentals/tool-use-and-function-calling.md
+      - Multi-Agent Systems: 06-agentic-ai/fundamentals/multi-agent-systems.md
+    - Current Tooling:
+      - Frameworks: 06-agentic-ai/current-tooling/frameworks.md
+      - MCP Protocol: 06-agentic-ai/current-tooling/mcp-model-context-protocol.md
+    - Case Studies: 06-agentic-ai/case-studies.md
+  - 07 MLOps & Deployment:
+    - Overview: 07-mlops-and-deployment/README.md
+    - Model Serving: 07-mlops-and-deployment/model-serving.md
+    - Containers & Orchestration: 07-mlops-and-deployment/containers-and-orchestration.md
+    - Monitoring & Observability: 07-mlops-and-deployment/monitoring-and-observability.md
+    - CI/CD for ML: 07-mlops-and-deployment/ci-cd-for-ml.md
+  - 08 Projects & Examples:
+    - Overview: 08-projects-and-examples/README.md
+    - Beginner: 08-projects-and-examples/beginner/README.md
+    - Intermediate: 08-projects-and-examples/intermediate/README.md
+    - Advanced: 08-projects-and-examples/advanced/README.md
+    - End-to-End Systems: 08-projects-and-examples/end-to-end-systems/README.md
+  - 09 Research Papers:
+    - Overview: 09-research-papers/README.md
+    - Must-Read Classics: 09-research-papers/must-read-classics.md
+    - GenAI & Agentic Papers: 09-research-papers/genai-and-agentic-papers.md
+    - How to Read Papers: 09-research-papers/how-to-read-papers.md
+  - 10 Interview Prep:
+    - Overview: 10-interview-prep/README.md
+    - ML Interview Questions: 10-interview-prep/ml-interview-questions.md
+    - System Design for ML: 10-interview-prep/system-design-for-ml.md
+    - Coding Practice: 10-interview-prep/coding-practice.md
+  - Learning Paths:
+    - Overview: learning-paths/README.md
+    - Absolute Beginner: learning-paths/absolute-beginner.md
+    - Data Scientist Track: learning-paths/data-scientist-track.md
+    - ML Engineer Track: learning-paths/ml-engineer-track.md
+    - GenAI Engineer Track: learning-paths/genai-engineer-track.md
+    - Agentic AI Track: learning-paths/agentic-ai-track.md
+  - Community:
+    - Overview: community/README.md
+    - Newsletters & Blogs: community/newsletters-and-blogs.md
+    - YouTube Channels: community/youtube-channels.md
+    - Podcasts: community/podcasts.md
+    - Discord & Forums: community/discord-and-forums.md
+  - Visualizers & Playgrounds: visualizers-and-playgrounds/README.md
