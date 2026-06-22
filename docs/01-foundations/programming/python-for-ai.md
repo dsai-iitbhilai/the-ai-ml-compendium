@@ -1,0 +1,1 @@
+--8<-- "01-foundations\programming\python-for-ai.md"

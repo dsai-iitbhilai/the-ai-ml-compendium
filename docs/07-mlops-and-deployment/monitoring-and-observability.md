@@ -1,0 +1,1 @@
+--8<-- "07-mlops-and-deployment\monitoring-and-observability.md"

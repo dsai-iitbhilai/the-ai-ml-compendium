@@ -1,0 +1,1 @@
+--8<-- "learning-paths\genai-engineer-track.md"

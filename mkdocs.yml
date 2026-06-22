@@ -4,21 +4,7 @@ site_url: https://dsai-iitbhilai.github.io/the-ai-ml-compendium/
 repo_url: https://github.com/dsai-iitbhilai/the-ai-ml-compendium
 edit_uri: edit/main/
 
-docs_dir: .
-
-exclude_docs:
-  .gitignore
-  CONTRIBUTING.md
-  LICENSE
-  CODE_OF_CONDUCT.md
-  ROADMAP.md
-  resources.json
-  .github/
-  scripts/
-  templates/
-  assets/
-  mkdocs.yml
-  .lycheeconfig.toml
+docs_dir: docs
 
 theme:
   name: material
@@ -27,7 +13,7 @@ theme:
     - navigation.sections
     - navigation.top
     - search.highlight
-    - content.action.edit
+    - content.action.view
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -48,6 +34,8 @@ plugins:
   - search
 
 markdown_extensions:
+  - pymdownx.snippets:
+      base_path: ["."]
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

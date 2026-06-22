@@ -1,0 +1,1 @@
+--8<-- "06-agentic-ai\case-studies.md"

@@ -1,0 +1,1 @@
+--8<-- "community\newsletters-and-blogs.md"

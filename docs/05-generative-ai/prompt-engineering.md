@@ -1,0 +1,1 @@
+--8<-- "05-generative-ai\prompt-engineering.md"
