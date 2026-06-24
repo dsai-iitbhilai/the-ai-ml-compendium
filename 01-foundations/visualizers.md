@@ -12,37 +12,37 @@
 
 | Visualizer | Topic | Level | Link |
 |---|---|---|---|
-| Interactive Linear Algebra (Georgia Tech) | Vectors, spans, transformations | Beginner | [Link](https://example.com/gt-interactive-la) |
-| Matrix Multiplication Visualiser | Matmul step‑through | Beginner | [Link](https://example.com/matmul-viz) |
-| Eigendecomposition Explorer | Eigenvalues / eigenvectors | Intermediate | [Link](https://example.com/eigen-viz) |
-| 3Blue1Brown Manim Playground | Linear transformations | Beginner | [Link](https://example.com/3b1b-la-play) |
+| Interactive Linear Algebra (Georgia Tech) | Vectors, spans, transformations | Beginner | https://textbooks.math.gatech.edu/ila/ |
+| Matrix Multiplication Visualiser | Matmul step-through | Beginner | https://academo.org/demos/matrix-multiplication/ |
+| Eigendecomposition Explorer | Eigenvalues / eigenvectors | Intermediate | https://setosa.io/ev/eigenvectors-and-eigenvalues/ |
+| 3Blue1Brown Manim Playground | Linear transformations | Beginner | https://www.3blue1brown.com/topics/linear-algebra |
 
 ### Calculus
 
 | Visualizer | Topic | Level | Link |
 |---|---|---|---|
-| Derivative Visualiser (Desmos) | Single‑variable derivatives | Beginner | [Link](https://example.com/desmos-derivative) |
-| 3D Gradient & Surface Plotter | Multivariate gradients | Intermediate | [Link](https://example.com/gradient-3d) |
-| Backpropagation Calculator | Chain rule on a tiny net | Advanced | [Link](https://example.com/backprop-calc) |
-| Riemann Sum Visualiser | Integral intuition | Beginner | [Link](https://example.com/riemann-viz) |
+| Derivative Visualiser (Desmos) | Single-variable derivatives | Beginner | https://www.desmos.com/calculator |
+| 3D Gradient & Surface Plotter | Multivariate gradients | Intermediate | https://www.geogebra.org/3d |
+| Backpropagation Calculator | Chain rule on a tiny net | Advanced | https://playground.tensorflow.org |
+| Riemann Sum Visualiser | Integral intuition | Beginner | https://www.geogebra.org/m/Riemannsum |
 
 ### Probability & Statistics
 
 | Visualizer | Topic | Level | Link |
 |---|---|---|---|
-| Seeing Theory | Full interactive probability textbook | Beginner | [Link](https://example.com/seeing-theory) |
-| Distribution Explorer | PDF/CDF parameters | Intermediate | [Link](https://example.com/dist-explorer) |
-| Bayes Rule Visualiser | Venn + tree diagrams | Intermediate | [Link](https://example.com/bayes-viz) |
-| Central Limit Theorem Simulator | Sampling distributions | Beginner | [Link](https://example.com/clt-sim) |
+| Seeing Theory | Full interactive probability textbook | Beginner | https://seeing-theory.brown.edu |
+| Distribution Explorer | PDF/CDF parameters | Intermediate | https://distribution-explorer.github.io |
+| Bayes Rule Visualiser | Venn + tree diagrams | Intermediate | https://setosa.io/conditional/ |
+| Central Limit Theorem Simulator | Sampling distributions | Beginner | https://onlinestatbook.com/stat_sim/sampling_dist/ |
 
 ### Optimization
 
 | Visualizer | Topic | Level | Link |
 |---|---|---|---|
-| Gradient Descent Visualiser | GD on 2D surfaces | Beginner | [Link](https://example.com/gd-viz) |
-| Optimisation Sandbox (Distill) | Compare SGD, Adam, RMSProp | Intermediate | [Link](https://example.com/distill-opt) |
-| Convex Sets Visualiser | Convexity intuition | Intermediate | [Link](https://example.com/convex-viz) |
-| Learning Rate Explorer | Effect of lr on convergence | Beginner | [Link](https://example.com/lr-explorer) |
+| Gradient Descent Visualiser | GD on 2D surfaces | Beginner | https://www.geogebra.org/m/V74Px3zX |
+| Optimisation Sandbox (TensorFlow Playground) | Compare SGD, Adam, RMSProp | Intermediate | https://playground.tensorflow.org |
+| Convex Sets Visualiser | Convexity intuition | Intermediate | https://www.geogebra.org/m/Ws7xN2A8 |
+| Learning Rate Explorer | Effect of lr on convergence | Beginner | https://developers.google.com/machine-learning/crash-course/reducing-loss/learning-rate |
 
 ---
 
@@ -50,21 +50,21 @@
 
 | Visualizer | Topic | Level | Link |
 |---|---|---|---|
-| Python Tutor | Step through Python code | Beginner | [Link](https://example.com/pytutor) |
-| Visualgo | Animated DS & algorithms | Beginner | [Link](https://example.com/visualgo) |
-| Sorting Algorithm Animations | Compare sorts | Beginner | [Link](https://example.com/sort-viz) |
-| Pathfinding Visualiser | BFS, DFS, Dijkstra, A* | Intermediate | [Link](https://example.com/pathfinding-viz) |
-| Recursion Tree Visualiser | Call stack visualisation | Intermediate | [Link](https://example.com/recursion-tree) |
+| Python Tutor | Step through Python code | Beginner | https://pythontutor.com |
+| Visualgo | Animated DS & algorithms | Beginner | https://visualgo.net/en |
+| Sorting Algorithm Animations | Compare sorts | Beginner | https://www.toptal.com/developers/sorting-algorithms |
+| Pathfinding Visualiser | BFS, DFS, Dijkstra, A* | Intermediate | https://visualgo.net/en/graphds |
+| Recursion Visualizer (Python Tutor) | Call stack visualisation | Intermediate | https://pythontutor.com/ |
 
 ---
 
-## General / Multi‑Topic
+## General / Multi-Topic
 
 | Visualizer | Topic | Level | Link |
 |---|---|---|---|
-| Distill.pub Articles (archive) | Various ML topics with interactive diagrams | Intermediate | [Link](https://example.com/distill-pub) |
-| TensorFlow Playground | Neural network playground in browser | Beginner | [Link](https://example.com/tf-playground) |
-| ML Cheatsheet (interactive) | Quick‑reference with mini‑visuals | Beginner | [Link](https://example.com/ml-cheatsheet) |
+| Distill.pub Articles (archive) | Various ML topics with interactive diagrams | Intermediate | https://distill.pub |
+| TensorFlow Playground | Neural network playground in browser | Beginner | https://playground.tensorflow.org |
+| ML Cheatsheet (interactive) | Quick-reference with mini-visuals | Beginner | https://ml-cheatsheet.readthedocs.io/en/latest/ |
 
 ---
 

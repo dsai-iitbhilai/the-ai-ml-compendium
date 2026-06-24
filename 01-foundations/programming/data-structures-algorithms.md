@@ -14,55 +14,55 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *Introduction to Algorithms* (CLRS, 4th ed.) | Advanced | [Link](https://example.com/clrs) | The canonical algorithms textbook |
-| *Grokking Algorithms* (Bhargava) | Beginner | [Link](https://example.com/grokking-algos) | Visual, easy‑to‑read intro |
-| *The Algorithm Design Manual* (Skiena) | Intermediate | [Link](https://example.com/skiena) | Practical with real‑world examples |
+| *Introduction to Algorithms* (CLRS, 4th ed.) | Advanced | https://mitpress.mit.edu/9780262046305/introduction-to-algorithms/ | The canonical algorithms textbook (Paid) |
+| *Grokking Algorithms* (Bhargava) | Beginner | https://www.manning.com/books/grokking-algorithms-second-edition | Visual, easy-to-read intro (Paid) |
+| *The Algorithm Design Manual* (Skiena) | Intermediate | https://www.algorist.com | Practical with real-world examples (Paid) |
 
 ### 🎥 Video
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| MIT 6.006 — Introduction to Algorithms | Intermediate | [Link](https://example.com/mit-6006) | Comprehensive algorithms lectures |
-| Data Structures Easy to Advanced (freeCodeCamp) | Beginner | [Link](https://example.com/fcc-dsa) | Full course with implementations |
-| Big‑O Explained (CS Dojo) | Beginner | [Link](https://example.com/big-o-dojo) | Clear 10‑min explanation |
+| MIT 6.006 — Introduction to Algorithms | Intermediate | https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/ | Comprehensive algorithms lectures |
+| Data Structures Easy to Advanced (freeCodeCamp) | Beginner | https://www.youtube.com/watch?v=RBSGKlAvoiM | Full course with implementations |
+| Big-O Explained (CS Dojo) | Beginner | https://www.youtube.com/watch?v=D6xkbGLQesk | Clear explanation of complexity analysis |
 
 ### 🎓 Course
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Princeton — Algorithms (Coursera, Sedgewick) | Intermediate | [Link](https://example.com/princeton-algos) | Java‑based, rigorous |
-| Stanford — Algorithms Specialization (Coursera, Tim Roughgarden) | Intermediate | [Link](https://example.com/stanford-algos) | 4‑course series |
+| Princeton — Algorithms (Coursera, Sedgewick) | Intermediate | https://www.coursera.org/learn/algorithms-part1 | Java-based, rigorous |
+| Stanford — Algorithms Specialization (Coursera, Tim Roughgarden) | Intermediate | https://www.coursera.org/specializations/algorithms | 4-course series |
 
 ### 🕹️ Visualizer / Playground
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Visualgo | Beginner | [Link](https://example.com/visualgo) | Animated data structures and algorithms |
-| Sorting Algorithm Animations | Beginner | [Link](https://example.com/sort-viz) | Compare sorts side‑by‑side |
-| Pathfinding Visualiser | Intermediate | [Link](https://example.com/pathfinding-viz) | Visualise BFS, DFS, Dijkstra, A* |
+| Visualgo | Beginner | https://visualgo.net/en | Animated data structures and algorithms |
+| Sorting Algorithm Animations | Beginner | https://www.toptal.com/developers/sorting-algorithms | Compare sorts side-by-side |
+| Pathfinding Visualiser | Intermediate | https://visualgo.net/en/graphds | Visualise BFS, DFS, Dijkstra, A* |
 
 ### 📄 Paper
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *The Ubiquitous B‑Tree* (Comer) | Intermediate | [Link](https://example.com/b-tree-paper) | Classic survey of B‑trees |
-| *MapReduce: Simplified Data Processing on Large Clusters* (Dean & Ghemawat) | Intermediate | [Link](https://example.com/mapreduce) | Foundational for distributed algorithms |
+| *The Ubiquitous B-Tree* (Comer) | Intermediate | https://dl.acm.org/doi/10.1145/356770.356776 | Classic survey of B-trees |
+| *MapReduce: Simplified Data Processing on Large Clusters* (Dean & Ghemawat) | Intermediate | https://research.google/pubs/pub62/ | Foundational for distributed algorithms |
 
 ### 💻 Code / Notebook
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Python Data Structures (official docs) | Beginner | [Link](https://example.com/py-ds-docs) | list, dict, set, tuple deep‑dive |
-| Implement a Trie from Scratch | Intermediate | [Link](https://example.com/trie-py) | Useful for autocomplete / NLP |
-| Dijkstra's Algorithm in Python | Intermediate | [Link](https://example.com/dijkstra-py) | Priority‑queue implementation |
+| Python Data Structures (official docs) | Beginner | https://docs.python.org/3/tutorial/datastructures.html | list, dict, set, tuple deep-dive |
+| Implement a Trie from Scratch | Intermediate | https://github.com/TheAlgorithms/Python/blob/master/data_structures/trie/trie.py | Useful for autocomplete / NLP |
+| Dijkstra's Algorithm in Python | Intermediate | https://github.com/TheAlgorithms/Python/blob/master/graphs/dijkstra.py | Priority-queue implementation |
 
 ### 📰 Blog
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *Big‑O Cheatsheet* | Beginner | [Link](https://example.com/big-o-cheatsheet) | Quick reference for common operations |
-| *How HashMap Works Internally* | Intermediate | [Link](https://example.com/hashmap-internals) | Deep dive into Python dict internals |
-| *Recursion: A Step‑by‑Step Visual Guide* | Beginner | [Link](https://example.com/recursion-visual) | Trace recursive calls on the call stack |
+| *Big-O Cheatsheet* | Beginner | https://www.bigocheatsheet.com | Quick reference for common operations |
+| *How Hash Tables Work* | Intermediate | https://www.geeksforgeeks.org/hashing-data-structure/ | Deep dive into hashing concepts |
+| *Recursion: A Step-by-Step Visual Guide* | Beginner | https://realpython.com/python-thinking-recursively/ | Trace recursive calls on the call stack |
 
 ---
 

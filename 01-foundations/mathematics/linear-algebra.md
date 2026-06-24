@@ -14,55 +14,55 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *Linear Algebra and Its Applications* (Strang, 6th ed.) | Beginner | [Link](https://example.com/strang-linalg) | Classic textbook; clear intuition |
-| MIT OCW *Linear Algebra* lecture notes | Intermediate | [Link](https://example.com/mit-ocw-la) | Companion to Strang's lectures |
-| *The Matrix Cookbook* | Intermediate | [Link](https://example.com/matrix-cookbook) | Handy reference of identities and derivatives |
+| *Linear Algebra and Its Applications* (Strang, 6th ed.) | Beginner | https://www.cengage.com/c/linear-algebra-and-its-applications-6e-strang/9780357764626/ | Classic textbook; clear intuition (Paid) |
+| MIT OCW *Linear Algebra* lecture notes | Intermediate | https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/ | Companion to Strang's lectures |
+| *The Matrix Cookbook* | Intermediate | https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf | Handy reference of identities and derivatives |
 
 ### 🎥 Video
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| MIT 18.06 — Linear Algebra (Gilbert Strang) | Beginner | [Link](https://example.com/mit-18-06) | Gold‑standard lecture series |
-| 3Blue1Brown — Essence of Linear Algebra | Beginner | [Link](https://example.com/3b1b-la) | Animated intuition for core concepts |
-| Linear Algebra for Machine Learning (YouTube playlist) | Intermediate | [Link](https://example.com/la-ml-playlist) | Focused on ML applications |
+| MIT 18.06 — Linear Algebra (Gilbert Strang) | Beginner | https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/ | Gold-standard lecture series |
+| 3Blue1Brown — Essence of Linear Algebra | Beginner | https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr | Animated intuition for core concepts |
+| Linear Algebra for Machine Learning (YouTube playlist) | Intermediate | https://www.youtube.com/playlist?list=PLEiEAq2VkUULgQ9M2RieQh-vUyn3jQj7A | Focused on ML applications |
 
 ### 🎓 Course
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Linear Algebra — Khan Academy | Beginner | [Link](https://example.com/khan-la) | Free, self‑paced |
-| Imperial College — Mathematics for Machine Learning: Linear Algebra (Coursera) | Beginner | [Link](https://example.com/imperial-la) | Short, practical course |
-| Stanford CS229 – Linear Algebra Review | Intermediate | [Link](https://example.com/cs229-la-review) | Concise review notes for ML |
+| Linear Algebra — Khan Academy | Beginner | https://www.khanacademy.org/math/linear-algebra | Free, self-paced |
+| Imperial College — Mathematics for Machine Learning: Linear Algebra (Coursera) | Beginner | https://www.coursera.org/learn/linear-algebra-machine-learning | Short, practical course |
+| Stanford CS229 – Linear Algebra Review | Intermediate | https://cs229.stanford.edu/section/cs229-linalg.pdf | Concise review notes for ML |
 
 ### 🕹️ Visualizer / Playground
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Interactive Linear Algebra (Georgia Tech) | Beginner | [Link](https://example.com/gt-interactive-la) | Visualize vectors, spans, and transformations |
-| Matrix Multiplication Visualizer | Beginner | [Link](https://example.com/matmul-viz) | Step‑through matmul animation |
-| Eigendecomposition Explorer | Intermediate | [Link](https://example.com/eigen-viz) | Play with eigenvalues and eigenvectors |
+| Interactive Linear Algebra (Georgia Tech) | Beginner | https://textbooks.math.gatech.edu/ila/ | Visualize vectors, spans, and transformations |
+| Matrix Multiplication Visualizer | Beginner | https://academo.org/demos/matrix-multiplication/ | Step-through matrix multiplication |
+| Eigendecomposition Explorer | Intermediate | https://setosa.io/ev/eigenvectors-and-eigenvalues/ | Interactive eigenvalue/eigenvector exploration |
 
 ### 📄 Paper
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *Eigendecomposition vs. SVD* (tutorial) | Intermediate | [Link](https://example.com/eig-vs-svd) | Clear comparison of the two factorisations |
-| *Randomized SVD* (Halko, Martinsson, Tropp) | Advanced | [Link](https://example.com/rand-svd) | Foundational paper for scalable SVD |
+| *Eigendecomposition vs. SVD* (tutorial) | Intermediate | https://web.stanford.edu/class/cs168/l/l9.pdf | Clear comparison of the two factorisations |
+| *Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions* (Halko, Martinsson, Tropp) | Advanced | https://arxiv.org/abs/0909.4061 | Foundational paper for scalable SVD |
 
 ### 💻 Code / Notebook
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| NumPy Linear Algebra Quickstart | Beginner | [Link](https://example.com/numpy-la) | Official NumPy tutorial |
-| Implementing PCA from Scratch | Intermediate | [Link](https://example.com/pca-scratch) | Notebook tying SVD to PCA |
-| Autograd & Jacobians with JAX | Advanced | [Link](https://example.com/jax-autograd) | Compute higher‑order derivatives |
+| NumPy Linear Algebra Quickstart | Beginner | https://numpy.org/doc/stable/reference/routines.linalg.html | Official NumPy linear algebra documentation |
+| Implementing PCA from Scratch | Intermediate | https://github.com/eriklindernoren/ML-From-Scratch/blob/master/mlfromscratch/unsupervised_learning/principal_component_analysis.py | Ties SVD to PCA |
+| Autograd & Jacobians with JAX | Advanced | https://jax.readthedocs.io/en/latest/advanced-autodiff.html | Compute higher-order derivatives |
 
 ### 📰 Blog
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *Understanding the Dot Product* | Beginner | [Link](https://example.com/dot-product-blog) | Friendly walk‑through |
-| *The Singular Value Decomposition (SVD) — A Geometric View* | Intermediate | [Link](https://example.com/svd-geometric) | Blog with rich diagrams |
+| *Understanding the Dot Product* | Beginner | https://betterexplained.com/articles/vector-calculus-understanding-the-dot-product/ | Friendly walk-through |
+| *The Singular Value Decomposition (SVD) — A Geometric View* | Intermediate | https://setosa.io/ev/singular-value-decomposition/ | Rich geometric intuition and diagrams |
 
 ---
 

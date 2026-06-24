@@ -14,55 +14,55 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *Convex Optimization* (Boyd & Vandenberghe) | Advanced | [Link](https://example.com/boyd-cvx) | The definitive convex opt reference |
-| *Numerical Optimization* (Nocedal & Wright) | Advanced | [Link](https://example.com/nocedal-wright) | Comprehensive numerical methods |
-| *Algorithms for Optimization* (Kochenderfer & Wheeler) | Intermediate | [Link](https://example.com/kochenderfer-opt) | Modern, accessible, with Julia examples |
+| *Convex Optimization* (Boyd & Vandenberghe) | Advanced | https://web.stanford.edu/~boyd/cvxbook/ | The definitive convex opt reference (Free) |
+| *Numerical Optimization* (Nocedal & Wright) | Advanced | https://link.springer.com/book/10.1007/978-0-387-40065-5 | Comprehensive numerical methods (Paid) |
+| *Algorithms for Optimization* (Kochenderfer & Wheeler) | Intermediate | https://algorithmsbook.com/optimization/ | Modern, accessible, with Julia examples |
 
 ### 🎥 Video
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Stanford EE364a — Convex Optimization (Boyd) | Advanced | [Link](https://example.com/ee364a) | Full course with slides and homework |
-| Gradient Descent and Variants (StatQuest) | Beginner | [Link](https://example.com/statquest-gd) | Gentle intro to GD, SGD, Adam |
-| Why Momentum & Adam Work (DeepLearning.ai) | Intermediate | [Link](https://example.com/andrew-opt) | Clear intuition for modern optimisers |
+| Stanford EE364a — Convex Optimization (Boyd) | Advanced | https://see.stanford.edu/Course/EE364A | Full course with slides and homework |
+| Gradient Descent and Variants (StatQuest) | Beginner | https://www.youtube.com/watch?v=sDv4f4s2SB8 | Gentle intro to GD, SGD, Adam |
+| Why Momentum & Adam Work (DeepLearning.AI) | Intermediate | https://www.youtube.com/watch?v=k8fTYJPd3_I | Clear intuition for modern optimisers |
 
 ### 🎓 Course
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Optimization for Machine Learning (MIT 6.881) | Advanced | [Link](https://example.com/mit-6-881) | Advanced but practical |
-| Introduction to Optimization (Coursera — Melbourne) | Intermediate | [Link](https://example.com/coursera-opt) | LP, QP, and nonlinear opt |
+| Optimization for Machine Learning (MIT 6.7220 / 6.881) | Advanced | https://www.mit.edu/~gfarina/2024/67220s24_L09_optimization/ | Advanced but practical |
+| Introduction to Optimization (Coursera — Melbourne) | Intermediate | https://www.coursera.org/learn/discrete-optimization | LP, QP, and nonlinear optimisation |
 
 ### 🕹️ Visualizer / Playground
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Gradient Descent Visualiser | Beginner | [Link](https://example.com/gd-viz) | Watch GD on 2D surfaces |
-| Optimisation Sandbox (Distill) | Intermediate | [Link](https://example.com/distill-opt) | Compare SGD, Adam, RMSProp interactively |
-| Convex Sets Visualiser | Intermediate | [Link](https://example.com/convex-viz) | Understand convexity intuitively |
+| Gradient Descent Visualiser | Beginner | https://www.geogebra.org/m/V74Px3zX | Watch GD on 2D surfaces |
+| Optimisation Sandbox (TensorFlow Playground) | Intermediate | https://playground.tensorflow.org | Explore optimisation and learning dynamics interactively |
+| Convex Sets Visualiser | Intermediate | https://www.geogebra.org/m/Ws7xN2A8 | Understand convexity intuitively |
 
 ### 📄 Paper
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *Adam: A Method for Stochastic Optimization* (Kingma & Ba) | Intermediate | [Link](https://example.com/adam-paper) | One of the most cited optimiser papers |
-| *Understanding the Difficulty of Training Deep Feedforward Neural Networks* (Glorot & Bengio) | Advanced | [Link](https://example.com/glorot-init) | Connects optimisation and initialisation |
-| *Dropout: A Simple Way to Prevent Neural Networks from Overfitting* (Srivastava et al.) | Intermediate | [Link](https://example.com/dropout) | Regularisation as optimisation trick |
+| *Adam: A Method for Stochastic Optimization* (Kingma & Ba) | Intermediate | https://arxiv.org/abs/1412.6980 | One of the most cited optimiser papers |
+| *Understanding the Difficulty of Training Deep Feedforward Neural Networks* (Glorot & Bengio) | Advanced | https://proceedings.mlr.press/v9/glorot10a.html | Connects optimisation and initialisation |
+| *Dropout: A Simple Way to Prevent Neural Networks from Overfitting* (Srivastava et al.) | Intermediate | https://jmlr.org/papers/v15/srivastava14a.html | Regularisation as optimisation trick |
 
 ### 💻 Code / Notebook
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Implementing SGD, Momentum, Adam from Scratch | Intermediate | [Link](https://example.com/opt-scratch) | NumPy implementations |
-| Convex Optimisation with CVXPY | Intermediate | [Link](https://example.com/cvxpy-intro) | Solve real problems with CVXPY |
-| Hyperparameter Optimisation (Grid / Random / Bayesian) | Intermediate | [Link](https://example.com/hparam-opt) | Scikit‑learn + Optuna |
+| Implementing SGD, Momentum, Adam from Scratch | Intermediate | https://github.com/lionelmessi6410/Neural-Networks-from-Scratch | NumPy implementations |
+| Convex Optimisation with CVXPY | Intermediate | https://www.cvxpy.org/examples/index.html | Solve real problems with CVXPY |
+| Hyperparameter Optimisation (Grid / Random / Bayesian) | Intermediate | https://optuna.org/ | Scikit-learn + Optuna examples |
 
 ### 📰 Blog
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *An Overview of Gradient Descent Optimization Algorithms* (Ruder) | Intermediate | [Link](https://example.com/ruder-gd) | Comprehensive survey blog |
-| *Why Gradient Descent Works (and When It Doesn't)* | Beginner | [Link](https://example.com/gd-works) | Intuition + visualisations |
+| *An Overview of Gradient Descent Optimization Algorithms* (Ruder) | Intermediate | https://ruder.io/optimizing-gradient-descent/ | Comprehensive survey blog |
+| *Why Gradient Descent Works (and When It Doesn't)* | Beginner | https://distill.pub/2017/momentum | Intuition and visualisations |
 
 ---
 

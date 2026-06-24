@@ -14,50 +14,50 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *Python Data Science Handbook* (VanderPlas) | Beginner | [Link](https://example.com/pydata-book) | Comprehensive intro to NumPy, pandas, Matplotlib |
-| *Automate the Boring Stuff with Python* (Sweigart) | Beginner | [Link](https://example.com/automatetheboringstuff) | Python basics if you need a refresher |
-| *Hands‑On Machine Learning with Scikit‑Learn, Keras & TF* (Géron) | Intermediate | [Link](https://example.com/geron-homl) | Bridges Python to practical ML |
+| *Python Data Science Handbook* (VanderPlas) | Beginner | https://jakevdp.github.io/PythonDataScienceHandbook/ | Comprehensive intro to NumPy, pandas, Matplotlib (Free) |
+| *Automate the Boring Stuff with Python* (Sweigart) | Beginner | https://automatetheboringstuff.com/ | Python basics if you need a refresher (Free) |
+| *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow* (Géron) | Intermediate | https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/ | Bridges Python to practical ML (Paid) |
 
 ### 🎥 Video
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Python for Everybody (Coursera — Charles Severance) | Beginner | [Link](https://example.com/py4e) | Python from zero |
-| NumPy & pandas Crash Course (YouTube) | Beginner | [Link](https://example.com/numpy-pandas-cc) | 2‑hour practical intro |
-| Scikit‑Learn Tutorial (Data School) | Intermediate | [Link](https://example.com/dataschool-sklearn) | Covers pipelines, preprocessing, models |
+| Python for Everybody (Coursera — Charles Severance) | Beginner | https://www.py4e.com/ | Python from zero |
+| NumPy & pandas Crash Course (freeCodeCamp) | Beginner | https://www.youtube.com/watch?v=vmEHCJofslg | Practical intro to NumPy and pandas |
+| Scikit-Learn Tutorial (Data School) | Intermediate | https://www.youtube.com/playlist?list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y | Covers pipelines, preprocessing, models |
 
 ### 🎓 Course
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Introduction to Python — DataCamp | Beginner | [Link](https://example.com/datacamp-py) | Interactive exercises in‑browser |
-| Applied Data Science with Python — U. Michigan (Coursera) | Intermediate | [Link](https://example.com/michigan-ds) | 5‑course specialization |
-| Fast.ai Practical Deep Learning | Intermediate | [Link](https://example.com/fastai) | Top‑down Python + PyTorch |
+| Introduction to Python — DataCamp | Beginner | https://www.datacamp.com/courses/intro-to-python-for-data-science | Interactive exercises in-browser |
+| Applied Data Science with Python — U. Michigan (Coursera) | Intermediate | https://www.coursera.org/specializations/data-science-python | 5-course specialization |
+| Fast.ai Practical Deep Learning | Intermediate | https://course.fast.ai/ | Top-down Python + PyTorch |
 
 ### 🕹️ Visualizer / Playground
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Python Tutor (Code Visualiser) | Beginner | [Link](https://example.com/pytutor) | Step through Python code visually |
-| Jupyter Notebook / JupyterLab | Beginner | [Link](https://example.com/jupyter) | The standard interactive environment |
-| Google Colab | Beginner | [Link](https://example.com/colab) | Free GPU‑backed notebooks |
+| Python Tutor (Code Visualiser) | Beginner | https://pythontutor.com/ | Step through Python code visually |
+| Jupyter Notebook / JupyterLab | Beginner | https://jupyter.org/ | The standard interactive environment |
+| Google Colab | Beginner | https://colab.research.google.com/ | Free GPU-backed notebooks |
 
 ### 💻 Code / Notebook
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| NumPy Quickstart Tutorial | Beginner | [Link](https://example.com/numpy-quickstart) | Official quickstart |
-| Pandas 10‑Minute Intro | Beginner | [Link](https://example.com/pandas-10min) | Official intro |
-| Scikit‑Learn ML Pipeline Example | Intermediate | [Link](https://example.com/sklearn-pipeline) | End‑to‑end classification pipeline |
-| Matplotlib Gallery | Beginner | [Link](https://example.com/mpl-gallery) | Copy‑paste ready plots |
+| NumPy Quickstart Tutorial | Beginner | https://numpy.org/doc/stable/user/quickstart.html | Official quickstart |
+| Pandas 10-Minute Intro | Beginner | https://pandas.pydata.org/docs/user_guide/10min.html | Official intro |
+| Scikit-Learn ML Pipeline Example | Intermediate | https://scikit-learn.org/stable/auto_examples/compose/plot_column_transformer_mixed_types.html | End-to-end classification pipeline |
+| Matplotlib Gallery | Beginner | https://matplotlib.org/stable/gallery/index.html | Copy-paste ready plots |
 
 ### 📰 Blog
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *A Visual Intro to NumPy and Data Representation* (Jay Alammar) | Beginner | [Link](https://example.com/jay-numpy) | Illustrated walk‑through |
-| *Understanding Python's Memory Model* | Intermediate | [Link](https://example.com/py-memory) | Useful for debugging and performance |
-| *Why You Should Use scikit‑learn Pipelines* | Intermediate | [Link](https://example.com/sklearn-pipelines-blog) | Best practices |
+| *A Visual Intro to NumPy and Data Representation* (Jay Alammar) | Beginner | https://jalammar.github.io/visual-numpy/ | Illustrated walk-through |
+| *Understanding Python's Memory Model* | Intermediate | https://realpython.com/python-memory-management/ | Useful for debugging and performance |
+| *Why You Should Use scikit-learn Pipelines* | Intermediate | https://scikit-learn.org/stable/modules/compose.html | Best practices |
 
 ---
 
