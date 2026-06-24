@@ -14,9 +14,9 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *Calculus: Early Transcendentals* (Stewart, 9th ed.) | Beginner | https://www.cengage.com/c/calculus-early-transcendentals-9e-stewart | Standard university text |
+| *Calculus: Early Transcendentals* (Stewart, 9th ed.) | Beginner | https://www.cengage.com/c/calculus-early-transcendentals-9e-stewart/9781337613927PF/ | Standard university text (Paid) |
 | *Calculus Made Easy* (Thompson) | Beginner | https://www.gutenberg.org/ebooks/33283 | Light, intuitive introduction |
-| *The Calculus Lifesaver* (Banner) | Intermediate | https://press.princeton.edu/books/paperback/9780691130880/the-calculus-lifesaver | Great for review and problem-solving |
+| *The Calculus Lifesaver* (Banner) | Intermediate | https://press.princeton.edu/books/paperback/9780691130880/the-calculus-lifesaver | Great for review and problem-solving (Paid)|
 
 ### 🎥 Video
 
