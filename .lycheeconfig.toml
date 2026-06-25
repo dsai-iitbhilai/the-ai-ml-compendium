@@ -70,6 +70,10 @@ exclude = [
 
   # MOOC course links (URL structures change)
   'coursera.org/learn/discrete-optimization',
+
+  # Unsupported media type (415) — server refuses HEAD
+  'bigocheatsheet.com',
+  'algorithmsbook.com/optimization',
 ]
 
 # User-Agent to avoid some bot blocking

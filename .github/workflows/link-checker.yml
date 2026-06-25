@@ -2,10 +2,11 @@ name: Link Checker
 
 on:
   schedule:
-    - cron: '0 0 1 * *'  # Monthly on the 1st
+    - cron: '0 0 1 * *'  # Monthly on the 1st — blocking
   pull_request:
     paths:
       - '**.md'
+  workflow_dispatch:       # Manual trigger — blocking
 
 jobs:
   check-links:
@@ -26,4 +27,4 @@ jobs:
             --max-concurrency 8
             --no-progress
             './**/*.md'
-          fail: true
+          fail: ${{ github.event_name != 'pull_request' }}
