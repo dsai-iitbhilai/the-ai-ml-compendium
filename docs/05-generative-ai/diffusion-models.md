@@ -1,1 +1,1 @@
---8<-- "05-generative-ai\diffusion-models.md"
+--8<-- "05-generative-ai/diffusion-models.md"

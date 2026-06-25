@@ -1,1 +1,1 @@
---8<-- "01-foundations\mathematics\calculus.md"
+--8<-- "01-foundations/mathematics/calculus.md"

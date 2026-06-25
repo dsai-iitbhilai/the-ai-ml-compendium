@@ -1,1 +1,1 @@
---8<-- "07-mlops-and-deployment\ci-cd-for-ml.md"
+--8<-- "07-mlops-and-deployment/ci-cd-for-ml.md"

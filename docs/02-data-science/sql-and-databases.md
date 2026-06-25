@@ -1,1 +1,1 @@
---8<-- "02-data-science\sql-and-databases.md"
+--8<-- "02-data-science/sql-and-databases.md"

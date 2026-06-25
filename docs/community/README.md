@@ -1,1 +1,1 @@
---8<-- "community\README.md"
+--8<-- "community/README.md"

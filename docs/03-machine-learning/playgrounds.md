@@ -1,1 +1,1 @@
---8<-- "03-machine-learning\playgrounds.md"
+--8<-- "03-machine-learning/playgrounds.md"

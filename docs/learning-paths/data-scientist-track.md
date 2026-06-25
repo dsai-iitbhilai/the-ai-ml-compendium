@@ -1,1 +1,1 @@
---8<-- "learning-paths\data-scientist-track.md"
+--8<-- "learning-paths/data-scientist-track.md"

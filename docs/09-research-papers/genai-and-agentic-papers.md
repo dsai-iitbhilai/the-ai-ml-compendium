@@ -1,1 +1,1 @@
---8<-- "09-research-papers\genai-and-agentic-papers.md"
+--8<-- "09-research-papers/genai-and-agentic-papers.md"

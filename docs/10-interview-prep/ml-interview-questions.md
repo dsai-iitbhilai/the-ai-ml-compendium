@@ -1,1 +1,1 @@
---8<-- "10-interview-prep\ml-interview-questions.md"
+--8<-- "10-interview-prep/ml-interview-questions.md"

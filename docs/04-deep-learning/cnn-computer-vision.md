@@ -1,1 +1,1 @@
---8<-- "04-deep-learning\cnn-computer-vision.md"
+--8<-- "04-deep-learning/cnn-computer-vision.md"

@@ -1,1 +1,1 @@
---8<-- "community\podcasts.md"
+--8<-- "community/podcasts.md"

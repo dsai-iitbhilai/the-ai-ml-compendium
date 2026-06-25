@@ -1,1 +1,1 @@
---8<-- "01-foundations\mathematics\linear-algebra.md"
+--8<-- "01-foundations/mathematics/linear-algebra.md"

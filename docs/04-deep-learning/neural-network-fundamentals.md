@@ -1,1 +1,1 @@
---8<-- "04-deep-learning\neural-network-fundamentals.md"
+--8<-- "04-deep-learning/neural-network-fundamentals.md"

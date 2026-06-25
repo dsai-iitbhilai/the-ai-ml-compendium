@@ -1,1 +1,1 @@
---8<-- "10-interview-prep\README.md"
+--8<-- "10-interview-prep/README.md"

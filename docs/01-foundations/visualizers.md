@@ -1,1 +1,1 @@
---8<-- "01-foundations\visualizers.md"
+--8<-- "01-foundations/visualizers.md"

@@ -1,1 +1,1 @@
---8<-- "05-generative-ai\playgrounds.md"
+--8<-- "05-generative-ai/playgrounds.md"

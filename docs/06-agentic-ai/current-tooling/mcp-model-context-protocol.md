@@ -1,1 +1,1 @@
---8<-- "06-agentic-ai\current-tooling\mcp-model-context-protocol.md"
+--8<-- "06-agentic-ai/current-tooling/mcp-model-context-protocol.md"
