@@ -27,6 +27,14 @@ flowchart LR
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [How to Use This Repo](#how-to-use-this-repo)
+- [Quick Links](#quick-links)
+- [Contributing](#contributing)
+- [Development Setup](#development-setup)
+- [License](#license)
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## How to Use This Repo
