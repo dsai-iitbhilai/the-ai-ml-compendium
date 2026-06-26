@@ -1,1 +1,1 @@
---8<-- "06-agentic-ai\README.md"
+--8<-- "06-agentic-ai/README.md"

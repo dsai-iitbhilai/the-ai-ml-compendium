@@ -1,7 +1,12 @@
 """Format an approved Quick Add issue into a table row and open a PR.
 
-Usage:
+Usage (standalone):
     python scripts/quick_add_to_table.py <issue-number>
+
+Usage (via GitHub Actions):
+    Called by .github/workflows/quick-add-approved.yml when an issue
+    gets the 'approved' label. The workflow sets GITHUB_TOKEN and
+    ISSUE_NUMBER environment variables.
 
 Requires:
     - GITHUB_TOKEN env var (for GitHub API access)
@@ -12,6 +17,7 @@ import re
 import sys
 import urllib.request
 import json
+from datetime import datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -39,8 +45,6 @@ def infer_resource_type(title: str, link: str) -> str:
 
     if any(d in link_lower for d in ["youtube", "youtu.be", "vimeo"]):
         return "🎥 Video"
-    if "arxiv" in link_lower and "pdf" in link_lower:
-        return "📄 Paper"
     if "arxiv" in link_lower:
         return "📄 Paper"
     if any(p in link_lower for p in ["github.com", "colab", "kaggle", "notebook"]):
@@ -71,33 +75,62 @@ def guess_level(notes: str, title: str) -> str:
     return "Beginner"
 
 
-def generate_row(link: str, reason: str, topic: str, subtopic: str) -> str:
+def parse_issue_body(body: str) -> dict:
+    """Parse the structured YAML form fields from a GitHub issue body."""
+    result = {"link": "", "reason": "", "topic": "", "subtopic": ""}
+
+    # GitHub YAML forms render as:
+    # ### Field Label
+    #
+    # Value
+    sections = re.split(r"^### ", body, flags=re.MULTILINE)
+
+    for section in sections:
+        lines = section.strip().split("\n")
+        if not lines:
+            continue
+        header = lines[0].strip().lower()
+        # Get the value (skip blank lines after header)
+        value_lines = [l.strip() for l in lines[1:] if l.strip()]
+        value = value_lines[0] if value_lines else ""
+
+        if "resource link" in header:
+            result["link"] = value
+        elif "why" in header or "worth including" in header:
+            result["reason"] = value
+        elif "which topic" in header:
+            result["topic"] = value
+        elif "specific file" in header:
+            if value.lower() not in ("", "_no response_"):
+                result["subtopic"] = value
+
+    return result
+
+
+def generate_row(link: str, reason: str) -> str:
+    """Generate a canonical table row from a link and reason."""
+    # Extract a readable title from the URL
     title = link.rstrip("/").split("/")[-1].replace("-", " ").replace("_", " ").title()
     resource_type = infer_resource_type(title, link)
     level = guess_level(reason, title)
-
-    from datetime import datetime
-
     today = datetime.utcnow().strftime("%Y-%m")
 
     row = f"| [{title}]({link}) | {resource_type} | {level} | {today} | {reason} |"
     return row
 
 
-def build_pr_body(link: str, reason: str, topic: str, subtopic: str) -> str:
-    row = generate_row(link, reason, topic, subtopic)
-    file_path = f"{topic}/{subtopic}" if subtopic else f"{topic}/README.md"
-    return f"""## Quick Add Resource
-
-**Link:** {link}
-**Topic:** {topic}
-**File:** {file_path}
-
-**Generated row:**
-{row}
-
-This PR was auto-generated from an approved Quick Add issue.
-"""
+def fetch_issue(issue_number: str, repo: str, token: str) -> dict:
+    """Fetch issue data from the GitHub API."""
+    url = f"https://api.github.com/repos/{repo}/issues/{issue_number}"
+    req = urllib.request.Request(
+        url,
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github.v3+json",
+        },
+    )
+    with urllib.request.urlopen(req) as resp:
+        return json.loads(resp.read())
 
 
 def main():
@@ -112,39 +145,46 @@ def main():
         sys.exit(1)
 
     repo = os.environ.get("GITHUB_REPOSITORY", "dsai-iitbhilai/the-ai-ml-compendium")
-    url = f"https://api.github.com/repos/{repo}/issues/{issue_number}"
 
-    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
-    with urllib.request.urlopen(req) as resp:
-        issue = json.loads(resp.read())
-
+    # Fetch and parse issue
+    issue = fetch_issue(issue_number, repo, token)
     body = issue.get("body", "")
-    link = ""
-    reason = ""
-    topic = ""
-    subtopic = ""
+    parsed = parse_issue_body(body)
 
-    for line in body.split("\n"):
-        link_match = re.match(r"### Resource Link\s*\n\s*(https?://\S+)", body)
-        reason_match = re.search(r"### Why is this worth including\?\s*\n\s*(.+?)(?:\n|$)", body)
-        topic_match = re.search(r"### Which topic does this belong to\?\s*\n\s*(.+)", body)
-        subtopic_match = re.search(r"### Specific file \(if known\)\s*\n\s*(.+)", body)
+    link = parsed["link"]
+    reason = parsed["reason"]
+    topic = parsed["topic"]
+    subtopic = parsed["subtopic"]
 
-        if link_match:
-            link = link_match.group(1)
-        if reason_match:
-            reason = reason_match.group(1)
-        if topic_match:
-            topic = topic_match.group(1).strip()
-        if subtopic_match and subtopic_match.group(1).strip().lower() not in (
-            "",
-            "_no response_",
-        ):
-            subtopic = subtopic_match.group(1).strip()
+    if not link:
+        print("ERROR: Could not extract resource link from issue body.")
+        sys.exit(1)
 
-    pr_body = build_pr_body(link, reason, topic, subtopic)
+    # Generate the table row
+    row = generate_row(link, reason)
 
-    print(pr_body)
+    # Determine target file
+    file_path = f"{topic}/{subtopic}" if subtopic else f"{topic}/README.md"
+
+    # Output for the workflow to use
+    output = {
+        "row": row,
+        "file": file_path,
+        "link": link,
+        "reason": reason,
+        "topic": topic,
+    }
+
+    print(json.dumps(output, indent=2))
+
+    # Write outputs to GITHUB_OUTPUT if running in Actions
+    github_output = os.environ.get("GITHUB_OUTPUT")
+    if github_output:
+        with open(github_output, "a") as f:
+            f.write(f"row={row}\n")
+            f.write(f"file={file_path}\n")
+            f.write(f"link={link}\n")
+            f.write(f"topic={topic}\n")
 
 
 if __name__ == "__main__":

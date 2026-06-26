@@ -1,1 +1,1 @@
---8<-- "06-agentic-ai\fundamentals\multi-agent-systems.md"
+--8<-- "06-agentic-ai/fundamentals/multi-agent-systems.md"

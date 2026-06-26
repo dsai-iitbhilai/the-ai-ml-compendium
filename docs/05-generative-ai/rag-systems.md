@@ -1,1 +1,1 @@
---8<-- "05-generative-ai\rag-systems.md"
+--8<-- "05-generative-ai/rag-systems.md"

@@ -1,0 +1,48 @@
+name: Remove or Replace Resource
+description: Suggest removing a resource or replacing it with something better
+labels: [resource-update]
+title: "[Update Resource] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when a resource is outdated, paywalled, broken, or you know a better alternative.
+  - type: input
+    id: current_resource
+    attributes:
+      label: Current Resource Link
+      description: The URL of the resource you want to remove or replace
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Where is it?
+      description: File path and/or section name
+      placeholder: "01-foundations/mathematics/linear-algebra.md — Videos section"
+    validations:
+      required: true
+  - type: dropdown
+    id: action
+    attributes:
+      label: What should happen?
+      options:
+        - Remove it (no replacement needed)
+        - Replace it (I have a better alternative)
+        - Flag for review (not sure, but something feels off)
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: Replacement URL (if applicable)
+      placeholder: https://...
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why?
+      description: Why should this resource be removed or replaced?
+      placeholder: "The content is outdated / paywalled / there's a clearly better alternative..."
+    validations:
+      required: true

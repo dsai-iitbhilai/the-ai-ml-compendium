@@ -1,1 +1,1 @@
---8<-- "10-interview-prep\coding-practice.md"
+--8<-- "10-interview-prep/coding-practice.md"

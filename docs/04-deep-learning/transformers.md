@@ -1,1 +1,1 @@
---8<-- "04-deep-learning\transformers.md"
+--8<-- "04-deep-learning/transformers.md"

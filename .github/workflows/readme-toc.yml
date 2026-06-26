@@ -6,6 +6,9 @@ on:
     paths:
       - 'README.md'
 
+permissions:
+  contents: write
+
 jobs:
   generate-toc:
     runs-on: ubuntu-latest

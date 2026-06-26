@@ -1,1 +1,1 @@
---8<-- "learning-paths\README.md"
+--8<-- "learning-paths/README.md"

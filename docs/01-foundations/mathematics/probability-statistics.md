@@ -1,1 +1,1 @@
---8<-- "01-foundations\mathematics\probability-statistics.md"
+--8<-- "01-foundations/mathematics/probability-statistics.md"

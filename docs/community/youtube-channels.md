@@ -1,1 +1,1 @@
---8<-- "community\youtube-channels.md"
+--8<-- "community/youtube-channels.md"

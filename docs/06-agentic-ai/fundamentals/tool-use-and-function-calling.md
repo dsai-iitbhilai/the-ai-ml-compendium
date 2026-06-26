@@ -1,1 +1,1 @@
---8<-- "06-agentic-ai\fundamentals\tool-use-and-function-calling.md"
+--8<-- "06-agentic-ai/fundamentals/tool-use-and-function-calling.md"

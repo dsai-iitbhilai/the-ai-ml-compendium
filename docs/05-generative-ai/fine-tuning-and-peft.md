@@ -1,1 +1,1 @@
---8<-- "05-generative-ai\fine-tuning-and-peft.md"
+--8<-- "05-generative-ai/fine-tuning-and-peft.md"

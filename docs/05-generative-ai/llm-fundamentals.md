@@ -1,1 +1,1 @@
---8<-- "05-generative-ai\llm-fundamentals.md"
+--8<-- "05-generative-ai/llm-fundamentals.md"

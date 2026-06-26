@@ -1,1 +1,1 @@
---8<-- "learning-paths\absolute-beginner.md"
+--8<-- "learning-paths/absolute-beginner.md"

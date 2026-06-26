@@ -1,1 +1,1 @@
---8<-- "05-generative-ai\README.md"
+--8<-- "05-generative-ai/README.md"

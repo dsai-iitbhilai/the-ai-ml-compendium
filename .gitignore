@@ -3,5 +3,4 @@ __pycache__/
 .DS_Store
 venv/
 .venv/
-resources.json
 site/

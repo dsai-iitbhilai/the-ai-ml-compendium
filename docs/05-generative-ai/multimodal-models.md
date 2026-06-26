@@ -1,1 +1,1 @@
---8<-- "05-generative-ai\multimodal-models.md"
+--8<-- "05-generative-ai/multimodal-models.md"

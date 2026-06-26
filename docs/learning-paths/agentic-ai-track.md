@@ -1,1 +1,1 @@
---8<-- "learning-paths\agentic-ai-track.md"
+--8<-- "learning-paths/agentic-ai-track.md"

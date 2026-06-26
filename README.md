@@ -2,7 +2,7 @@
 
 > A curated, sequential learning resource for Data Science, Machine Learning, Deep Learning, Generative AI, and Agentic AI.
 
-![License](https://img.shields.io/badge/license-CC%20BY%204.0%20%2F%20MIT-blue) ![Contributors](https://img.shields.io/github/contributors/dsai-iitbhilai/the-ai-ml-compendium) ![Stars](https://img.shields.io/github/stars/dsai-iitbhilai/the-ai-ml-compendium) ![Link Check](https://img.shields.io/github/actions/workflow/status/dsai-iitbhilai/the-ai-ml-compendium/link-checker.yml)
+![License](https://img.shields.io/badge/license-CC%20BY%204.0%20%2F%20MIT-blue) ![Contributors](https://img.shields.io/github/contributors/dsai-iitbhilai/the-ai-ml-compendium) ![Stars](https://img.shields.io/github/stars/dsai-iitbhilai/the-ai-ml-compendium) ![Link Check](https://img.shields.io/github/actions/workflow/status/dsai-iitbhilai/the-ai-ml-compendium/link-checker.yml) ![Good First Issues](https://img.shields.io/github/issues/dsai-iitbhilai/the-ai-ml-compendium/good%20first%20issue?color=7057ff&label=good%20first%20issues)
 
 ## What This Is / Isn't
 
@@ -25,8 +25,17 @@ flowchart LR
 
 ## Table of Contents
 
-<!-- START doctoc generated TOC -->
-<!-- END doctoc generated TOC -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [How to Use This Repo](#how-to-use-this-repo)
+- [Quick Links](#quick-links)
+- [Contributing](#contributing)
+- [Development Setup](#development-setup)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## How to Use This Repo
 
@@ -43,7 +52,23 @@ flowchart LR
 
 ## Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md). Have a single resource to suggest? Use the [Quick Add](https://github.com/dsai-iitbhilai/the-ai-ml-compendium/issues/new?template=quick-add-resource.yml) template — no Git required.
+We welcome contributions! The two main ways to help:
+
+- **Add a resource:** Use the [Quick Add](https://github.com/dsai-iitbhilai/the-ai-ml-compendium/issues/new?template=quick-add-resource.yml) template — no Git required
+- **Remove or replace a resource:** Use the [Update Resource](https://github.com/dsai-iitbhilai/the-ai-ml-compendium/issues/new?template=remove-replace-resource.yml) template
+
+For larger changes (new topics, structural edits), see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## Development Setup
+
+```bash
+git clone https://github.com/dsai-iitbhilai/the-ai-ml-compendium.git
+cd the-ai-ml-compendium
+pip install -r requirements.txt
+mkdocs serve
+```
+
+Then open `http://127.0.0.1:8000` in your browser. Changes to `.md` files hot-reload automatically.
 
 ## License
 

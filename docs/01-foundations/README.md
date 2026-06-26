@@ -1,1 +1,1 @@
---8<-- "01-foundations\README.md"
+--8<-- "01-foundations/README.md"

@@ -1,1 +1,1 @@
---8<-- "community\discord-and-forums.md"
+--8<-- "community/discord-and-forums.md"

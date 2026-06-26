@@ -1,0 +1,77 @@
+name: Quick Add — Auto PR
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  create-pr:
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'quick-add')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Parse issue and generate row
+        id: parse
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/quick_add_to_table.py ${{ github.event.issue.number }}
+
+      - name: Create branch and commit
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="quick-add/issue-${{ github.event.issue.number }}"
+          git checkout -b "$BRANCH"
+
+          # For now, append a comment to the target file indicating a manual merge is needed
+          TARGET_FILE="${{ steps.parse.outputs.file }}"
+          ROW="${{ steps.parse.outputs.row }}"
+
+          if [ -f "$TARGET_FILE" ]; then
+            echo "" >> "$TARGET_FILE"
+            echo "$ROW" >> "$TARGET_FILE"
+          else
+            echo "Target file $TARGET_FILE not found — row generated but needs manual placement."
+            echo "$ROW" > quick-add-row.md
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feat: add resource from issue #${{ github.event.issue.number }}"
+          git push origin "$BRANCH"
+
+      - name: Create Pull Request
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const branch = `quick-add/issue-${issue.number}`;
+            const pr = await github.rest.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[Quick Add] ${issue.title.replace('[Add Resource] ', '')}`,
+              head: branch,
+              base: 'main',
+              body: `## Auto-generated from Quick Add Issue\n\nCloses #${issue.number}\n\n**Original request:** ${issue.html_url}\n\n> ⚠️ **Reviewers:** Please verify the generated table row is in the correct file and position. The row was auto-generated and may need manual adjustment.\n\n---\n\n*This PR was automatically created when issue #${issue.number} was approved.*`,
+            });
+
+            // Comment on the issue linking to the PR
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body: `✅ PR #${pr.data.number} has been automatically created for this resource.\n\nA maintainer will review the placement and merge it. Thanks for contributing! 🎉`,
+            });

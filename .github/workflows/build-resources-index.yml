@@ -7,19 +7,33 @@ on:
       - '0*/**/*.md'
       - 'visualizers-and-playgrounds/**/*.md'
 
+permissions:
+  contents: write
+
 jobs:
   build-index:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Build resources.json
         run: python scripts/build_resources_index.py
-      - name: Commit resources.json
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update resources.json'
-          file_pattern: resources.json
+      - name: Commit and push resources.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add resources.json
+          # Only commit if there are actual changes
+          if git diff --cached --quiet; then
+            echo "No changes to resources.json"
+            exit 0
+          fi
+          git commit -m "chore: update resources.json"
+          # Pull with rebase to avoid conflicts from parallel workflows
+          git pull --rebase origin main
+          git push origin main

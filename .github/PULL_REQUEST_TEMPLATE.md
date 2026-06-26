@@ -2,6 +2,16 @@
 
 Briefly describe what this PR adds or changes.
 
+## Type of Change
+
+<!-- Check the one that applies -->
+
+- [ ] Adding new resource(s)
+- [ ] Removing or replacing existing resource(s)
+- [ ] New topic file or folder
+- [ ] Bug fix (broken link, formatting)
+- [ ] Infrastructure / CI change
+
 ## Checklist
 
 - [ ] Links verified (no dead links)

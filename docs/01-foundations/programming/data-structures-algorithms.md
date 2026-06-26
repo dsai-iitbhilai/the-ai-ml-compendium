@@ -1,1 +1,1 @@
---8<-- "01-foundations\programming\data-structures-algorithms.md"
+--8<-- "01-foundations/programming/data-structures-algorithms.md"

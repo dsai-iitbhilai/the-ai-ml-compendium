@@ -1,1 +1,1 @@
---8<-- "04-deep-learning\README.md"
+--8<-- "04-deep-learning/README.md"

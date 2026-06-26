@@ -1,1 +1,1 @@
---8<-- "04-deep-learning\rnn-sequence-models.md"
+--8<-- "04-deep-learning/rnn-sequence-models.md"

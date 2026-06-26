@@ -1,1 +1,1 @@
---8<-- "07-mlops-and-deployment\model-serving.md"
+--8<-- "07-mlops-and-deployment/model-serving.md"

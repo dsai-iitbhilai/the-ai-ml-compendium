@@ -1,1 +1,1 @@
---8<-- "10-interview-prep\system-design-for-ml.md"
+--8<-- "10-interview-prep/system-design-for-ml.md"

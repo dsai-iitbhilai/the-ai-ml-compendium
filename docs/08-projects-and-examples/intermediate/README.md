@@ -1,1 +1,1 @@
---8<-- "08-projects-and-examples\intermediate\README.md"
+--8<-- "08-projects-and-examples/intermediate/README.md"

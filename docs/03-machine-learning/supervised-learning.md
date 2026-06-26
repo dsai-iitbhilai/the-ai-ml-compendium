@@ -1,1 +1,1 @@
---8<-- "03-machine-learning\supervised-learning.md"
+--8<-- "03-machine-learning/supervised-learning.md"

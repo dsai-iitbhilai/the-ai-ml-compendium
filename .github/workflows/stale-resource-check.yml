@@ -4,13 +4,16 @@ on:
   schedule:
     - cron: '0 0 1 1,4,7,10 *'  # Quarterly
 
+permissions:
+  issues: write
+
 jobs:
   find-stale:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Find stale resources

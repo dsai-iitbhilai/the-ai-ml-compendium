@@ -1,0 +1,63 @@
+# PR Labeler configuration
+# Maps changed file paths to labels
+
+"module:foundations":
+  - changed-files:
+    - any-glob-to-any-file: '01-foundations/**'
+
+"module:data-science":
+  - changed-files:
+    - any-glob-to-any-file: '02-data-science/**'
+
+"module:machine-learning":
+  - changed-files:
+    - any-glob-to-any-file: '03-machine-learning/**'
+
+"module:deep-learning":
+  - changed-files:
+    - any-glob-to-any-file: '04-deep-learning/**'
+
+"module:generative-ai":
+  - changed-files:
+    - any-glob-to-any-file: '05-generative-ai/**'
+
+"module:agentic-ai":
+  - changed-files:
+    - any-glob-to-any-file: '06-agentic-ai/**'
+
+"module:mlops":
+  - changed-files:
+    - any-glob-to-any-file: '07-mlops-and-deployment/**'
+
+"module:projects":
+  - changed-files:
+    - any-glob-to-any-file: '08-projects-and-examples/**'
+
+"module:research":
+  - changed-files:
+    - any-glob-to-any-file: '09-research-papers/**'
+
+"module:interview-prep":
+  - changed-files:
+    - any-glob-to-any-file: '10-interview-prep/**'
+
+"learning-paths":
+  - changed-files:
+    - any-glob-to-any-file: 'learning-paths/**'
+
+"community":
+  - changed-files:
+    - any-glob-to-any-file: 'community/**'
+
+"ci":
+  - changed-files:
+    - any-glob-to-any-file: '.github/**'
+
+"documentation":
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+      - 'CODE_OF_CONDUCT.md'
+      - 'SECURITY.md'
+      - 'ROADMAP.md'

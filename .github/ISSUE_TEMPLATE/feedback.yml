@@ -1,0 +1,31 @@
+name: General Feedback
+description: Share feedback about the compendium — structure, ordering, clarity, or anything else
+labels: [feedback]
+title: "[Feedback] "
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: What is this about?
+      options:
+        - Content ordering or structure
+        - A section is confusing or unclear
+        - Missing topic or gap in coverage
+        - Website / MkDocs experience
+        - Contributing experience
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: Be as specific as possible — mention files, sections, or page URLs
+      placeholder: "The ordering in the Deep Learning module feels off because..."
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement (optional)
+      description: If you have a concrete suggestion, share it here

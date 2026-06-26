@@ -1,1 +1,1 @@
---8<-- "06-agentic-ai\fundamentals\agent-fundamentals.md"
+--8<-- "06-agentic-ai/fundamentals/agent-fundamentals.md"

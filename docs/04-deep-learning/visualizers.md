@@ -1,1 +1,1 @@
---8<-- "04-deep-learning\visualizers.md"
+--8<-- "04-deep-learning/visualizers.md"
