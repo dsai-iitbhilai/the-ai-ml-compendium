@@ -2,11 +2,15 @@ name: Link Checker
 
 on:
   schedule:
-    - cron: '0 0 1 * *'  # Monthly on the 1st — blocking
+    - cron: '0 0 1 * *'  # Monthly on the 1st
   pull_request:
     paths:
       - '**.md'
-  workflow_dispatch:       # Manual trigger — blocking
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
   check-links:
@@ -20,6 +24,7 @@ jobs:
           key: cache-lychee-${{ github.sha }}
           restore-keys: cache-lychee-
       - uses: lycheeverse/lychee-action@v1
+        id: lychee
         with:
           args: >-
             --config .lycheeconfig.toml
@@ -27,4 +32,11 @@ jobs:
             --max-concurrency 8
             --no-progress
             './**/*.md'
-          fail: ${{ github.event_name != 'pull_request' }}
+          fail: true
+      - name: Upload link-check report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-checker-report
+          path: lychee/out.md
+          retention-days: 14

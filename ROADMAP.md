@@ -11,7 +11,7 @@
 
 | Module | Status | Notes |
 |---|---|---|
-| 01 Foundations | ⬜ | Structure defined, needs resources |
+| 01 Foundations | 🔧 | `linear-algebra.md` fully populated as reference; others need resources |
 | 02 Data Science | ⬜ | Structure defined, needs resources |
 | 03 Machine Learning | ⬜ | Structure defined, needs resources |
 | 04 Deep Learning | ⬜ | Structure defined, needs resources |
@@ -34,8 +34,15 @@
 ## Infrastructure Goals
 
 - [x] Directory structure scaffolded
-- [ ] Link checker CI working
-- [ ] TOC generator CI working
-- [ ] Resources index builder working
-- [ ] Quick Add issue template active
-- [ ] At least one module fully populated to serve as example
+- [x] Link checker CI working
+- [x] TOC generator CI working
+- [x] Resources index builder working
+- [x] Quick Add issue template active
+- [x] Quick Add → auto PR pipeline
+- [x] Remove/Replace resource issue template
+- [x] PR auto-labeler
+- [x] Welcome bot for first-time contributors
+- [x] Markdown linting CI
+- [x] Dependabot for GitHub Actions
+- [ ] At least one module fully populated to serve as example (linear-algebra in progress)
+- [ ] All modules populated with real resources

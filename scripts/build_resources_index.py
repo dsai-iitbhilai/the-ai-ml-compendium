@@ -1,4 +1,9 @@
-"""Scrape all resource tables in the repo and build a resources.json index."""
+"""Scrape all resource tables in the repo and build a resources.json index.
+
+Supports two table formats:
+  Canonical (5-col): | [Title](url) | Type | Level | YYYY-MM | Notes |
+  Legacy   (4-col): | Title | Level | [Link](url) | Notes |
+"""
 
 import json
 import re
@@ -7,8 +12,15 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-RESOURCE_RE = re.compile(
+# Canonical 5-column format: | [Title](url) | Type | Level | YYYY-MM | Notes |
+CANONICAL_RE = re.compile(
     r"^\|\s*\[(.+?)\]\((.+?)\)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(\d{4}-\d{2})\s*\|\s*(.*?)\s*\|$",
+    re.MULTILINE,
+)
+
+# Legacy 4-column format: | Title | Level | [Link](url) | Notes |
+LEGACY_RE = re.compile(
+    r"^\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*\[.+?\]\((.+?)\)\s*\|\s*(.*?)\s*\|$",
     re.MULTILINE,
 )
 
@@ -24,7 +36,9 @@ def extract_topic_from_path(filepath: Path) -> str:
 def scrape_file(filepath: Path) -> list[dict]:
     text = filepath.read_text(encoding="utf-8")
     resources = []
-    for match in RESOURCE_RE.finditer(text):
+
+    # Try canonical format first
+    for match in CANONICAL_RE.finditer(text):
         resources.append(
             {
                 "title": match.group(1).strip(),
@@ -37,6 +51,30 @@ def scrape_file(filepath: Path) -> list[dict]:
                 "topic": extract_topic_from_path(filepath),
             }
         )
+
+    # Also try legacy format (no Last Reviewed column)
+    for match in LEGACY_RE.finditer(text):
+        title = match.group(1).strip()
+        url = match.group(3).strip()
+        # Skip if already captured by canonical regex (avoid duplicates)
+        if any(r["url"] == url for r in resources):
+            continue
+        # Skip header separator rows and placeholder links
+        if title.startswith("---") or "example.com" in url:
+            continue
+        resources.append(
+            {
+                "title": title,
+                "url": url,
+                "type": "Unknown",
+                "level": match.group(2).strip(),
+                "last_reviewed": None,
+                "notes": match.group(4).strip(),
+                "file": str(filepath.relative_to(REPO_ROOT)),
+                "topic": extract_topic_from_path(filepath),
+            }
+        )
+
     return resources
 
 

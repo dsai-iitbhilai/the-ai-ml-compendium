@@ -1,6 +1,7 @@
 name: Propose New Topic
 description: Suggest adding a new topic file or subfolder
 labels: [enhancement, new-topic]
+title: "[New Topic] "
 body:
   - type: input
     id: topic
@@ -25,6 +26,7 @@ body:
         - 08-projects-and-examples
         - 09-research-papers
         - 10-interview-prep
+        - learning-paths
         - New top-level module
     validations:
       required: true

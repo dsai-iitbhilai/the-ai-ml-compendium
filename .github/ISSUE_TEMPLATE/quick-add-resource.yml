@@ -1,6 +1,7 @@
 name: Quick Add Resource
 description: Suggest a single resource link — no Git knowledge required
 labels: [quick-add, resource]
+title: "[Add Resource] "
 body:
   - type: input
     id: link
@@ -35,6 +36,7 @@ body:
         - 08-projects-and-examples
         - 09-research-papers
         - 10-interview-prep
+        - learning-paths
         - visualizers-and-playgrounds
         - community
     validations:

@@ -24,43 +24,22 @@ exclude = [
   '127.0.0.1',
   '0.0.0.0',
   'your-org',
-  '/example/',        # placeholder github example repos
-  'example\.com',     # placeholder domain
-  '\.\.\.',           # truncated placeholder links
+  '/example/',
+  'example\.com',
+  '\.\.\.',
   'placeholder',
 
-  # Bot-blocking platforms (403 on HEAD requests)
+  # Bot-blocking platforms (403/406 on HEAD requests)
   'openai.com',
   'platform.openai.com',
   'deeplearning.ai',
   'datacamp.com',
-  'datacamp.com/courses',
   'perplexity.ai',
   'labs.perplexity.ai',
   'mitpress.mit.edu',
   'dl.acm.org',
   'projects.iq.harvard.edu',
   'cengage.com',
-
-  # Known dead / moved content (reviewed entries that 404)
-  'setosa.io/ev/',
-  'academo.org/demos/',
-  '3blue1brown.com/topics',
-  'geogebra.org/m/',
-  'builtin.com/data-science/',
-  'www.mit.edu/~gfarina/',
-  'kaggle.com/code/sagarnildass/',
-  'jax.readthedocs.io/en/latest/advanced-autodiff',
-  'replicate.com/example/',
-  'databricks.com/blog/rag-scale',
-  'cursor.com/blog/code-review-agent',
-  'blog.replit.com/agent',
-  'spec.modelcontextprotocol.io',
-
-  # Content that moved (anthropic blog URL changes)
-  'anthropic.com/engineering/multi-agent-orchestration',
-  'anthropic.com/engineering/mcp-usb-c-for-ai',
-  'anthropic.com/engineering/tool-use-practical-guide',
 
   # GitHub blob lines change frequently
   'github.com/anthropics/anthropic-cookbook/blob/',

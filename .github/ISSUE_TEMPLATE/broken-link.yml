@@ -1,6 +1,7 @@
 name: Report Broken Link
 description: Report a link in the compendium that no longer works
 labels: [bug, broken-link]
+title: "[Broken Link] "
 body:
   - type: input
     id: location
@@ -31,3 +32,5 @@ body:
         - Resource is gone with no replacement
         - Resource moved (new URL known)
         - Resource is behind a new paywall
+    validations:
+      required: true

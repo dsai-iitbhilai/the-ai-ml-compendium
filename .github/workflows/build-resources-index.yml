@@ -7,6 +7,9 @@ on:
       - '0*/**/*.md'
       - 'visualizers-and-playgrounds/**/*.md'
 
+permissions:
+  contents: write
+
 jobs:
   build-index:
     runs-on: ubuntu-latest

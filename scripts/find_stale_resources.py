@@ -2,6 +2,10 @@
 
 Usage:
     python scripts/find_stale_resources.py --months 12 [--format markdown|json]
+
+Note: Only resources using the canonical 5-column table format with a
+Last Reviewed date (YYYY-MM) will be checked. Legacy 4-column entries
+without dates are silently skipped.
 """
 
 import argparse
@@ -13,7 +17,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-RESOURCE_RE = re.compile(
+# Canonical 5-column format: | [Title](url) | Type | Level | YYYY-MM | Notes |
+CANONICAL_RE = re.compile(
     r"^\|\s*\[(.+?)\]\((.+?)\)\s*\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(\d{4}-\d{2})\s*\|\s*(.*?)\s*\|$",
     re.MULTILINE,
 )
@@ -31,7 +36,7 @@ def find_stale(months: int) -> list[dict]:
         if ".github" in md_file.parts:
             continue
         text = md_file.read_text(encoding="utf-8")
-        for match in RESOURCE_RE.finditer(text):
+        for match in CANONICAL_RE.finditer(text):
             reviewed = parse_date(match.group(5))
             if reviewed < cutoff:
                 stale.append(

@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 0 1 1,4,7,10 *'  # Quarterly
 
+permissions:
+  issues: write
+
 jobs:
   find-stale:
     runs-on: ubuntu-latest
