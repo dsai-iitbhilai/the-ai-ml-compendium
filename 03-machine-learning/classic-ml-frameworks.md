@@ -14,59 +14,66 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Scikit-learn — User Guide & API Reference | Beginner | [Link](https://example.com/sklearn-docs) | Complete reference for all classical ML models |
-| XGBoost Documentation | Intermediate | [Link](https://example.com/xgboost-docs) | Parameters, GPU support, distributed training |
-| LightGBM Documentation | Intermediate | [Link](https://example.com/lightgbm-docs) | Leaf-wise growth, categorical feature handling |
-| CatBoost Documentation | Intermediate | [Link](https://example.com/catboost-docs) | Ordered boosting, native categorical support |
-| imbalanced-learn Documentation | Intermediate | [Link](https://example.com/imblearn-docs) | Resampling and ensemble methods for imbalanced data |
+| Scikit-learn — User Guide & API Reference | Beginner | https://scikit-learn.org/stable/user_guide.html | Complete reference for classical ML models |
+| XGBoost Documentation | Intermediate | https://xgboost.readthedocs.io/en/stable/ | Parameters, GPU support, distributed training |
+| LightGBM Documentation | Intermediate | https://lightgbm.readthedocs.io/en/latest/ | Leaf-wise growth, categorical feature handling |
+| CatBoost Documentation | Intermediate | https://catboost.ai/docs/ | Ordered boosting, native categorical support |
+| imbalanced-learn Documentation | Intermediate | https://imbalanced-learn.org/stable/ | Resampling and ensemble methods for imbalanced data |
+| Yellowbrick Documentation | Intermediate | https://www.scikit-yb.org/en/latest/ | Visual diagnostics for scikit-learn models |
+| PyCaret Documentation | Intermediate | https://pycaret.gitbook.io/docs/ | Low-code ML experimentation framework |
 
 ### 🎥 Video
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Scikit-learn Crash Course — Corey Schafer | Beginner | [Link](https://example.com/sklearn-crash) | Full walkthrough: loading, training, evaluating |
-| XGBoost Explained (Data School) | Intermediate | [Link](https://example.com/xgboost-dataschool) | Parameter tuning and feature importance |
-| CatBoost Tutorial — Handling Categorical Data | Intermediate | [Link](https://example.com/catboost-tutorial) | How CatBoost handles categoricals natively |
+| Scikit-learn Crash Course — Corey Schafer | Beginner | https://www.youtube.com/watch?v=0B5eIE_1vpU | Full walkthrough of sklearn workflows |
+| Machine Learning with Scikit-learn (freeCodeCamp) | Beginner | https://www.youtube.com/watch?v=i_LwzRVP7bg | End-to-end practical introduction |
+| XGBoost Explained (Data School) | Intermediate | https://www.youtube.com/watch?v=OtD8wVaFm6E | Feature importance and tuning |
+| CatBoost Tutorial | Intermediate | https://www.youtube.com/watch?v=tpl9GoB0B3A | Native categorical handling |
 
 ### 🎓 Course
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Kaggle — Intro to Machine Learning (scikit-learn) | Beginner | [Link](https://example.com/kaggle-intro-sklearn) | Hands-on intro with scikit-learn pipelines |
-| Kaggle — Intermediate ML (XGBoost & LightGBM) | Intermediate | [Link](https://example.com/kaggle-intermediate-xgb) | XGBoost, LightGBM, and hyperparameter tuning |
-| DataCamp — Machine Learning with scikit-learn | Beginner | [Link](https://example.com/datacamp-sklearn) | 4-hour interactive course |
+| Kaggle — Intro to Machine Learning | Beginner | https://www.kaggle.com/learn/intro-to-machine-learning | Hands-on scikit-learn introduction |
+| Kaggle — Intermediate Machine Learning | Intermediate | https://www.kaggle.com/learn/intermediate-machine-learning | Pipelines, leakage, XGBoost |
+| Applied Machine Learning in Python (University of Michigan) | Intermediate | https://www.coursera.org/learn/python-machine-learning | Practical sklearn-focused course |
 
 ### 🕹️ Visualizer / Playground
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Yellowbrick — Visual Model Diagnostics | Intermediate | [Link](https://example.com/yellowbrick) | Scikit-learn-compatible visualizers for model evaluation |
-| Scikit-learn Algorithm Cheat Sheet | Beginner | [Link](https://example.com/sklearn-cheatsheet) | Interactive flow chart for choosing estimators |
-| XGBoost Parameter Explorer | Intermediate | [Link](https://example.com/xgb-params) | Interactive tuning of boosting parameters |
+| Yellowbrick Visual Diagnostics | Intermediate | https://www.scikit-yb.org/en/latest/ | Model evaluation and diagnostics |
+| Scikit-learn Algorithm Cheat Sheet | Beginner | https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html | Choose the right estimator |
+| ExplainerDashboard | Intermediate | https://explainerdashboard.readthedocs.io/en/latest/ | Interactive model explanations |
+| SHAP Interactive Examples | Intermediate | https://shap.readthedocs.io/en/latest/example_notebooks.html | Feature attribution visualizations |
 
 ### 📄 Paper
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *Scikit-learn: Machine Learning in Python* (Pedregosa et al., 2011) | Intermediate | [Link](https://example.com/sklearn-paper) | The original JMLR paper |
-| *XGBoost: A Scalable Tree Boosting System* (Chen & Guestrin, 2016) | Advanced | [Link](https://example.com/xgboost-paper) | Industrial-grade gradient boosting |
-| *LightGBM: A Highly Efficient Gradient Boosting Decision Tree* (Ke et al., 2017) | Advanced | [Link](https://example.com/lightgbm-paper) | GOSS and EFB innovations |
-| *CatBoost: Unbiased Boosting with Categorical Features* (Prokhorenkova et al., 2018) | Advanced | [Link](https://example.com/catboost-paper) | Ordered boosting and symmetric trees |
+| *Scikit-learn: Machine Learning in Python* (Pedregosa et al., 2011) | Intermediate | https://jmlr.org/papers/v12/pedregosa11a.html | Original sklearn paper |
+| *XGBoost: A Scalable Tree Boosting System* (Chen & Guestrin, 2016) | Advanced | https://arxiv.org/abs/1603.02754 | Industrial-grade boosting |
+| *LightGBM: A Highly Efficient Gradient Boosting Decision Tree* (Ke et al., 2017) | Advanced | https://proceedings.neurips.cc/paper_files/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html | GOSS and EFB innovations |
+| *CatBoost: Unbiased Boosting with Categorical Features* (Prokhorenkova et al., 2018) | Advanced | https://arxiv.org/abs/1706.09516 | Ordered boosting |
 
 ### 💻 Code / Notebook
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Scikit-learn Pipeline + GridSearchCV | Beginner | [Link](https://example.com/sklearn-pipeline) | End-to-end with ColumnTransformer |
-| XGBoost vs LightGBM vs CatBoost Benchmark | Intermediate | [Link](https://example.com/boosting-bench) | Speed, accuracy, and memory comparison |
-| Handling Imbalanced Data with imbalanced-learn | Intermediate | [Link](https://example.com/imblearn-bench) | SMOTE, ADASYN, and balanced ensemble methods |
+| Scikit-learn Pipeline + GridSearchCV | Beginner | https://scikit-learn.org/stable/auto_examples/compose/plot_column_transformer_mixed_types.html | End-to-end ColumnTransformer example |
+| XGBoost Documentation Examples | Intermediate | https://xgboost.readthedocs.io/en/stable/python/examples/index.html | Official examples |
+| LightGBM Examples | Intermediate | https://github.com/microsoft/LightGBM/tree/master/examples | Official training examples |
+| Handling Imbalanced Data with imbalanced-learn | Intermediate | https://imbalanced-learn.org/stable/auto_examples/index.html | SMOTE and resampling examples |
+| PyCaret Tutorials | Intermediate | https://pycaret.gitbook.io/docs/learn-pycaret/official-blog | AutoML workflows |
 
 ### 📰 Blog
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| *Scikit-learn, XGBoost, LightGBM, CatBoost: A Complete Comparison* | Intermediate | [Link](https://example.com/framework-comparison) | When to reach for each library |
-| *Building Robust Pipelines with scikit-learn* | Beginner | [Link](https://example.com/sklearn-pipelines-blog) | Reproducible ML workflow best practices |
+| *Scikit-learn, XGBoost, LightGBM, CatBoost: A Complete Comparison* | Intermediate | https://neptune.ai/blog/xgboost-vs-lightgbm | Practical framework comparison |
+| *Building Robust Pipelines with scikit-learn* | Beginner | https://scikit-learn.org/stable/modules/compose.html | Reproducible ML workflows |
+| *Interpreting Machine Learning Models with SHAP* | Intermediate | https://christophm.github.io/interpretable-ml-book/shap.html | Explainability for tree models |
 
 ---
 
