@@ -26,8 +26,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install mkdocs mkdocs-material
+      - name: Build resources index
+        run: python scripts/build_resources_index.py
       - name: Build site
-        run: mkdocs build --site-dir site
+        run: |
+          mkdocs build --site-dir site
+          mv resources.json site/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
