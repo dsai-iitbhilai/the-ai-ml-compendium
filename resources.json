@@ -1,0 +1,1005 @@
+{
+  "count": 100,
+  "resources": [
+    {
+      "title": "Sub‑page | Est. Hours | Priority",
+      "url": "mathematics/linear-algebra.md",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "20–30 | Essential",
+      "file": "01-foundations/README.md",
+      "topic": "01-foundations/README.md"
+    },
+    {
+      "title": "[Mathematics / Calculus](mathematics/calculus.md)",
+      "url": "mathematics/probability-statistics.md",
+      "type": "Unknown",
+      "level": "15–25 | Essential |",
+      "last_reviewed": null,
+      "notes": "12–20 | Essential",
+      "file": "01-foundations/README.md",
+      "topic": "01-foundations/README.md"
+    },
+    {
+      "title": "[Mathematics / Optimization](mathematics/optimization.md)",
+      "url": "programming/python-for-ai.md",
+      "type": "Unknown",
+      "level": "8–12 | Important |",
+      "last_reviewed": null,
+      "notes": "10–15 | Essential",
+      "file": "01-foundations/README.md",
+      "topic": "01-foundations/README.md"
+    },
+    {
+      "title": "[Programming / Data Structures & Algorithms](programming/data-structures-algorithms.md)",
+      "url": "visualizers.md",
+      "type": "Unknown",
+      "level": "8–12 | Helpful |",
+      "last_reviewed": null,
+      "notes": "— | Supplementary",
+      "file": "01-foundations/README.md",
+      "topic": "01-foundations/README.md"
+    },
+    {
+      "title": "MIT OCW 18.06 — Lecture Notes",
+      "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/lecture-notes/",
+      "type": "📘 Docs",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Companion notes to Strang's legendary lectures",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "Introduction to Linear Algebra (Strang, 6th ed.) — Textbook Site",
+      "url": "https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html",
+      "type": "📘 Docs",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Classic textbook; clear intuition for core concepts",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "The Matrix Cookbook (PDF)",
+      "url": "https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf",
+      "type": "📘 Docs",
+      "level": "Intermediate",
+      "last_reviewed": "2026-06",
+      "notes": "Handy reference of identities, derivatives, and decompositions",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "Immersive Linear Algebra (Online Book)",
+      "url": "http://immersivemath.com/ila/index.html",
+      "type": "📘 Docs",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Fully interactive textbook with embedded visualizations",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "3Blue1Brown — Essence of Linear Algebra",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "type": "🎥 Video",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Best-in-class animated intuition for vectors, spans, and transformations",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "MIT 18.06 — Linear Algebra (Gilbert Strang)",
+      "url": "https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D",
+      "type": "🎥 Video",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Gold-standard full lecture series — 34 lectures",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "StatQuest: Linear Algebra Fundamentals",
+      "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUIcdlgu78MnlATeyx4cEVeR",
+      "type": "🎥 Video",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Bite-sized, intuition-first explanations",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "Khan Academy — Linear Algebra",
+      "url": "https://www.khanacademy.org/math/linear-algebra",
+      "type": "🎓 Course",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Free, self-paced with exercises",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "Mathematics for Machine Learning: Linear Algebra (Coursera / Imperial College)",
+      "url": "https://www.coursera.org/learn/linear-algebra-machine-learning",
+      "type": "🎓 Course",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Short, practical course focused on ML applications",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "fast.ai — Computational Linear Algebra",
+      "url": "https://github.com/fastai/numerical-linear-algebra",
+      "type": "🎓 Course",
+      "level": "Intermediate",
+      "last_reviewed": "2026-06",
+      "notes": "Top-down, code-first approach to numerical methods",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "Interactive Linear Algebra (Georgia Tech)",
+      "url": "https://textbooks.math.gatech.edu/ila/",
+      "type": "🕹️ Visualizer/Playground",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Interactive textbook — visualize vectors, spans, and transformations",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "Eigenvectors and Eigenvalues Explained Visually",
+      "url": "https://setosa.io/ev/eigenvectors-and-eigenvalues/",
+      "type": "🕹️ Visualizer/Playground",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Drag-to-explore eigenvalue visualization",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "Matrix Multiplication Visualizer",
+      "url": "http://matrixmultiplication.xyz/",
+      "type": "🕹️ Visualizer/Playground",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Step-through matmul animation",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions (Halko, Martinsson, Tropp)",
+      "url": "https://arxiv.org/abs/0909.4061",
+      "type": "📄 Paper",
+      "level": "Advanced",
+      "last_reviewed": "2026-06",
+      "notes": "Foundational paper for scalable randomized SVD",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "Attention Is All You Need (Vaswani et al.)",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "type": "📄 Paper",
+      "level": "Advanced",
+      "last_reviewed": "2026-06",
+      "notes": "See how linear algebra (matrix multiply, softmax) powers modern Transformers",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "NumPy — Linear Algebra Routines",
+      "url": "https://numpy.org/doc/stable/reference/routines.linalg.html",
+      "type": "💻 Code/Notebook",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Official NumPy reference for linalg operations",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "Scikit-learn — Decomposition",
+      "url": "https://scikit-learn.org/stable/modules/decomposition.html",
+      "type": "💻 Code/Notebook",
+      "level": "Intermediate",
+      "last_reviewed": "2026-06",
+      "notes": "PCA, SVD, NMF and more — practical decompositions",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "A Visual Intro to NumPy and Data Representation (Jay Alammar)",
+      "url": "https://jalammar.github.io/visual-numpy/",
+      "type": "📰 Blog",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Rich visual walkthrough of NumPy arrays and operations",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "The SVD — A Geometric Interpretation (Gregory Gundersen)",
+      "url": "https://gregorygundersen.com/blog/2018/12/10/svd/",
+      "type": "📰 Blog",
+      "level": "Intermediate",
+      "last_reviewed": "2026-06",
+      "notes": "One of the clearest geometric explanations of SVD",
+      "file": "01-foundations/mathematics/linear-algebra.md",
+      "topic": "01-foundations/mathematics"
+    },
+    {
+      "title": "Sub‑page | Est. Hours | Priority",
+      "url": "data-wrangling.md",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "10–15 | Essential",
+      "file": "02-data-science/README.md",
+      "topic": "02-data-science/README.md"
+    },
+    {
+      "title": "[EDA & Visualization](eda-and-visualization.md)",
+      "url": "statistics-and-inference.md",
+      "type": "Unknown",
+      "level": "8–12 | Essential |",
+      "last_reviewed": null,
+      "notes": "12–18 | Essential",
+      "file": "02-data-science/README.md",
+      "topic": "02-data-science/README.md"
+    },
+    {
+      "title": "[SQL & Databases](sql-and-databases.md)",
+      "url": "case-studies.md",
+      "type": "Unknown",
+      "level": "6–10 | Important |",
+      "last_reviewed": null,
+      "notes": "4–6 | Helpful",
+      "file": "02-data-science/README.md",
+      "topic": "02-data-science/README.md"
+    },
+    {
+      "title": "Sub‑page | Est. Hours | Priority",
+      "url": "supervised-learning.md",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "15–20 | Essential",
+      "file": "03-machine-learning/README.md",
+      "topic": "03-machine-learning/README.md"
+    },
+    {
+      "title": "[Unsupervised Learning](unsupervised-learning.md)",
+      "url": "ensemble-methods.md",
+      "type": "Unknown",
+      "level": "10–15 | Essential |",
+      "last_reviewed": null,
+      "notes": "10–15 | Essential",
+      "file": "03-machine-learning/README.md",
+      "topic": "03-machine-learning/README.md"
+    },
+    {
+      "title": "[Model Evaluation](model-evaluation.md)",
+      "url": "feature-engineering.md",
+      "type": "Unknown",
+      "level": "8–12 | Essential |",
+      "last_reviewed": null,
+      "notes": "8–12 | Important",
+      "file": "03-machine-learning/README.md",
+      "topic": "03-machine-learning/README.md"
+    },
+    {
+      "title": "[Classic ML Frameworks](classic-ml-frameworks.md)",
+      "url": "playgrounds.md",
+      "type": "Unknown",
+      "level": "4–6 | Important |",
+      "last_reviewed": null,
+      "notes": "— | Supplementary",
+      "file": "03-machine-learning/README.md",
+      "topic": "03-machine-learning/README.md"
+    },
+    {
+      "title": "Sub‑page | Est. Hours | Priority",
+      "url": "neural-network-fundamentals.md",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "12–18 | Essential",
+      "file": "04-deep-learning/README.md",
+      "topic": "04-deep-learning/README.md"
+    },
+    {
+      "title": "[CNN & Computer Vision](cnn-computer-vision.md)",
+      "url": "rnn-sequence-models.md",
+      "type": "Unknown",
+      "level": "15–20 | Essential |",
+      "last_reviewed": null,
+      "notes": "10–15 | Important",
+      "file": "04-deep-learning/README.md",
+      "topic": "04-deep-learning/README.md"
+    },
+    {
+      "title": "[Transformers](transformers.md)",
+      "url": "frameworks.md",
+      "type": "Unknown",
+      "level": "15–20 | Essential |",
+      "last_reviewed": null,
+      "notes": "8–12 | Essential",
+      "file": "04-deep-learning/README.md",
+      "topic": "04-deep-learning/README.md"
+    },
+    {
+      "title": "Module | Topic | Required",
+      "url": "/ai-ml-compendium/04-deep-learning/README.md",
+      "type": "Unknown",
+      "level": "|--------|-------|----------|",
+      "last_reviewed": null,
+      "notes": "Neural network fundamentals | Yes",
+      "file": "05-generative-ai/README.md",
+      "topic": "05-generative-ai/README.md"
+    },
+    {
+      "title": "[04 Deep Learning — Transformers](/ai-ml-compendium/04-deep-learning/transformers.md)",
+      "url": "/ai-ml-compendium/04-deep-learning/cnns.md",
+      "type": "Unknown",
+      "level": "Transformer architecture, attention, self-attention | **Essential** |",
+      "last_reviewed": null,
+      "notes": "Convolutional networks (for vision-based GenAI) | Recommended",
+      "file": "05-generative-ai/README.md",
+      "topic": "05-generative-ai/README.md"
+    },
+    {
+      "title": "2 | [Prompt Engineering](prompt-engineering.md) | Prompting techniques, chain-of-thought, few-shot, system prompts",
+      "url": "fine-tuning-and-peft.md",
+      "type": "Unknown",
+      "level": "| 3",
+      "last_reviewed": null,
+      "notes": "Fine-tuning, LoRA, QLoRA, adapters, instruction tuning",
+      "file": "05-generative-ai/README.md",
+      "topic": "05-generative-ai/README.md"
+    },
+    {
+      "title": "4 | [RAG Systems](rag-systems.md) | Retrieval-Augmented Generation, vector databases, chunking, hybrid search",
+      "url": "diffusion-models.md",
+      "type": "Unknown",
+      "level": "| 5",
+      "last_reviewed": null,
+      "notes": "Stable Diffusion, text-to-image, video generation",
+      "file": "05-generative-ai/README.md",
+      "topic": "05-generative-ai/README.md"
+    },
+    {
+      "title": "6 | [Multimodal Models](multimodal-models.md) | Vision-language models, CLIP, GPT-4V, audio models",
+      "url": "playgrounds.md",
+      "type": "Unknown",
+      "level": "| 7",
+      "last_reviewed": null,
+      "notes": "OpenAI, Anthropic, HuggingFace Spaces, Gemini demos",
+      "file": "05-generative-ai/README.md",
+      "topic": "05-generative-ai/README.md"
+    },
+    {
+      "title": "📄 Paper | [Denoising Diffusion Probabilistic Models (Ho et al., 2020)](https://arxiv.org/abs/2006.11239) | Foundational DDPM paper establishing the Gaussian diffusion + UNet framework | Advanced | 2026-06",
+      "url": "https://arxiv.org/abs/2112.10752",
+      "type": "Unknown",
+      "level": "| 📄 Paper",
+      "last_reviewed": null,
+      "notes": "Introduces Stable Diffusion — diffusion in latent space with cross-attention conditioning | Intermediate | 2026-06",
+      "file": "05-generative-ai/diffusion-models.md",
+      "topic": "05-generative-ai/diffusion-models.md"
+    },
+    {
+      "title": "🎥 Video | [Diffusion Models Explained (YouTube)](https://www.youtube.com/watch?v=fbLgFrlTnGU) | Visual walkthrough of DDPM training, sampling, and the reverse diffusion process | Beginner | 2026-06",
+      "url": "https://github.com/example/diffusion-from-scratch",
+      "type": "Unknown",
+      "level": "| 💻 Code/Notebook",
+      "last_reviewed": null,
+      "notes": "Minimal PyTorch implementation of DDPM on MNIST / CIFAR-10 | Advanced | 2026-06",
+      "file": "05-generative-ai/diffusion-models.md",
+      "topic": "05-generative-ai/diffusion-models.md"
+    },
+    {
+      "title": "🕹️ Visualizer/Playground | [Stable Diffusion Web UI (AUTOMATIC1111)](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Popular browser interface for SD with prompt editing, inpainting, ControlNet, and extensions | Intermediate | 2026-06",
+      "url": "https://lilianweng.github.io/posts/2021-07-11-diffusion-models/",
+      "type": "Unknown",
+      "level": "| 📰 Blog",
+      "last_reviewed": null,
+      "notes": "Comprehensive blog post covering DDPM, score matching, SDEs, and classifier-free guidance | Intermediate | 2026-06",
+      "file": "05-generative-ai/diffusion-models.md",
+      "topic": "05-generative-ai/diffusion-models.md"
+    },
+    {
+      "title": "📄 Paper | [LoRA: Low-Rank Adaptation (Hu et al., 2021)](https://arxiv.org/abs/2106.09685) | Introduces low-rank weight updates that can be merged at inference time with zero added latency | Intermediate | 2026-06",
+      "url": "https://arxiv.org/abs/2305.14314",
+      "type": "Unknown",
+      "level": "| 📄 Paper",
+      "last_reviewed": null,
+      "notes": "Combines 4-bit NormalFloat quantization with LoRA to fine-tune 65B models on a single 48GB GPU | Advanced | 2026-06",
+      "file": "05-generative-ai/fine-tuning-and-peft.md",
+      "topic": "05-generative-ai/fine-tuning-and-peft.md"
+    },
+    {
+      "title": "💻 Code/Notebook | [QLoRA fine-tuning tutorial (Colab)](https://github.com/example/qlora-finetune) | End-to-end notebook for fine-tuning Llama 2 / Mistral with QLoRA on custom datasets | Intermediate | 2026-06",
+      "url": "https://huggingface.co/learn/nlp-course/chapter3/1",
+      "type": "Unknown",
+      "level": "| 🎓 Course",
+      "last_reviewed": null,
+      "notes": "Course module covering tokenizer training, dataset preparation, and trainer API for SFT | Intermediate | 2026-06",
+      "file": "05-generative-ai/fine-tuning-and-peft.md",
+      "topic": "05-generative-ai/fine-tuning-and-peft.md"
+    },
+    {
+      "title": "📰 Blog | [LoRA explained (Sebastian Raschka)](https://magazine.sebastianraschka.com/p/practical-tips-for-finetuning-llms) | Practical deep-dive on LoRA rank selection, where to apply adapters, and merging strategies | Intermediate | 2026-06",
+      "url": "https://github.com/example/axolotl",
+      "type": "Unknown",
+      "level": "| 📰 Blog",
+      "last_reviewed": null,
+      "notes": "Open-source library for simplified fine-tuning with support for multiple PEFT methods and distributed training | Advanced | 2026-06",
+      "file": "05-generative-ai/fine-tuning-and-peft.md",
+      "topic": "05-generative-ai/fine-tuning-and-peft.md"
+    },
+    {
+      "title": "📄 Paper | [Scaling Laws for Neural Language Models (Kaplan et al., 2020)](https://arxiv.org/abs/2001.08361) | Foundational paper establishing power-law scaling relationships between model size, data, and compute | Intermediate | 2026-06",
+      "url": "https://arxiv.org/abs/2008.02217",
+      "type": "Unknown",
+      "level": "| 📄 Paper",
+      "last_reviewed": null,
+      "notes": "Connects modern Hopfield networks to transformer attention, providing a theoretical lens | Advanced | 2026-06",
+      "file": "05-generative-ai/llm-fundamentals.md",
+      "topic": "05-generative-ai/llm-fundamentals.md"
+    },
+    {
+      "title": "🎓 Course | [Stanford CS224N — Transformers & Pretraining](https://web.stanford.edu/class/cs224n/) | Lecture series covering the evolution from RNNs to GPT-family architectures | Intermediate | 2026-06",
+      "url": "https://github.com/example/llama.cpu",
+      "type": "Unknown",
+      "level": "| 💻 Code/Notebook",
+      "last_reviewed": null,
+      "notes": "Minimal CPU-based inference engine demonstrating tokenization, KV-cache, and sampling | Advanced | 2026-06",
+      "file": "05-generative-ai/llm-fundamentals.md",
+      "topic": "05-generative-ai/llm-fundamentals.md"
+    },
+    {
+      "title": "📰 Blog | [Illustrated Transformer (Jay Alammar)](https://jalammar.github.io/illustrated-transformer/) | Visual deep-dive into attention, multi-head attention, and positional encodings | Beginner | 2026-06",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "type": "Unknown",
+      "level": "| 🎥 Video",
+      "last_reviewed": null,
+      "notes": "Intuitive animated explanation of attention mechanisms and transformer blocks | Beginner | 2026-06",
+      "file": "05-generative-ai/llm-fundamentals.md",
+      "topic": "05-generative-ai/llm-fundamentals.md"
+    },
+    {
+      "title": "📄 Paper | [LLaVA: Large Language and Vision Assistant (Liu et al., 2023)](https://arxiv.org/abs/2304.08485) | Connects a CLIP vision encoder to a Vicuna LLM via a simple projection layer; strong instruction following | Intermediate | 2026-06",
+      "url": "https://arxiv.org/abs/2204.14198",
+      "type": "Unknown",
+      "level": "| 📄 Paper",
+      "last_reviewed": null,
+      "notes": "Pioneers interleaved text-image few-shot learning with gated cross-attention | Advanced | 2026-06",
+      "file": "05-generative-ai/multimodal-models.md",
+      "topic": "05-generative-ai/multimodal-models.md"
+    },
+    {
+      "title": "💻 Code/Notebook | [HuggingFace — Multimodal Transformers](https://huggingface.co/docs/transformers/en/multimodal) | Official notebooks for CLIP, BLIP2, Llava, and ImageBind inference and fine-tuning | Intermediate | 2026-06",
+      "url": "https://replicate.com/example/clip-interrogator",
+      "type": "Unknown",
+      "level": "| 🕹️ Visualizer/Playground",
+      "last_reviewed": null,
+      "notes": "Given an image, generates the text prompt that best describes it using CLIP embeddings | Beginner | 2026-06",
+      "file": "05-generative-ai/multimodal-models.md",
+      "topic": "05-generative-ai/multimodal-models.md"
+    },
+    {
+      "title": "🎥 Video | [Vision-Language Models explained (Stanford MLSys)](https://www.youtube.com/watch?v=example) | Seminar covering contrastive learning, visual grounding, and recent VLM architectures | Advanced | 2026-06",
+      "url": "https://cdn.openai.com/papers/GPTV_System_Card.pdf",
+      "type": "Unknown",
+      "level": "| 📰 Blog",
+      "last_reviewed": null,
+      "notes": "Analysis of GPT-4V's visual capabilities: OCR, chart reading, spatial reasoning, and safety | Intermediate | 2026-06",
+      "file": "05-generative-ai/multimodal-models.md",
+      "topic": "05-generative-ai/multimodal-models.md"
+    },
+    {
+      "title": "🕹️ Visualizer/Playground | [Anthropic Console — Claude](https://console.anthropic.com/) | Prompt development environment for Claude with message history, system prompt editor, and output comparison | Beginner | 2026-06",
+      "url": "https://aistudio.google.com/",
+      "type": "Unknown",
+      "level": "| 🕹️ Visualizer/Playground",
+      "last_reviewed": null,
+      "notes": "Free browser IDE for Gemini with multimodal prompting (image, audio, video), safety tuning, and model comparison | Beginner | 2026-06",
+      "file": "05-generative-ai/playgrounds.md",
+      "topic": "05-generative-ai/playgrounds.md"
+    },
+    {
+      "title": "🕹️ Visualizer/Playground | [HuggingFace Spaces](https://huggingface.co/spaces) | Community-hosted Gradio/Streamlit demos for thousands of models: text, image, audio, video, 3D | Intermediate | 2026-06",
+      "url": "https://replicate.com/",
+      "type": "Unknown",
+      "level": "| 🕹️ Visualizer/Playground",
+      "last_reviewed": null,
+      "notes": "Cloud API with a web UI to run open-source models: Stable Diffusion, Flux, Whisper, LLaMA, and more | Beginner | 2026-06",
+      "file": "05-generative-ai/playgrounds.md",
+      "topic": "05-generative-ai/playgrounds.md"
+    },
+    {
+      "title": "🕹️ Visualizer/Playground | [Stable Diffusion Web UI (AUTOMATIC1111)](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Self-hosted Gradio interface for image generation, inpainting, ControlNet, and LoRA switching | Intermediate | 2026-06",
+      "url": "https://labs.perplexity.ai/",
+      "type": "Unknown",
+      "level": "| 🕹️ Visualizer/Playground",
+      "last_reviewed": null,
+      "notes": "Free chat interface for experimenting with open-source LLMs (Llama, Mistral, Mixtral, Sonar) | Beginner | 2026-06",
+      "file": "05-generative-ai/playgrounds.md",
+      "topic": "05-generative-ai/playgrounds.md"
+    },
+    {
+      "title": "📘 Docs | [Anthropic Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) | Comprehensive guide with techniques specific to Claude, including XML tags and chain-of-thought | Beginner | 2026-06",
+      "url": "https://arxiv.org/abs/2201.11903",
+      "type": "Unknown",
+      "level": "| 📄 Paper",
+      "last_reviewed": null,
+      "notes": "Demonstrates that step-by-step reasoning prompts drastically improve multi-step arithmetic and logic | Intermediate | 2026-06",
+      "file": "05-generative-ai/prompt-engineering.md",
+      "topic": "05-generative-ai/prompt-engineering.md"
+    },
+    {
+      "title": "📄 Paper | [Tree of Thoughts (Yao et al., 2023)](https://arxiv.org/abs/2305.10601) | Extends CoT with tree search over reasoning paths, enabling deliberate planning | Advanced | 2026-06",
+      "url": "https://github.com/example/promptbench",
+      "type": "Unknown",
+      "level": "| 💻 Code/Notebook",
+      "last_reviewed": null,
+      "notes": "Framework for evaluating prompt robustness across adversarial, OOD, and style perturbations | Advanced | 2026-06",
+      "file": "05-generative-ai/prompt-engineering.md",
+      "topic": "05-generative-ai/prompt-engineering.md"
+    },
+    {
+      "title": "🕹️ Visualizer/Playground | [OpenAI Playground](https://platform.openai.com/playground) | Interactive chat and completion sandbox with adjustable system prompt, temperature, and top-p | Beginner | 2026-06",
+      "url": "https://www.deeplearning.ai/short-courses/",
+      "type": "Unknown",
+      "level": "| 🎓 Course",
+      "last_reviewed": null,
+      "notes": "Short hands-on course by Isa Fulford & Andrew Ng covering iterative prompt development | Beginner | 2026-06",
+      "file": "05-generative-ai/prompt-engineering.md",
+      "topic": "05-generative-ai/prompt-engineering.md"
+    },
+    {
+      "title": "📄 Paper | [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al., 2020)](https://arxiv.org/abs/2005.11401) | Original RAG paper proposing DPR + BART fusion-in-decoder for open-domain QA | Intermediate | 2026-06",
+      "url": "https://arxiv.org/abs/2002.08909",
+      "type": "Unknown",
+      "level": "| 📄 Paper",
+      "last_reviewed": null,
+      "notes": "Introduces masked language modeling with a learned retriever during pretraining | Advanced | 2026-06",
+      "file": "05-generative-ai/rag-systems.md",
+      "topic": "05-generative-ai/rag-systems.md"
+    },
+    {
+      "title": "💻 Code/Notebook | [LlamaIndex — RAG Starter Notebook](https://docs.llamaindex.ai/en/stable/examples/) | Practical notebooks covering basic RAG, advanced retrieval, and agentic RAG patterns | Intermediate | 2026-06",
+      "url": "https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyE1lLm3Dgbd2e",
+      "type": "Unknown",
+      "level": "| 🎥 Video",
+      "last_reviewed": null,
+      "notes": "Step-by-step video series building a RAG pipeline: chunking, embeddings, vector search, generation | Intermediate | 2026-06",
+      "file": "05-generative-ai/rag-systems.md",
+      "topic": "05-generative-ai/rag-systems.md"
+    },
+    {
+      "title": "🕹️ Visualizer/Playground | [ChromaDB interactive demo](https://example.com/chromadb-demo) | Browser-based playground to experiment with collections, embedding functions, and query filters | Beginner | 2026-06",
+      "url": "https://www.databricks.com/blog/rag-scale",
+      "type": "Unknown",
+      "level": "| 📰 Blog",
+      "last_reviewed": null,
+      "notes": "Production considerations for RAG: data ingestion pipelines, chunking strategies, and latency optimization | Advanced | 2026-06",
+      "file": "05-generative-ai/rag-systems.md",
+      "topic": "05-generative-ai/rag-systems.md"
+    },
+    {
+      "title": "2 | [Fundamentals / Tool Use & Function Calling](fundamentals/tool-use-and-function-calling.md) | Advanced | Function-calling APIs, tool definition, structured output",
+      "url": "fundamentals/multi-agent-systems.md",
+      "type": "Unknown",
+      "level": "| 3",
+      "last_reviewed": null,
+      "notes": "Advanced | Coordination, delegation, communication topologies",
+      "file": "06-agentic-ai/README.md",
+      "topic": "06-agentic-ai/README.md"
+    },
+    {
+      "title": "4 | [Current Tooling / Frameworks](current-tooling/frameworks.md) | Intermediate | LangGraph, CrewAI, AutoGen, Claude Agent SDK, Swarm",
+      "url": "current-tooling/mcp-model-context-protocol.md",
+      "type": "Unknown",
+      "level": "| 5",
+      "last_reviewed": null,
+      "notes": "Intermediate | MCP protocol, servers, clients, tool discovery",
+      "file": "06-agentic-ai/README.md",
+      "topic": "06-agentic-ai/README.md"
+    },
+    {
+      "title": "Module | Description | Level",
+      "url": "./model-serving.md",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "Inference APIs, batching, serving frameworks (Triton, TorchServe, BentoML) | Intermediate / Advanced",
+      "file": "07-mlops-and-deployment/README.md",
+      "topic": "07-mlops-and-deployment/README.md"
+    },
+    {
+      "title": "[Containers & Orchestration](./containers-and-orchestration.md)",
+      "url": "./monitoring-and-observability.md",
+      "type": "Unknown",
+      "level": "Docker, Kubernetes, Helm charts for ML workloads | Intermediate |",
+      "last_reviewed": null,
+      "notes": "Drift detection, logging, alerting, observability stacks | Intermediate / Advanced",
+      "file": "07-mlops-and-deployment/README.md",
+      "topic": "07-mlops-and-deployment/README.md"
+    },
+    {
+      "title": "Directory | Focus | Target Audience",
+      "url": "./beginner/",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "Small, focused projects with guided steps | Entry-level learners",
+      "file": "08-projects-and-examples/README.md",
+      "topic": "08-projects-and-examples/README.md"
+    },
+    {
+      "title": "[Intermediate](./intermediate/)",
+      "url": "./advanced/",
+      "type": "Unknown",
+      "level": "Multi-component projects with real datasets | Learners with fundamentals |",
+      "last_reviewed": null,
+      "notes": "Research-level, distributed, or production-grade systems | Experienced practitioners",
+      "file": "08-projects-and-examples/README.md",
+      "topic": "08-projects-and-examples/README.md"
+    },
+    {
+      "title": "Section | Description | Level",
+      "url": "./must-read-classics.md",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "Foundational papers in ML, DL, NLP, and computer vision | All levels",
+      "file": "09-research-papers/README.md",
+      "topic": "09-research-papers/README.md"
+    },
+    {
+      "title": "[GenAI & Agentic Papers](./genai-and-agentic-papers.md)",
+      "url": "./how-to-read-papers.md",
+      "type": "Unknown",
+      "level": "Transformers, diffusion models, LLMs, agents, multimodal | Intermediate / Advanced |",
+      "last_reviewed": null,
+      "notes": "Strategies, templates, and tools for paper reading | Beginner",
+      "file": "09-research-papers/README.md",
+      "topic": "09-research-papers/README.md"
+    },
+    {
+      "title": "Section | Description | Level",
+      "url": "./ml-interview-questions.md",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "Common ML questions with resources | All levels",
+      "file": "10-interview-prep/README.md",
+      "topic": "10-interview-prep/README.md"
+    },
+    {
+      "title": "[System Design for ML](./system-design-for-ml.md)",
+      "url": "./coding-practice.md",
+      "type": "Unknown",
+      "level": "Designing ML systems (modeling and infrastructure) | Senior / Staff |",
+      "last_reviewed": null,
+      "notes": "LeetCode, algorithm prep, ML coding rounds | All levels",
+      "file": "10-interview-prep/README.md",
+      "topic": "10-interview-prep/README.md"
+    },
+    {
+      "title": "Resource | Type | Level | Last Reviewed | Notes",
+      "url": "https://...",
+      "type": "Unknown",
+      "level": "|---|---|---|---|---|",
+      "last_reviewed": null,
+      "notes": "Type | Level | YYYY-MM | Why it's good",
+      "file": "CONTRIBUTING.md",
+      "topic": "CONTRIBUTING.md"
+    },
+    {
+      "title": "Section | Description",
+      "url": "./newsletters-and-blogs.md",
+      "type": "Unknown",
+      "level": "|---|---|",
+      "last_reviewed": null,
+      "notes": "Curated reading for ML news and tutorials",
+      "file": "community/README.md",
+      "topic": "community/README.md"
+    },
+    {
+      "title": "[YouTube Channels](./youtube-channels.md)",
+      "url": "./podcasts.md",
+      "type": "Unknown",
+      "level": "Video tutorials, lectures, and conference talks |",
+      "last_reviewed": null,
+      "notes": "ML and AI podcasts for commute and background",
+      "file": "community/README.md",
+      "topic": "community/README.md"
+    },
+    {
+      "title": "Path | Target Audience | Est. Time | Starting Module",
+      "url": "./absolute-beginner.md",
+      "type": "Unknown",
+      "level": "|---|---|---|---|",
+      "last_reviewed": null,
+      "notes": "No prior ML experience, basic Python | 6–12 months | 01-Fundamentals",
+      "file": "learning-paths/README.md",
+      "topic": "learning-paths/README.md"
+    },
+    {
+      "title": "[Data Scientist](./data-scientist-track.md)",
+      "url": "./ml-engineer-track.md",
+      "type": "Unknown",
+      "level": "Analysts moving into ML | 4–8 months | 01-Fundamentals |",
+      "last_reviewed": null,
+      "notes": "Builders focusing on deployment and scale | 3–6 months | 03-DL / 07-MLOps",
+      "file": "learning-paths/README.md",
+      "topic": "learning-paths/README.md"
+    },
+    {
+      "title": "[GenAI Engineer](./genai-engineer-track.md)",
+      "url": "./agentic-ai-track.md",
+      "type": "Unknown",
+      "level": "Building with LLMs, RAG, and generative models | 3–6 months | 04-NLP / 05-GenAI |",
+      "last_reviewed": null,
+      "notes": "Creating multi-agent systems and tools | 2–4 months | 05-GenAI / 08-Projects",
+      "file": "learning-paths/README.md",
+      "topic": "learning-paths/README.md"
+    },
+    {
+      "title": "1 | Python for ML | Python tutorials, numpy, pandas | Comfortable data manipulation",
+      "url": "../00-math-refresher/",
+      "type": "Unknown",
+      "level": "| 2",
+      "last_reviewed": null,
+      "notes": "Linear algebra, probability, calculus intuition | Understand ML math",
+      "file": "learning-paths/absolute-beginner.md",
+      "topic": "learning-paths/absolute-beginner.md"
+    },
+    {
+      "title": "5 | [Module 03 — Deep Learning](../03-deep-learning/) | Neural nets, CNNs, backpropagation | Train a simple neural network",
+      "url": "../08-projects-and-examples/beginner/",
+      "type": "Unknown",
+      "level": "| 6",
+      "last_reviewed": null,
+      "notes": "Titanic, Iris, MNIST | Build 2 portfolio projects",
+      "file": "learning-paths/absolute-beginner.md",
+      "topic": "learning-paths/absolute-beginner.md"
+    },
+    {
+      "title": "8 | [08-Intermediate Projects](../08-projects-and-examples/intermediate/) | Sentiment analysis, image classifier | Deploy a model with FastAPI",
+      "url": "../07-mlops-and-deployment/",
+      "type": "Unknown",
+      "level": "| 9",
+      "last_reviewed": null,
+      "notes": "Model serving, Docker basics | Containerize a model",
+      "file": "learning-paths/absolute-beginner.md",
+      "topic": "learning-paths/absolute-beginner.md"
+    },
+    {
+      "title": "2 | [Module 05 — GenAI (Multi-Agent)](../05-genai/) | LangGraph, AutoGen, CrewAI | Multi-agent orchestration",
+      "url": "../08-projects-and-examples/advanced/",
+      "type": "Unknown",
+      "level": "| 3",
+      "last_reviewed": null,
+      "notes": "Build a multi-agent system | Hands-on implementation",
+      "file": "learning-paths/agentic-ai-track.md",
+      "topic": "learning-paths/agentic-ai-track.md"
+    },
+    {
+      "title": "Module | When to Take",
+      "url": "../04-nlp/",
+      "type": "Unknown",
+      "level": "|---|---|",
+      "last_reviewed": null,
+      "notes": "If needing stronger NLP foundations",
+      "file": "learning-paths/agentic-ai-track.md",
+      "topic": "learning-paths/agentic-ai-track.md"
+    },
+    {
+      "title": "[Module 06 — Advanced Topics](../06-advanced-topics/)",
+      "url": "../07-mlops-and-deployment/",
+      "type": "Unknown",
+      "level": "RLHF, preference optimization |",
+      "last_reviewed": null,
+      "notes": "Deploying agents in production",
+      "file": "learning-paths/agentic-ai-track.md",
+      "topic": "learning-paths/agentic-ai-track.md"
+    },
+    {
+      "title": "Project | Module Connection | Skills",
+      "url": "../08-projects-and-examples/advanced/#multi-agent-system-with-rag",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "05-GenAI | LangGraph, tool use, memory",
+      "file": "learning-paths/agentic-ai-track.md",
+      "topic": "learning-paths/agentic-ai-track.md"
+    },
+    {
+      "title": "2 | [Module 02 — ML Algorithms](../02-machine-learning/) | Linear/Logistic Regression, Trees, Ensembles | Interpretable models",
+      "url": "../04-nlp/",
+      "type": "Unknown",
+      "level": "| 3",
+      "last_reviewed": null,
+      "notes": "Text processing, sentiment, topic modeling | Unstructured data analysis",
+      "file": "learning-paths/data-scientist-track.md",
+      "topic": "learning-paths/data-scientist-track.md"
+    },
+    {
+      "title": "Module | When to Take",
+      "url": "../03-deep-learning/",
+      "type": "Unknown",
+      "level": "|---|---|",
+      "last_reviewed": null,
+      "notes": "If working with images or sequence data",
+      "file": "learning-paths/data-scientist-track.md",
+      "topic": "learning-paths/data-scientist-track.md"
+    },
+    {
+      "title": "[Module 05 — GenAI](../05-genai/)",
+      "url": "../07-mlops-and-deployment/",
+      "type": "Unknown",
+      "level": "If interested in LLMs for data analysis |",
+      "last_reviewed": null,
+      "notes": "If deploying models to production",
+      "file": "learning-paths/data-scientist-track.md",
+      "topic": "learning-paths/data-scientist-track.md"
+    },
+    {
+      "title": "Project | Module Connection | Skills",
+      "url": "../08-projects-and-examples/intermediate/#customer-churn-predictor",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "02-ML, 07-MLOps | Classification, deployment",
+      "file": "learning-paths/data-scientist-track.md",
+      "topic": "learning-paths/data-scientist-track.md"
+    },
+    {
+      "title": "[Time Series Forecasting](../08-projects-and-examples/intermediate/#time-series-forecasting)",
+      "url": "../08-projects-and-examples/intermediate/#sentiment-analysis-pipeline",
+      "type": "Unknown",
+      "level": "02-ML, 06-Advanced | Regression, temporal data |",
+      "last_reviewed": null,
+      "notes": "04-NLP | Text processing, BERT",
+      "file": "learning-paths/data-scientist-track.md",
+      "topic": "learning-paths/data-scientist-track.md"
+    },
+    {
+      "title": "2 | [Module 05 — GenAI](../05-genai/) | LLMs, prompting, RAG, agents | Core GenAI patterns",
+      "url": "../07-mlops-and-deployment/model-serving.md",
+      "type": "Unknown",
+      "level": "| 3",
+      "last_reviewed": null,
+      "notes": "Triton, BentoML, vLLM | Deploy LLMs in production",
+      "file": "learning-paths/genai-engineer-track.md",
+      "topic": "learning-paths/genai-engineer-track.md"
+    },
+    {
+      "title": "Module | When to Take",
+      "url": "../03-deep-learning/",
+      "type": "Unknown",
+      "level": "|---|---|",
+      "last_reviewed": null,
+      "notes": "If fine-tuning models or building custom architectures",
+      "file": "learning-paths/genai-engineer-track.md",
+      "topic": "learning-paths/genai-engineer-track.md"
+    },
+    {
+      "title": "[Module 06 — Advanced Topics](../06-advanced-topics/)",
+      "url": "../07-mlops-and-deployment/ci-cd-for-ml.md",
+      "type": "Unknown",
+      "level": "Diffusion models, multimodal systems |",
+      "last_reviewed": null,
+      "notes": "Automating fine-tuning pipelines",
+      "file": "learning-paths/genai-engineer-track.md",
+      "topic": "learning-paths/genai-engineer-track.md"
+    },
+    {
+      "title": "Project | Module Connection | Skills",
+      "url": "../08-projects-and-examples/end-to-end-systems/#document-question-answering-system",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "05-GenAI | RAG, ChromaDB, Streamlit",
+      "file": "learning-paths/genai-engineer-track.md",
+      "topic": "learning-paths/genai-engineer-track.md"
+    },
+    {
+      "title": "[Distributed LLM Fine-Tuning](../08-projects-and-examples/advanced/#distributed-llm-fine-tuning)",
+      "url": "../08-projects-and-examples/advanced/#multi-agent-system-with-rag",
+      "type": "Unknown",
+      "level": "03-DL, 05-GenAI | LoRA, DeepSpeed |",
+      "last_reviewed": null,
+      "notes": "05-GenAI | LangGraph, tool use",
+      "file": "learning-paths/genai-engineer-track.md",
+      "topic": "learning-paths/genai-engineer-track.md"
+    },
+    {
+      "title": "2 | [Module 07 — MLOps & Deployment](../07-mlops-and-deployment/) | Model serving, Docker, K8s, CI/CD | Deploy a model to production",
+      "url": "../07-mlops-and-deployment/containers-and-orchestration.md",
+      "type": "Unknown",
+      "level": "| 3",
+      "last_reviewed": null,
+      "notes": "Docker, Kubernetes | Containerized ML workloads",
+      "file": "learning-paths/ml-engineer-track.md",
+      "topic": "learning-paths/ml-engineer-track.md"
+    },
+    {
+      "title": "Module | When to Take",
+      "url": "../03-deep-learning/",
+      "type": "Unknown",
+      "level": "|---|---|",
+      "last_reviewed": null,
+      "notes": "If serving neural network models",
+      "file": "learning-paths/ml-engineer-track.md",
+      "topic": "learning-paths/ml-engineer-track.md"
+    },
+    {
+      "title": "[Module 05 — GenAI](../05-genai/)",
+      "url": "../04-nlp/",
+      "type": "Unknown",
+      "level": "If deploying LLMs and RAG systems |",
+      "last_reviewed": null,
+      "notes": "If working on text-based models",
+      "file": "learning-paths/ml-engineer-track.md",
+      "topic": "learning-paths/ml-engineer-track.md"
+    },
+    {
+      "title": "Project | Module Connection | Skills",
+      "url": "../08-projects-and-examples/advanced/#ml-pipeline-on-kubernetes",
+      "type": "Unknown",
+      "level": "|---|---|---|",
+      "last_reviewed": null,
+      "notes": "07-MLOps | KF Pipelines, KServe",
+      "file": "learning-paths/ml-engineer-track.md",
+      "topic": "learning-paths/ml-engineer-track.md"
+    },
+    {
+      "title": "[Image Search Engine](../08-projects-and-examples/end-to-end-systems/#image-search-engine)",
+      "url": "../08-projects-and-examples/end-to-end-systems/#document-question-answering-system",
+      "type": "Unknown",
+      "level": "03-DL, 07-MLOps | CLIP, vector DB, API |",
+      "last_reviewed": null,
+      "notes": "05-GenAI, 07-MLOps | RAG, LangChain, deployment",
+      "file": "learning-paths/ml-engineer-track.md",
+      "topic": "learning-paths/ml-engineer-track.md"
+    },
+    {
+      "title": "StatQuest: Linear Regression",
+      "url": "https://youtube.com/...",
+      "type": "🎥 Video",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Best first intuition-builder",
+      "file": "templates/resource-entry-template.md",
+      "topic": "templates/resource-entry-template.md"
+    },
+    {
+      "title": "Scikit-learn Docs: Linear Models",
+      "url": "https://scikit-learn.org/...",
+      "type": "📘 Docs",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Reference implementation",
+      "file": "templates/resource-entry-template.md",
+      "topic": "templates/resource-entry-template.md"
+    },
+    {
+      "title": "Andrew Ng — ML Specialization",
+      "url": "https://coursera.org/...",
+      "type": "🎓 Course",
+      "level": "Beginner",
+      "last_reviewed": "2026-06",
+      "notes": "Full module on regression",
+      "file": "templates/resource-entry-template.md",
+      "topic": "templates/resource-entry-template.md"
+    }
+  ]
+}
