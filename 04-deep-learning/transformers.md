@@ -1,6 +1,6 @@
 # Transformers
 
-> The transformer architecture, self-attention mechanisms, and the foundation models that reshaped NLP and beyond. Covers the original Transformer, BERT, GPT, and modern variants.
+> The transformer architecture, self-attention mechanisms, and the foundation models that reshaped NLP and beyond. Covers the original Transformer, BERT, GPT, encoder-decoder models, multimodal transformers, and modern LLM architectures.
 
 **Last Reviewed:** 2026-06
 
@@ -13,91 +13,169 @@
 ### 📘 Docs & Textbooks
 
 | Title | Level | Link | Notes |
-|---|---|---|---|
-| *Understanding Deep Learning* — Chapters 11–12 (Prince) | Intermediate | [Link](https://example.com/udl-ch11-12) | Modern treatment of attention and transformers |
-| *Dive into Deep Learning* — Chapter 11 (Attention & Transformers) | Intermediate | [Link](https://example.com/d2l-attention) | Code-first: implement attention, transformer, BERT |
-| *Speech and Language Processing* — Chapter 9 (Jurafsky & Martin) | Intermediate | [Link](https://example.com/slp-ch9) | NLP-focused transformer coverage |
-| Hugging Face — *Transformers Documentation* | Beginner | [Link](https://example.com/hf-transformers-docs) | Practical API reference |
+|------|------|------|------|
+| Hugging Face Transformers Documentation | Beginner | https://huggingface.co/docs/transformers | Complete documentation with tutorials |
+| Dive into Deep Learning — Attention & Transformers | Beginner | https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html | Excellent implementation-first approach |
+| Speech and Language Processing (Jurafsky & Martin) | Intermediate | https://web.stanford.edu/~jurafsky/slp3/ | Gold-standard NLP textbook |
+| Illustrated Transformer (Jay Alammar) | Beginner | https://jalammar.github.io/illustrated-transformer/ | Best visual explanation of transformers |
+| Understanding Deep Learning | Intermediate | https://udlbook.github.io/udlbook/ | Modern explanation of attention mechanisms |
 
-### 🎥 Video
+---
 
-| Title | Level | Link | Notes |
-|---|---|---|---|
-| 3Blue1Brown — *Attention in Transformers, Visually Explained* | Beginner | [Link](https://example.com/3b1b-attention) | Best visual intuition for self-attention |
-| Stanford CS224n — *Transformer Lectures (2023)* | Intermediate | [Link](https://example.com/cs224n-transformer) | In-depth university lecture on the Transformer |
-| Yannic Kilcher — *Attention is All You Need* (Paper Walkthrough) | Intermediate | [Link](https://example.com/yk-attention-paper) | Detailed breakdown of the original transformer paper |
-| Andrej Karpathy — *Let's build GPT from scratch* | Advanced | [Link](https://example.com/karpathy-gpt-scratch) | Build a GPT-style transformer line by line |
-
-### 🎓 Course
+### 🎥 Videos
 
 | Title | Level | Link | Notes |
-|---|---|---|---|
-| Coursera — *Natural Language Processing with Attention Models* (DeepLearning.AI) | Intermediate | [Link](https://example.com/coursera-attention) | Covers attention, transformers, T5, BERT |
-| Hugging Face — *NLP Course* (Transformers) | Beginner | [Link](https://example.com/hf-course) | Fine-tune pre-trained models on real tasks |
-| Stanford CS224n — *Full Course (2024)* | Intermediate | [Link](https://example.com/cs224n-2024) | Cutting-edge NLP course with transformer focus |
+|------|------|------|------|
+| 3Blue1Brown — Attention in Transformers | Beginner | https://youtu.be/eMlx5fFNoYc | Best visual intuition |
+| Andrej Karpathy — Let's Build GPT From Scratch | Intermediate | https://www.youtube.com/watch?v=kCc8FmEb1nY | Must-watch implementation |
+| Stanford CS224N Transformer Lecture | Intermediate | https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ | University-quality lectures |
+| Yannic Kilcher — Attention Is All You Need | Advanced | https://www.youtube.com/results?search_query=yannic+kilcher+attention+is+all+you+need | Detailed paper walkthrough |
+| Sebastian Raschka — LLM From Scratch | Intermediate | https://www.youtube.com/@SebastianRaschka | Practical transformer implementation |
 
-### 🕹️ Visualizer / Playground
+---
 
-| Title | Level | Link | Notes |
-|---|---|---|---|
-| BertViz — *Attention Visualization* | Beginner | [Link](https://example.com/bertviz) | Interactive attention head visualization |
-| Transformer Explainer (Poloclub) | Beginner | [Link](https://example.com/transformer-explainer) | Step-through of the full transformer architecture |
-| *The Illustrated Transformer* (Jay Alammar) | Beginner | [Link](https://example.com/illustrated-transformer) | Animated diagrams of attention, multi-head, positional encoding |
-
-### 📄 Paper
+### 🎓 Courses
 
 | Title | Level | Link | Notes |
-|---|---|---|---|
-| *Attention is All You Need* (Vaswani et al., 2017) | Intermediate | [Link](https://example.com/attention-paper) | The original Transformer paper — foundational reading |
-| *BERT: Pre-training of Deep Bidirectional Transformers* (Devlin et al., 2019) | Intermediate | [Link](https://example.com/bert-paper) | Bidirectional pre-training for language understanding |
-| *Language Models are Few-Shot Learners* (Brown et al., 2020) | Advanced | [Link](https://example.com/gpt3-paper) | GPT-3 scaling laws and in-context learning |
+|------|------|------|------|
+| Hugging Face NLP Course | Beginner | https://huggingface.co/learn/nlp-course | Best free transformers course |
+| Stanford CS224N | Intermediate | https://web.stanford.edu/class/cs224n/ | Premier NLP course |
+| DeepLearning.AI NLP Specialization | Intermediate | https://www.coursera.org/specializations/natural-language-processing | Attention, transformers, BERT |
+| Fast.ai Practical Deep Learning | Beginner | https://course.fast.ai/ | Uses transformers in practice |
+| Full Stack Deep Learning | Advanced | https://fullstackdeeplearning.com/ | Production LLM systems |
 
-### 💻 Code / Notebook
+---
 
-| Title | Level | Link | Notes |
-|---|---|---|---|
-| *The Annotated Transformer* (Harvard NLP) | Intermediate | [Link](https://example.com/annotated-transformer) | Line-by-line implementation of Transformer in PyTorch |
-| nanoGPT (Andrej Karpathy) | Advanced | [Link](https://example.com/nanogpt) | Minimal, clean GPT implementation for training and fine-tuning |
-| Hugging Face — *Fine-tune BERT for Text Classification* | Beginner | [Link](https://example.com/hf-bert-finetune) | Quick tutorial using the transformers library |
-
-### 📰 Blog
+### 🕹️ Interactive Visualizers
 
 | Title | Level | Link | Notes |
-|---|---|---|---|
-| *The Illustrated Transformer* (Jay Alammar) | Beginner | [Link](https://example.com/illustrated-transformer-blog) | Visual guide that complements the paper |
-| *The Illustrated BERT, ELMo, and co.* (Jay Alammar) | Beginner | [Link](https://example.com/illustrated-bert) | How BERT builds on the transformer |
-| *Transformers from Scratch* (Peter Bloem) | Intermediate | [Link](https://example.com/transformers-scratch) | Clear blog series implementing a transformer in PyTorch |
+|------|------|------|------|
+| Transformer Explainer (Poloclub) | Beginner | https://poloclub.github.io/transformer-explainer/ | Interactive transformer visualization |
+| BertViz | Beginner | https://github.com/jessevig/bertviz | Visualize attention heads |
+| TensorFlow Playground | Beginner | https://playground.tensorflow.org | Neural network intuition |
+| Attention Visualizer | Intermediate | https://bbycroft.net/llm | Interactive LLM visualization |
+| LLM Visualization | Intermediate | https://jalammar.github.io/illustrated-transformer/ | Step-by-step diagrams |
+
+---
+
+### 📄 Papers
+
+| Title | Level | Link | Notes |
+|------|------|------|------|
+| Attention Is All You Need (2017) | Intermediate | https://arxiv.org/abs/1706.03762 | Original Transformer paper |
+| BERT (2018) | Intermediate | https://arxiv.org/abs/1810.04805 | Bidirectional encoder |
+| GPT-2 (2019) | Intermediate | https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf | Large-scale autoregressive LM |
+| Language Models are Few-Shot Learners (GPT-3) | Advanced | https://arxiv.org/abs/2005.14165 | GPT-3 |
+| RoFormer (RoPE) | Advanced | https://arxiv.org/abs/2104.09864 | Rotary Position Embeddings |
+| FlashAttention | Advanced | https://arxiv.org/abs/2205.14135 | Efficient attention |
+| LLaMA | Advanced | https://arxiv.org/abs/2302.13971 | Meta's foundation model |
+| LoRA | Intermediate | https://arxiv.org/abs/2106.09685 | Efficient fine-tuning |
+
+---
+
+### 💻 Code & Notebooks
+
+| Title | Level | Link | Notes |
+|------|------|------|------|
+| The Annotated Transformer | Intermediate | https://nlp.seas.harvard.edu/annotated-transformer/ | Best line-by-line implementation |
+| nanoGPT | Intermediate | https://github.com/karpathy/nanoGPT | Minimal GPT implementation |
+| minGPT | Intermediate | https://github.com/karpathy/minGPT | Educational GPT |
+| Hugging Face Course Notebooks | Beginner | https://github.com/huggingface/course | Companion notebooks |
+| Transformers Examples | Intermediate | https://github.com/huggingface/transformers/tree/main/examples | Official training scripts |
+| LLM From Scratch | Intermediate | https://github.com/rasbt/LLMs-from-scratch | Build GPT from scratch |
+
+---
+
+### 📰 Blogs & Articles
+
+| Title | Level | Link | Notes |
+|------|------|------|------|
+| Illustrated Transformer | Beginner | https://jalammar.github.io/illustrated-transformer/ | Classic visual guide |
+| Illustrated GPT-2 | Beginner | https://jalammar.github.io/illustrated-gpt2/ | GPT architecture explained |
+| Illustrated BERT | Beginner | https://jalammar.github.io/illustrated-bert/ | BERT intuition |
+| Transformer Family Tree | Intermediate | https://lilianweng.github.io/posts/2020-04-07-the-transformer-family/ | Evolution of transformer models |
+| Lilian Weng's LLM Blog | Advanced | https://lilianweng.github.io/ | Excellent deep dives |
+| Sebastian Raschka Blog | Intermediate | https://sebastianraschka.com/blog/ | Modern LLM tutorials |
 
 ---
 
 ## Key Concepts Checklist
 
-- [ ] Self-attention mechanism (Q, K, V; scaled dot-product)
+### Foundations
+
+- [ ] Why RNNs struggle with long sequences
+- [ ] Attention intuition
+- [ ] Self-attention
+- [ ] Query, Key, Value
+- [ ] Scaled dot-product attention
 - [ ] Multi-head attention
-- [ ] Positional encoding (sinusoidal, learned, RoPE)
-- [ ] Transformer encoder (Bidirectional, BERT-style)
-- [ ] Transformer decoder (Causal masking, GPT-style)
-- [ ] Encoder-decoder Transformer (Original, T5-style)
-- [ ] Layer normalization and residual connections in transformers
-- [ ] Pre-training objectives (MLM, autoregressive, prefix LM)
-- [ ] Fine-tuning and transfer learning
-- [ ] Scaling laws and emergent abilities
-- [ ] Efficient attention variants (Flash Attention, Linformer)
+- [ ] Positional encoding
+- [ ] Residual connections
+- [ ] Layer normalization
+- [ ] Feed-forward networks
+
+### Transformer Architectures
+
+- [ ] Encoder
+- [ ] Decoder
+- [ ] Encoder-decoder
+- [ ] BERT architecture
+- [ ] GPT architecture
+- [ ] T5 architecture
+
+### Training
+
+- [ ] Masked Language Modeling (MLM)
+- [ ] Causal Language Modeling (CLM)
+- [ ] Next Sentence Prediction
+- [ ] Teacher forcing
+- [ ] Fine-tuning
+- [ ] Transfer learning
+
+### Modern LLM Techniques
+
+- [ ] RoPE
+- [ ] KV Cache
+- [ ] Flash Attention
+- [ ] LoRA
+- [ ] QLoRA
+- [ ] PEFT
+- [ ] Quantization
+- [ ] RLHF
+- [ ] DPO
+
+### Applications
+
+- [ ] Text classification
+- [ ] Summarization
+- [ ] Translation
+- [ ] Question answering
+- [ ] Text generation
+- [ ] Code generation
+- [ ] Vision Transformers (ViT)
+- [ ] Multimodal Transformers
 
 ---
 
 ## Projects / Practice
 
 | Project | Description |
-|---|---|
-| Implement a Transformer from scratch | Build a small character-level transformer for text generation |
-| Fine-tune BERT on a classification task | Use Hugging Face to fine-tune for sentiment or topic classification |
-| Pre-train a small GPT | Train a nanoGPT on a small corpus; observe scaling with size and data |
+|------|------|
+| Self-Attention from Scratch | Implement attention in NumPy |
+| Transformer from Scratch | Build encoder and decoder using PyTorch |
+| Character-Level GPT | Train nanoGPT on Shakespeare |
+| Fine-tune BERT | Sentiment classification with Hugging Face |
+| Fine-tune Llama using LoRA | Parameter-efficient fine-tuning |
+| Build a Chatbot | Create an instruction-following assistant |
+| Document Question Answering | Retrieval + Transformer |
+| Vision Transformer Classifier | Train ViT on CIFAR-10 |
 
 ---
 
 ## See also
 
-- [RNN & Sequence Models](rnn-sequence-models.md) — the predecessors to transformers
-- [Frameworks](frameworks.md) — Hugging Face, PyTorch for transformer development
-- [Visualizers](visualizers.md) — BertViz, Transformer Explainer for interactive exploration
+- [RNN & Sequence Models](rnn-sequence-models.md) — predecessors to attention
+- [LLMs & Generative AI](llms-and-generative-ai.md) — prompt engineering, instruction tuning, RLHF
+- [Frameworks](frameworks.md) — PyTorch, Hugging Face, TensorFlow
+- [MLOps](../06-mlops/README.md) — deploying transformer models
+- [Visualizers](visualizers.md) — attention visualizers and interactive transformer demos
