@@ -23,7 +23,7 @@ jobs:
           echo "has_stale=$(test -s stale-report.md && echo 'true' || echo 'false')" >> $GITHUB_OUTPUT
       - name: Create issue
         if: steps.stale.outputs.has_stale == 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const fs = require('fs');
