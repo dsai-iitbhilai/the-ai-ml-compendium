@@ -43,7 +43,7 @@ jobs:
           fi
 
       - name: Run lychee
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2
         id: lychee
         # Only run if not PR OR there are actually modified markdown files
         if: github.event_name != 'pull_request' || steps.changed-files.outputs.all_changed_files != ''
