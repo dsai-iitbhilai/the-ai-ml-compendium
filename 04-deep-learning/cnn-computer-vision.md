@@ -47,8 +47,8 @@ Vision Transformers
 
 ## 📘 Documentation & Books
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Dive into Deep Learning – Computer Vision | Beginner | https://d2l.ai/chapter_computer-vision/index.html | Free interactive textbook |
 | Deep Learning Book (Goodfellow) – CNN Chapter | Intermediate | https://www.deeplearningbook.org/ | Mathematical foundations |
 | Understanding Deep Learning (Prince) | Intermediate | https://udlbook.github.io/udlbook/ | Modern deep learning textbook |
@@ -60,8 +60,8 @@ Vision Transformers
 
 ## 🎥 Videos
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | 3Blue1Brown – CNNs Explained | Beginner | https://www.youtube.com/watch?v=KuXjwB4LzSA | Best intuition for convolution |
 | Stanford CS231n Lecture Series | Intermediate | https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv | Gold-standard CV lectures |
 | MIT 6.S191 Computer Vision | Intermediate | https://www.youtube.com/@MITDeepLearning | Modern CV concepts |
@@ -72,8 +72,8 @@ Vision Transformers
 
 ## 🎓 Courses
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | DeepLearning.AI – CNNs | Beginner | https://www.coursera.org/learn/convolutional-neural-networks | Andrew Ng |
 | fast.ai Practical Deep Learning | Beginner | https://course.fast.ai/ | Top-down learning |
 | Stanford CS231n | Intermediate | https://cs231n.stanford.edu/ | Best university course |
@@ -84,8 +84,8 @@ Vision Transformers
 
 ## 🕹 Interactive Visualizers
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | CNN Explainer | Beginner | https://poloclub.github.io/cnn-explainer/ | Best CNN visualization |
 | ConvNetJS Demo | Beginner | https://cs.stanford.edu/people/karpathy/convnetjs/ | Browser CNN demo |
 | TensorFlow Playground | Beginner | https://playground.tensorflow.org/ | Neural network intuition |
@@ -96,8 +96,8 @@ Vision Transformers
 
 ## 📄 Research Papers
 
-| Paper | Level | Link | Why Read |
-|-------|-------|------|----------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | LeNet-5 (1998) | Beginner | http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf | First successful CNN |
 | AlexNet (2012) | Intermediate | https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf | Started deep learning revolution |
 | VGGNet (2014) | Intermediate | https://arxiv.org/abs/1409.1556 | Simple deep architecture |
@@ -115,8 +115,8 @@ Vision Transformers
 
 ## 💻 Code & Notebooks
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | PyTorch CIFAR-10 Tutorial | Beginner | https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html | First CNN |
 | TensorFlow Image Classification | Beginner | https://www.tensorflow.org/tutorials/images/classification | Official tutorial |
 | Detectron2 Tutorials | Intermediate | https://detectron2.readthedocs.io/ | Detection & segmentation |
@@ -127,8 +127,8 @@ Vision Transformers
 
 ## 📰 Blogs
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Lilian Weng – Object Detection | Intermediate | https://lilianweng.github.io/posts/2018-12-27-object-recognition-part-4/ | Excellent detector overview |
 | PyImageSearch | Beginner | https://pyimagesearch.com/ | Practical OpenCV & DL tutorials |
 | Papers with Code – Computer Vision | Intermediate | https://paperswithcode.com/area/computer-vision | Papers + implementations |

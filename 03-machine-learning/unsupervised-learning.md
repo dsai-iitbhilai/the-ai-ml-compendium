@@ -13,7 +13,7 @@
 ### 📘 Docs & Textbooks
 
 | Title | Level | Link | Notes |
-|---------|---------|---------|---------|
+|---|---|---|---|
 | Scikit-learn User Guide — Clustering | Beginner | https://scikit-learn.org/stable/modules/clustering.html | Official clustering documentation |
 | UMAP Documentation | Intermediate | https://umap-learn.readthedocs.io | Comprehensive UMAP guide |
 | HDBSCAN Documentation | Intermediate | https://hdbscan.readthedocs.io | Excellent density-based clustering library |
@@ -27,7 +27,7 @@
 ### 🎥 Video
 
 | Title | Level | Link | Notes |
-|---------|---------|---------|---------|
+|---|---|---|---|
 | StatQuest: K-Means Clustering | Beginner | https://www.youtube.com/watch?v=4b5d3muPQmA | Best beginner explanation |
 | StatQuest: PCA Clearly Explained | Beginner | https://www.youtube.com/watch?v=FgakZw6K1QQ | PCA intuition |
 | StatQuest: Hierarchical Clustering | Beginner | https://www.youtube.com/watch?v=7xHsRkOdVwo | Dendrograms explained |
@@ -41,7 +41,7 @@
 ### 🎓 Courses
 
 | Title | Level | Link | Notes |
-|---------|---------|---------|---------|
+|---|---|---|---|
 | Machine Learning Specialization (Andrew Ng) | Beginner | https://www.coursera.org/specializations/machine-learning-introduction | Clustering and anomaly detection module |
 | Stanford CS229 | Intermediate | https://cs229.stanford.edu | Strong theoretical treatment |
 | mlcourse.ai | Intermediate | https://mlcourse.ai | Free and highly underrated |
@@ -53,7 +53,7 @@
 ### 🕹️ Visualizers & Playgrounds
 
 | Title | Level | Link | Notes |
-|---------|---------|---------|---------|
+|---|---|---|---|
 | K-Means Visualizer | Beginner | https://www.naftaliharris.com/blog/visualizing-k-means-clustering | Watch centroids converge |
 | DBSCAN Visualizer | Intermediate | https://www.naftaliharris.com/blog/visualizing-dbscan-clustering | Interactive DBSCAN demo |
 | PCA Explorer | Intermediate | https://setosa.io/ev/principal-component-analysis | Best PCA visualization |
@@ -66,7 +66,7 @@
 ### 📄 Papers
 
 | Title | Level | Link | Notes |
-|---------|---------|---------|---------|
+|---|---|---|---|
 | *k-means++: The Advantages of Careful Seeding* | Intermediate | https://theory.stanford.edu/~sergei/papers/kMeansPP-soda.pdf | Better initialization |
 | *DBSCAN: A Density-Based Algorithm* | Advanced | https://cdn.aaai.org/KDD/1996/KDD96-037.pdf | Original DBSCAN paper |
 | *t-SNE: Visualizing Data Using t-SNE* | Advanced | https://jmlr.org/papers/v9/vandermaaten08a.html | Original t-SNE paper |
@@ -79,7 +79,7 @@
 ### 💻 Code & Notebooks
 
 | Title | Level | Link | Notes |
-|---------|---------|---------|---------|
+|---|---|---|---|
 | Scikit-Learn Clustering Examples | Beginner | https://scikit-learn.org/stable/auto_examples/cluster | Official examples |
 | K-Means from Scratch | Intermediate | https://github.com/eriklindernoren/ML-From-Scratch | Learn internals |
 | PCA from Scratch | Intermediate | https://github.com/rasbt/mlxtend | Understand SVD |
@@ -92,7 +92,7 @@
 ### 📰 Blogs & Guides
 
 | Title | Level | Link | Notes |
-|---------|---------|---------|---------|
+|---|---|---|---|
 | Understanding UMAP | Beginner | https://pair-code.github.io/understanding-umap | Outstanding visual guide |
 | How to Choose a Clustering Algorithm | Intermediate | https://developers.google.com/machine-learning/clustering | Practical decision guide |
 | Clustering Algorithms Explained | Intermediate | https://scikit-learn.org/stable/modules/clustering.html | Official comparisons |

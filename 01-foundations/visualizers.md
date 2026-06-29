@@ -10,7 +10,7 @@
 
 ### Linear Algebra
 
-| Visualizer | Topic | Level | Link |
+| Title | Level | Link | Notes |
 |---|---|---|---|
 | Interactive Linear Algebra (Georgia Tech) | Vectors, spans, transformations | Beginner | https://textbooks.math.gatech.edu/ila/ |
 | Matrix Multiplication Visualiser | Matmul step-through | Beginner | https://academo.org/demos/matrix-multiplication/ |
@@ -19,7 +19,7 @@
 
 ### Calculus
 
-| Visualizer | Topic | Level | Link |
+| Title | Level | Link | Notes |
 |---|---|---|---|
 | Derivative Visualiser (Desmos) | Single-variable derivatives | Beginner | https://www.desmos.com/calculator |
 | 3D Gradient & Surface Plotter | Multivariate gradients | Intermediate | https://www.geogebra.org/3d |
@@ -28,7 +28,7 @@
 
 ### Probability & Statistics
 
-| Visualizer | Topic | Level | Link |
+| Title | Level | Link | Notes |
 |---|---|---|---|
 | Seeing Theory | Full interactive probability textbook | Beginner | https://seeing-theory.brown.edu |
 | Distribution Explorer | PDF/CDF parameters | Intermediate | https://distribution-explorer.github.io |
@@ -37,7 +37,7 @@
 
 ### Optimization
 
-| Visualizer | Topic | Level | Link |
+| Title | Level | Link | Notes |
 |---|---|---|---|
 | Gradient Descent Visualiser | GD on 2D surfaces | Beginner | https://www.geogebra.org/m/V74Px3zX |
 | Optimisation Sandbox (TensorFlow Playground) | Compare SGD, Adam, RMSProp | Intermediate | https://playground.tensorflow.org |
@@ -48,7 +48,7 @@
 
 ## Programming
 
-| Visualizer | Topic | Level | Link |
+| Title | Level | Link | Notes |
 |---|---|---|---|
 | Python Tutor | Step through Python code | Beginner | https://pythontutor.com |
 | Visualgo | Animated DS & algorithms | Beginner | https://visualgo.net/en |
@@ -60,7 +60,7 @@
 
 ## General / Multi-Topic
 
-| Visualizer | Topic | Level | Link |
+| Title | Level | Link | Notes |
 |---|---|---|---|
 | Distill.pub Articles (archive) | Various ML topics with interactive diagrams | Intermediate | https://distill.pub |
 | TensorFlow Playground | Neural network playground in browser | Beginner | https://playground.tensorflow.org |

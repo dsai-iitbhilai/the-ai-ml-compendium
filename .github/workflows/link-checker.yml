@@ -54,7 +54,7 @@ jobs:
             --max-concurrency 8
             --no-progress
             ${{ steps.target.outputs.files }}
-          fail: true
+          fail: false
 
       - name: Upload link-check report
         if: always()

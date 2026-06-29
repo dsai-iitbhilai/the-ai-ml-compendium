@@ -16,8 +16,8 @@
 
 ## 📘 Official Documentation & Books
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Fundamentals of Data Visualization (Claus Wilke) | ⭐ Beginner | https://clauswilke.com/dataviz/ | One of the best FREE books on visualization |
 | Storytelling with Data Blog | Beginner | https://www.storytellingwithdata.com/blog | Excellent visualization principles (book is paid, blog is free) |
 | matplotlib User Guide | Beginner | https://matplotlib.org/stable/users/index.html | Official documentation |
@@ -32,8 +32,8 @@
 
 ## 🎥 Video Playlists
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Corey Schafer — Matplotlib Tutorials | Beginner | https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_ | Best matplotlib introduction |
 | Data School — Seaborn Playlist | Beginner | https://www.youtube.com/@dataschool | Practical statistical visualization |
 | Keith Galli — Data Visualization | Beginner | https://www.youtube.com/@KeithGalli | Excellent beginner-friendly examples |
@@ -44,8 +44,8 @@
 
 ## 🎓 Free Courses
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Kaggle — Data Visualization | Beginner | https://www.kaggle.com/learn/data-visualization | Hands-on seaborn exercises |
 | Kaggle — Data Cleaning | Beginner | https://www.kaggle.com/learn/data-cleaning | Essential before EDA |
 | Google Data Analytics Visualization Articles | Beginner | https://developers.google.com/machine-learning/crash-course | Basic visualization concepts |
@@ -56,8 +56,8 @@
 
 ## 🧪 Interactive Tools
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Plotly Chart Studio | Beginner | https://chart-studio.plotly.com | Interactive plotting online |
 | From Data to Viz | Beginner | https://www.data-to-viz.com/ | Choose the right visualization |
 | RAWGraphs | Beginner | https://www.rawgraphs.io | Build advanced charts without coding |
@@ -69,8 +69,8 @@
 
 ## 💻 Code & Notebooks
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | pandas Visualization Guide | Beginner | https://pandas.pydata.org/docs/user_guide/visualization.html | Built-in plotting |
 | Plotly Express Examples | Beginner | https://plotly.com/python/plotly-express/ | Official examples |
 | matplotlib Tutorials | Beginner | https://matplotlib.org/stable/tutorials/index.html | Learn incrementally |
@@ -96,8 +96,8 @@
 
 ## 📰 Articles & Blogs
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Python Graph Gallery | Beginner | https://python-graph-gallery.com | Hundreds of visualization examples |
 | FlowingData | Beginner | https://flowingdata.com | Excellent visualization inspiration |
 | Storytelling with Data Blog | Beginner | https://www.storytellingwithdata.com/blog | Communication through visualization |

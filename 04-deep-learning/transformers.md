@@ -13,7 +13,7 @@
 ### 📘 Docs & Textbooks
 
 | Title | Level | Link | Notes |
-|------|------|------|------|
+|---|---|---|---|
 | Hugging Face Transformers Documentation | Beginner | https://huggingface.co/docs/transformers | Complete documentation with tutorials |
 | Dive into Deep Learning — Attention & Transformers | Beginner | https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html | Excellent implementation-first approach |
 | Speech and Language Processing (Jurafsky & Martin) | Intermediate | https://web.stanford.edu/~jurafsky/slp3/ | Gold-standard NLP textbook |
@@ -25,7 +25,7 @@
 ### 🎥 Videos
 
 | Title | Level | Link | Notes |
-|------|------|------|------|
+|---|---|---|---|
 | 3Blue1Brown — Attention in Transformers | Beginner | https://youtu.be/eMlx5fFNoYc | Best visual intuition |
 | Andrej Karpathy — Let's Build GPT From Scratch | Intermediate | https://www.youtube.com/watch?v=kCc8FmEb1nY | Must-watch implementation |
 | Stanford CS224N Transformer Lecture | Intermediate | https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ | University-quality lectures |
@@ -37,7 +37,7 @@
 ### 🎓 Courses
 
 | Title | Level | Link | Notes |
-|------|------|------|------|
+|---|---|---|---|
 | Hugging Face NLP Course | Beginner | https://huggingface.co/learn/nlp-course | Best free transformers course |
 | Stanford CS224N | Intermediate | https://web.stanford.edu/class/cs224n/ | Premier NLP course |
 | DeepLearning.AI NLP Specialization | Intermediate | https://www.coursera.org/specializations/natural-language-processing | Attention, transformers, BERT |
@@ -49,7 +49,7 @@
 ### 🕹️ Interactive Visualizers
 
 | Title | Level | Link | Notes |
-|------|------|------|------|
+|---|---|---|---|
 | Transformer Explainer (Poloclub) | Beginner | https://poloclub.github.io/transformer-explainer/ | Interactive transformer visualization |
 | BertViz | Beginner | https://github.com/jessevig/bertviz | Visualize attention heads |
 | TensorFlow Playground | Beginner | https://playground.tensorflow.org | Neural network intuition |
@@ -61,7 +61,7 @@
 ### 📄 Papers
 
 | Title | Level | Link | Notes |
-|------|------|------|------|
+|---|---|---|---|
 | Attention Is All You Need (2017) | Intermediate | https://arxiv.org/abs/1706.03762 | Original Transformer paper |
 | BERT (2018) | Intermediate | https://arxiv.org/abs/1810.04805 | Bidirectional encoder |
 | GPT-2 (2019) | Intermediate | https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf | Large-scale autoregressive LM |
@@ -76,7 +76,7 @@
 ### 💻 Code & Notebooks
 
 | Title | Level | Link | Notes |
-|------|------|------|------|
+|---|---|---|---|
 | The Annotated Transformer | Intermediate | https://nlp.seas.harvard.edu/annotated-transformer/ | Best line-by-line implementation |
 | nanoGPT | Intermediate | https://github.com/karpathy/nanoGPT | Minimal GPT implementation |
 | minGPT | Intermediate | https://github.com/karpathy/minGPT | Educational GPT |
@@ -89,7 +89,7 @@
 ### 📰 Blogs & Articles
 
 | Title | Level | Link | Notes |
-|------|------|------|------|
+|---|---|---|---|
 | Illustrated Transformer | Beginner | https://jalammar.github.io/illustrated-transformer/ | Classic visual guide |
 | Illustrated GPT-2 | Beginner | https://jalammar.github.io/illustrated-gpt2/ | GPT architecture explained |
 | Illustrated BERT | Beginner | https://jalammar.github.io/illustrated-bert/ | BERT intuition |

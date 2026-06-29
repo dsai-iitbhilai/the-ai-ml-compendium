@@ -42,8 +42,8 @@ Transformers
 
 ## 📘 Documentation & Books
 
-| Resource | Level | Link | Why Read |
-|-----------|-------|------|----------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Dive into Deep Learning — RNNs | Beginner | https://d2l.ai/chapter_recurrent-neural-networks/index.html | Best free hands-on introduction with code |
 | Deep Learning (Goodfellow, Bengio & Courville) – Chapter 10 | Intermediate | https://www.deeplearningbook.org | Complete theory of sequence models |
 | Understanding Deep Learning (Simon Prince) | Intermediate | https://udlbook.github.io/udlbook/ | Modern explanation of gated RNNs |
@@ -53,8 +53,8 @@ Transformers
 
 ## 🎥 Videos
 
-| Resource | Level | Link | Why Watch |
-|-----------|-------|------|-----------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | StatQuest — Recurrent Neural Networks | Beginner | https://www.youtube.com/@statquest | Excellent intuition for RNNs |
 | Christopher Olah — Understanding LSTMs (Video Companion) | Beginner | https://www.youtube.com/results?search_query=understanding+lstm+christopher+olah | Visual explanation of LSTM cells |
 | Stanford CS231n — RNNs & Image Captioning | Intermediate | https://www.youtube.com/watch?v=yCC09vCHzF8 | Sequence modeling from Stanford |
@@ -65,8 +65,8 @@ Transformers
 
 ## 🎓 Courses
 
-| Resource | Level | Link | Notes |
-|-----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | DeepLearning.AI — Sequence Models | Beginner | https://www.coursera.org/learn/nlp-sequence-models | Andrew Ng's course on RNNs, LSTMs and Attention |
 | Stanford CS224N | Intermediate | https://web.stanford.edu/class/cs224n/ | Best university NLP course |
 | fast.ai Practical Deep Learning | Beginner | https://course.fast.ai | Includes NLP using AWD-LSTM |
@@ -76,8 +76,8 @@ Transformers
 
 ## 🕹 Interactive Visualizers
 
-| Resource | Level | Link | Notes |
-|-----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | LSTM Explorer (TensorFlow Playground-inspired) | Beginner | https://lstm-demo.github.io/ | Interactive LSTM visualization |
 | Christopher Olah — Understanding LSTM Networks | Beginner | https://colah.github.io/posts/2015-08-Understanding-LSTMs/ | The best visual explanation of LSTMs |
 | Distill — Attention and Sequence Visualization | Intermediate | https://distill.pub | Interactive deep learning visualizations |
@@ -87,8 +87,8 @@ Transformers
 
 ## 📄 Must Read Papers
 
-| Paper | Level | Link | Importance |
-|--------|-------|------|-----------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Long Short-Term Memory (1997) | Advanced | https://www.bioinf.jku.at/publications/older/2604.pdf | Original LSTM paper |
 | Learning Phrase Representations using RNN Encoder–Decoder | Advanced | https://arxiv.org/abs/1406.1078 | Introduced GRU and Encoder–Decoder |
 | Sequence to Sequence Learning with Neural Networks | Intermediate | https://arxiv.org/abs/1409.3215 | Foundation of neural machine translation |
@@ -98,8 +98,8 @@ Transformers
 
 ## 💻 Code & Implementations
 
-| Resource | Level | Link | Notes |
-|-----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | PyTorch Sequence Models Tutorial | Beginner | https://pytorch.org/tutorials/beginner/nlp/sequence_models_tutorial.html | Official RNN/LSTM tutorial |
 | Dive into Deep Learning Notebooks | Beginner | https://github.com/d2l-ai/d2l-en | Hands-on notebooks |
 | char-rnn (Karpathy) | Intermediate | https://github.com/karpathy/char-rnn | Classic character-level text generation |
@@ -109,8 +109,8 @@ Transformers
 
 ## 📰 Articles & Blogs
 
-| Resource | Level | Link | Notes |
-|-----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | The Unreasonable Effectiveness of Recurrent Neural Networks | Intermediate | https://karpathy.github.io/2015/05/21/rnn-effectiveness/ | Classic RNN blog |
 | Understanding LSTM Networks | Beginner | https://colah.github.io/posts/2015-08-Understanding-LSTMs/ | Must-read article for LSTMs |
 | Lil'Log — Attention and Sequence Models | Intermediate | https://lilianweng.github.io | High-quality deep learning explanations |

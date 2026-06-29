@@ -16,8 +16,8 @@
 
 ## 📘 Official Documentation & Books
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Python Data Science Handbook (Jake VanderPlas) | ⭐ Beginner | https://jakevdp.github.io/PythonDataScienceHandbook/ | Free online book covering NumPy, pandas, visualization and ML |
 | pandas User Guide | Beginner | https://pandas.pydata.org/docs/user_guide/index.html | Complete official pandas documentation |
 | pandas API Reference | Intermediate | https://pandas.pydata.org/docs/reference/index.html | Every DataFrame and Series function |
@@ -31,8 +31,8 @@
 
 ## 🎥 Video Playlists
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Corey Schafer — Pandas Playlist | Beginner | https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS | Best beginner pandas playlist |
 | Data School — pandas Tutorials | Beginner | https://www.youtube.com/@dataschool | High-quality explanations with practical examples |
 | freeCodeCamp — Data Analysis with Python | Beginner | https://www.youtube.com/watch?v=r-uOLxNrNk8 | Complete 10+ hour course |
@@ -43,8 +43,8 @@
 
 ## 🎓 Free Courses
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Kaggle — Data Cleaning | Beginner | https://www.kaggle.com/learn/data-cleaning | Excellent micro-course |
 | Kaggle — Pandas | Beginner | https://www.kaggle.com/learn/pandas | Interactive notebook course |
 | Kaggle — Intro to Programming | Beginner | https://www.kaggle.com/learn/intro-to-programming | Python basics |
@@ -56,8 +56,8 @@
 
 ## 🧪 Interactive Practice
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Kaggle Notebooks | Beginner | https://www.kaggle.com/code | Browser-based coding |
 | Google Colab | Beginner | https://colab.research.google.com | Free cloud notebooks |
 | Binder | Beginner | https://mybinder.org | Launch GitHub notebooks instantly |
@@ -68,8 +68,8 @@
 
 ## 💻 Code & Notebooks
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | pandas Getting Started | Beginner | https://pandas.pydata.org/docs/getting_started/index.html | Official tutorials |
 | pandas Cookbook | Intermediate | https://github.com/jvns/pandas-cookbook | Practical recipes |
 | pandas Cheat Sheet | Beginner | https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf | Official cheat sheet |
@@ -94,8 +94,8 @@
 
 ## 📰 Articles & Blogs
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | A Visual Introduction to NumPy (Jay Alammar) | Beginner | https://jalammar.github.io/visual-numpy/ | Beautiful illustrations |
 | Modern Pandas (Tom Augspurger) | Intermediate | https://tomaugspurger.github.io/modern-1-intro | One of the best pandas series |
 | Practical Business Python | Intermediate | https://pbpython.com | Excellent real-world examples |

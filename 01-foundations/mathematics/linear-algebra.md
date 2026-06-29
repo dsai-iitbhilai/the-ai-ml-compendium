@@ -12,57 +12,57 @@
 
 ### 📘 Docs & Textbooks
 
-| Resource | Type | Level | Last Reviewed | Notes |
-|---|---|---|---|---|
-| [MIT OCW 18.06 — Lecture Notes](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/lecture-notes/) | 📘 Docs | Beginner | 2026-06 | Companion notes to Strang's legendary lectures |
-| [Introduction to Linear Algebra (Strang, 6th ed.) — Textbook Site](https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html) | 📘 Docs | Beginner | 2026-06 | Classic textbook; clear intuition for core concepts |
-| [The Matrix Cookbook (PDF)](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf) | 📘 Docs | Intermediate | 2026-06 | Handy reference of identities, derivatives, and decompositions |
-| [Immersive Linear Algebra (Online Book)](http://immersivemath.com/ila/index.html) | 📘 Docs | Beginner | 2026-06 | Fully interactive textbook with embedded visualizations |
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| MIT OCW 18.06 — Lecture Notes | Beginner | https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/pages/lecture-notes/ | Companion notes to Strang's legendary lectures |
+| Introduction to Linear Algebra (Strang, 6th ed.) — Textbook Site | Beginner | https://math.mit.edu/~gs/linearalgebra/ila6/indexila6.html | Classic textbook; clear intuition for core concepts |
+| The Matrix Cookbook (PDF) | Intermediate | https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf | Handy reference of identities, derivatives, and decompositions |
+| Immersive Linear Algebra (Online Book) | Beginner | http://immersivemath.com/ila/index.html | Fully interactive textbook with embedded visualizations |
 
 ### 🎥 Video
 
-| Resource | Type | Level | Last Reviewed | Notes |
-|---|---|---|---|---|
-| [3Blue1Brown — Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | 🎥 Video | Beginner | 2026-06 | Best-in-class animated intuition for vectors, spans, and transformations |
-| [MIT 18.06 — Linear Algebra (Gilbert Strang)](https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D) | 🎥 Video | Beginner | 2026-06 | Gold-standard full lecture series — 34 lectures |
-| [StatQuest: Linear Algebra Fundamentals](https://www.youtube.com/playlist?list=PLblh5JKOoLUIcdlgu78MnlATeyx4cEVeR) | 🎥 Video | Beginner | 2026-06 | Bite-sized, intuition-first explanations |
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| 3Blue1Brown — Essence of Linear Algebra | Beginner | https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab | Best-in-class animated intuition for vectors, spans, and transformations |
+| MIT 18.06 — Linear Algebra (Gilbert Strang) | Beginner | https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D | Gold-standard full lecture series — 34 lectures |
+| StatQuest: Linear Algebra Fundamentals | Beginner | https://www.youtube.com/playlist?list=PLblh5JKOoLUIcdlgu78MnlATeyx4cEVeR | Bite-sized, intuition-first explanations |
 
 ### 🎓 Course
 
-| Resource | Type | Level | Last Reviewed | Notes |
-|---|---|---|---|---|
-| [Khan Academy — Linear Algebra](https://www.khanacademy.org/math/linear-algebra) | 🎓 Course | Beginner | 2026-06 | Free, self-paced with exercises |
-| [Mathematics for Machine Learning: Linear Algebra (Coursera / Imperial College)](https://www.coursera.org/learn/linear-algebra-machine-learning) | 🎓 Course | Beginner | 2026-06 | Short, practical course focused on ML applications |
-| [fast.ai — Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra) | 🎓 Course | Intermediate | 2026-06 | Top-down, code-first approach to numerical methods |
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| Khan Academy — Linear Algebra | Beginner | https://www.khanacademy.org/math/linear-algebra | Free, self-paced with exercises |
+| Mathematics for Machine Learning: Linear Algebra (Coursera / Imperial College) | Beginner | https://www.coursera.org/learn/linear-algebra-machine-learning | Short, practical course focused on ML applications |
+| fast.ai — Computational Linear Algebra | Intermediate | https://github.com/fastai/numerical-linear-algebra | Top-down, code-first approach to numerical methods |
 
 ### 🕹️ Visualizer / Playground
 
-| Resource | Type | Level | Last Reviewed | Notes |
-|---|---|---|---|---|
-| [Interactive Linear Algebra (Georgia Tech)](https://textbooks.math.gatech.edu/ila/) | 🕹️ Visualizer/Playground | Beginner | 2026-06 | Interactive textbook — visualize vectors, spans, and transformations |
-| [Eigenvectors and Eigenvalues Explained Visually](https://setosa.io/ev/eigenvectors-and-eigenvalues/) | 🕹️ Visualizer/Playground | Beginner | 2026-06 | Drag-to-explore eigenvalue visualization |
-| [Matrix Multiplication Visualizer](http://matrixmultiplication.xyz/) | 🕹️ Visualizer/Playground | Beginner | 2026-06 | Step-through matmul animation |
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| Interactive Linear Algebra (Georgia Tech) | Beginner | https://textbooks.math.gatech.edu/ila/ | Interactive textbook — visualize vectors, spans, and transformations |
+| Eigenvectors and Eigenvalues Explained Visually | Beginner | https://setosa.io/ev/eigenvectors-and-eigenvalues/ | Drag-to-explore eigenvalue visualization |
+| Matrix Multiplication Visualizer | Beginner | http://matrixmultiplication.xyz/ | Step-through matmul animation |
 
 ### 📄 Paper
 
-| Resource | Type | Level | Last Reviewed | Notes |
-|---|---|---|---|---|
-| [Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions (Halko, Martinsson, Tropp)](https://arxiv.org/abs/0909.4061) | 📄 Paper | Advanced | 2026-06 | Foundational paper for scalable randomized SVD |
-| [Attention Is All You Need (Vaswani et al.)](https://arxiv.org/abs/1706.03762) | 📄 Paper | Advanced | 2026-06 | See how linear algebra (matrix multiply, softmax) powers modern Transformers |
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| Finding Structure with Randomness: Probabilistic Algorithms for Constructing Approximate Matrix Decompositions (Halko, Martinsson, Tropp) | Advanced | https://arxiv.org/abs/0909.4061 | Foundational paper for scalable randomized SVD |
+| Attention Is All You Need (Vaswani et al.) | Advanced | https://arxiv.org/abs/1706.03762 | See how linear algebra (matrix multiply, softmax) powers modern Transformers |
 
 ### 💻 Code / Notebook
 
-| Resource | Type | Level | Last Reviewed | Notes |
-|---|---|---|---|---|
-| [NumPy — Linear Algebra Routines](https://numpy.org/doc/stable/reference/routines.linalg.html) | 💻 Code/Notebook | Beginner | 2026-06 | Official NumPy reference for linalg operations |
-| [Scikit-learn — Decomposition](https://scikit-learn.org/stable/modules/decomposition.html) | 💻 Code/Notebook | Intermediate | 2026-06 | PCA, SVD, NMF and more — practical decompositions |
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| NumPy — Linear Algebra Routines | Beginner | https://numpy.org/doc/stable/reference/routines.linalg.html | Official NumPy reference for linalg operations |
+| Scikit-learn — Decomposition | Intermediate | https://scikit-learn.org/stable/modules/decomposition.html | PCA, SVD, NMF and more — practical decompositions |
 
 ### 📰 Blog
 
-| Resource | Type | Level | Last Reviewed | Notes |
-|---|---|---|---|---|
-| [A Visual Intro to NumPy and Data Representation (Jay Alammar)](https://jalammar.github.io/visual-numpy/) | 📰 Blog | Beginner | 2026-06 | Rich visual walkthrough of NumPy arrays and operations |
-| [The SVD — A Geometric Interpretation (Gregory Gundersen)](https://gregorygundersen.com/blog/2018/12/10/svd/) | 📰 Blog | Intermediate | 2026-06 | One of the clearest geometric explanations of SVD |
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| A Visual Intro to NumPy and Data Representation (Jay Alammar) | Beginner | https://jalammar.github.io/visual-numpy/ | Rich visual walkthrough of NumPy arrays and operations |
+| The SVD — A Geometric Interpretation (Gregory Gundersen) | Intermediate | https://gregorygundersen.com/blog/2018/12/10/svd/ | One of the clearest geometric explanations of SVD |
 
 ---
 

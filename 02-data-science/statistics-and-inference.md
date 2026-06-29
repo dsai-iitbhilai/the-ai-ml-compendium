@@ -16,8 +16,8 @@
 
 ## 📘 Docs & Textbooks
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Think Stats (Allen Downey) | Beginner | https://greenteapress.com/wp/think-stats-2e/ | Free book using Python |
 | OpenIntro Statistics | Beginner | https://www.openintro.org/book/os/ | Excellent open-source statistics textbook |
 | Introduction to Statistical Learning (ISLR) | Intermediate | https://www.statlearning.com | Statistics for Machine Learning (free PDF) |
@@ -29,8 +29,8 @@
 
 ## 🎥 Videos
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | StatQuest Statistics Playlist | Beginner | https://www.youtube.com/@statquest/playlists | Best explanations for statistical concepts |
 | CrashCourse Statistics | Beginner | https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr | Intuitive introduction |
 | Khan Academy Statistics | Beginner | https://www.khanacademy.org/math/statistics-probability | Comprehensive free course |
@@ -41,8 +41,8 @@
 
 ## 🎓 Courses
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Khan Academy Statistics & Probability | Beginner | https://www.khanacademy.org/math/statistics-probability | Complete free curriculum |
 | Harvard Statistics 110 | Intermediate | https://projects.iq.harvard.edu/stat110 | Probability & statistical thinking |
 | Coursera – Inferential Statistics (Duke) | Intermediate | https://www.coursera.org/learn/inferential-statistics-intro | Statistical inference and hypothesis testing |
@@ -53,8 +53,8 @@
 
 ## 🕹️ Interactive Visualizers
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Seeing Theory | Beginner | https://seeing-theory.brown.edu | Interactive probability & statistics visualizations |
 | Rossman/Chance Applets | Beginner | https://www.rossmanchance.com/applets | Simulate hypothesis tests and sampling |
 | SOCR Simulations | Intermediate | https://socr.umich.edu | Interactive statistical simulations |
@@ -65,8 +65,8 @@
 
 ## 💻 Code & Practice
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | SciPy Statistics Documentation | Beginner | https://docs.scipy.org/doc/scipy/reference/stats.html | Official statistical functions |
 | statsmodels Documentation | Intermediate | https://www.statsmodels.org | Regression and statistical modeling |
 | Pingouin Documentation | Intermediate | https://pingouin-stats.org | Simple statistical testing library |
@@ -77,8 +77,8 @@
 
 ## 📰 Blogs & Articles
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Towards Data Science – Statistics | Beginner | https://towardsdatascience.com/tagged/statistics | Practical statistical concepts |
 | Statistical Modeling, Causal Inference, and Social Science | Advanced | https://statmodeling.stat.columbia.edu | Andrew Gelman's blog |
 | Simply Statistics | Intermediate | https://simplystatistics.org | Applied statistics and data science |

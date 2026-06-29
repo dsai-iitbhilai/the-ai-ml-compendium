@@ -50,8 +50,8 @@ Model Deployment
 
 ## 📘 Documentation & Books
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | PyTorch Documentation | Beginner | https://pytorch.org/docs/stable/ | Official documentation |
 | PyTorch Tutorials | Beginner | https://pytorch.org/tutorials/ | Best place to start |
 | TensorFlow Documentation | Beginner | https://www.tensorflow.org/guide | Official guides |
@@ -65,8 +65,8 @@ Model Deployment
 
 ## 🎥 Videos
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Learn PyTorch for Deep Learning | Beginner | https://www.youtube.com/watch?v=V_xro1bcAuA | Daniel Bourke |
 | freeCodeCamp PyTorch Course | Beginner | https://www.youtube.com/watch?v=Z_ikDlimN6A | Complete beginner course |
 | TensorFlow Full Course (freeCodeCamp) | Beginner | https://www.youtube.com/watch?v=tPYj3fFJGjk | TensorFlow 2.x |
@@ -78,8 +78,8 @@ Model Deployment
 
 ## 🎓 Courses
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Learn PyTorch | Beginner | https://www.learnpytorch.io/ | Free and comprehensive |
 | fast.ai Practical Deep Learning | Beginner | https://course.fast.ai/ | Production-first approach |
 | Full Stack Deep Learning | Intermediate | https://fullstackdeeplearning.com/ | Covers modern tooling |
@@ -90,8 +90,8 @@ Model Deployment
 
 ## 🕹 Interactive Tools
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | TensorFlow Playground | Beginner | https://playground.tensorflow.org/ | Neural network intuition |
 | Netron | Beginner | https://netron.app/ | Visualize neural network architectures |
 | TorchViz | Intermediate | https://github.com/szagoruyko/pytorchviz | Visualize computation graphs |
@@ -102,8 +102,8 @@ Model Deployment
 
 ## 📄 Research Papers
 
-| Paper | Level | Link | Why Read |
-|-------|-------|------|----------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | PyTorch: An Imperative Style, High-Performance Deep Learning Library | Intermediate | https://arxiv.org/abs/1912.01703 | PyTorch architecture |
 | TensorFlow: Large-Scale Machine Learning | Intermediate | https://research.google/pubs/pub45381/ | TensorFlow design |
 | JAX: Composable Transformations | Advanced | https://github.com/google/jax | Functional programming approach |
@@ -113,8 +113,8 @@ Model Deployment
 
 ## 💻 Code & Tutorials
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | PyTorch 60 Minute Blitz | Beginner | https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html | Official quickstart |
 | TensorFlow Quickstart | Beginner | https://www.tensorflow.org/tutorials/quickstart/beginner | Official beginner guide |
 | Hugging Face Course | Beginner | https://huggingface.co/course | Uses PyTorch & TensorFlow |
@@ -127,8 +127,8 @@ Model Deployment
 
 ## 📰 Blogs
 
-| Resource | Level | Link | Notes |
-|----------|-------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | LearnPyTorch.io | Beginner | https://www.learnpytorch.io/ | One of the best PyTorch resources |
 | Sebastian Raschka Blog | Intermediate | https://sebastianraschka.com/blog/ | Deep learning tutorials |
 | Lilian Weng Blog | Intermediate | https://lilianweng.github.io/ | State-of-the-art concepts |
@@ -269,8 +269,8 @@ Model Deployment
 
 # Framework Comparison
 
-| Feature | PyTorch | TensorFlow | JAX |
-|----------|----------|------------|-----|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Beginner Friendly | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
 | Research | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
 | Production | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |

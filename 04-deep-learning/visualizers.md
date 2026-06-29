@@ -13,7 +13,7 @@
 ### 📘 Docs & References
 
 | Title | Level | Link | Notes |
-|------|------|------|------|
+|---|---|---|---|
 | Distill | Intermediate | https://distill.pub/ | Beautiful interactive deep learning articles |
 | The Neural Network Zoo | Beginner | https://www.asimovinstitute.org/neural-network-zoo/ | Visual map of neural network architectures |
 | Google PAIR Guidebook | Beginner | https://pair.withgoogle.com/guidebook/ | Human-centered AI design and interpretability |
@@ -24,7 +24,7 @@
 ### 🎥 Videos
 
 | Title | Level | Link | Notes |
-|------|------|------|------|
+|---|---|---|---|
 | 3Blue1Brown – Neural Networks Series | Beginner | https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr | Best visual introduction to deep learning |
 | 3Blue1Brown – Attention in Transformers | Beginner | https://youtu.be/eMlx5fFNoYc | Self-attention visualization |
 | StatQuest – Neural Networks | Beginner | https://www.youtube.com/@statquest | Excellent conceptual explanations |
@@ -34,8 +34,8 @@
 
 ### 🕹️ Interactive Visualizers
 
-| Tool | Topic | Link | Notes |
-|------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | TensorFlow Playground | Neural Networks | https://playground.tensorflow.org | Train a neural network in your browser |
 | CNN Explainer | CNNs | https://poloclub.github.io/cnn-explainer/ | Interactive convolution visualization |
 | Transformer Explainer | Transformers | https://poloclub.github.io/transformer-explainer/ | End-to-end transformer walkthrough |
@@ -51,8 +51,8 @@
 
 ### 📄 Papers
 
-| Paper | Level | Link | Notes |
-|------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Visualizing Data using t-SNE | Intermediate | https://www.jmlr.org/papers/v9/vandermaaten08a.html | Classic dimensionality reduction paper |
 | Building Blocks of Interpretability | Intermediate | https://distill.pub/2018/building-blocks/ | Distill visualization article |
 | Feature Visualization | Intermediate | https://distill.pub/2017/feature-visualization/ | Understanding learned features |
@@ -62,8 +62,8 @@
 
 ### 💻 Libraries & Tools
 
-| Tool | Level | Link | Notes |
-|------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | TensorBoard | Beginner | https://www.tensorflow.org/tensorboard | Training metrics and graphs |
 | TorchLens | Intermediate | https://github.com/johnmarktaylor91/torchlens | Visualize PyTorch internals |
 | Captum | Intermediate | https://captum.ai/ | Model interpretability for PyTorch |
@@ -77,7 +77,7 @@
 ### 📰 Articles & Blogs
 
 | Title | Level | Link | Notes |
-|------|------|------|------|
+|---|---|---|---|
 | How to Use t-SNE Effectively | Intermediate | https://distill.pub/2016/misread-tsne/ | Learn common t-SNE mistakes |
 | The Illustrated Transformer | Beginner | https://jalammar.github.io/illustrated-transformer/ | Visual transformer explanation |
 | The Illustrated BERT | Beginner | https://jalammar.github.io/illustrated-bert/ | BERT visualization |

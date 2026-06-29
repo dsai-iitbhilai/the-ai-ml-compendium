@@ -16,8 +16,8 @@
 
 ## 📘 Docs & Textbooks
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | SQLBolt | Beginner | https://sqlbolt.com | Interactive SQL lessons with exercises |
 | PostgreSQL Documentation | Intermediate | https://www.postgresql.org/docs/ | Official PostgreSQL documentation |
 | SQLite Documentation | Beginner | https://sqlite.org/docs.html | Lightweight SQL database documentation |
@@ -29,8 +29,8 @@
 
 ## 🎥 Videos
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | freeCodeCamp SQL Course | Beginner | https://youtu.be/HXV3zeQKqGY | Complete SQL course |
 | Programming with Mosh – SQL Tutorial | Beginner | https://youtu.be/7S_tz1z_5bA | Covers SQL fundamentals and joins |
 | Hussein Nasser Database Playlist | Intermediate | https://www.youtube.com/@hnasr/playlists | Excellent database internals |
@@ -40,8 +40,8 @@
 
 ## 🎓 Courses
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Kaggle – Intro to SQL | Beginner | https://www.kaggle.com/learn/intro-to-sql | Interactive SQL exercises |
 | Kaggle – Advanced SQL | Intermediate | https://www.kaggle.com/learn/advanced-sql | Window functions, nested queries |
 | Harvard CS50 SQL | Intermediate | https://cs50.harvard.edu/sql/ | Modern SQL course |
@@ -51,8 +51,8 @@
 
 ## 🕹️ Interactive Practice
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | SQLBolt | Beginner | https://sqlbolt.com | Learn SQL interactively |
 | SQLZoo | Beginner | https://sqlzoo.net | Interactive SQL challenges |
 | DB Fiddle | Beginner | https://www.db-fiddle.com | Test SQL queries online |
@@ -64,8 +64,8 @@
 
 ## 💻 Code & Practice
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | LeetCode Database | Intermediate | https://leetcode.com/problemset/database/ | SQL interview questions |
 | DataLemur SQL | Intermediate | https://datalemur.com | FAANG SQL interview practice |
 | StrataScratch | Advanced | https://www.stratascratch.com | Real company SQL questions |
@@ -79,8 +79,8 @@
 
 ## 📰 Blogs & Articles
 
-| Resource | Level | Link | Notes |
-|----------|------|------|------|
+| Title | Level | Link | Notes |
+|---|---|---|---|
 | Use The Index, Luke! | Intermediate | https://use-the-index-luke.com | Best resource for SQL optimization |
 | Crunchy Data Blog | Intermediate | https://www.crunchydata.com/blog | PostgreSQL tutorials |
 | DuckDB Blog | Intermediate | https://duckdb.org/news | Modern analytical SQL |
