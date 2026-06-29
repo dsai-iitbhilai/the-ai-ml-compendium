@@ -1,6 +1,6 @@
 # SQL & Databases
 
-> Querying, joining, and managing data in relational databases and data warehouses. Essential for accessing production data and working with large-scale datasets.
+> Learn how to query, manage, and optimize relational databases. Covers SQL fundamentals, joins, window functions, indexing, query optimization, and modern analytical databases used in Data Science, Machine Learning, and Data Engineering.
 
 **Last Reviewed:** 2026-06
 
@@ -8,88 +8,265 @@
 
 ---
 
-## Resources
-
-### 📘 Docs & Textbooks
-
-| Title | Level | Link | Notes |
-|---|---|---|---|
-| *Learning SQL* (Beaulieu) — O'Reilly | Beginner | [Link](https://example.com/learning-sql) | Gentle, example-driven introduction |
-| PostgreSQL Official Documentation | Intermediate | [Link](https://example.com/postgres-docs) | Comprehensive reference for one of the most popular RDBMS |
-| *SQL Performance Explained* (Winand) | Advanced | [Link](https://example.com/sql-performance) | Indexing and query optimization |
-
-### 🎥 Video
-
-| Title | Level | Link | Notes |
-|---|---|---|---|
-| SQL Tutorial for Beginners — Mosh Hamedani | Beginner | [Link](https://example.com/mosh-sql) | 3-hour crash course covering SELECT, JOIN, GROUP BY |
-| Advanced SQL — Window Functions & CTEs | Intermediate | [Link](https://example.com/advanced-sql) | Practical examples of ROW_NUMBER, LAG, recursive CTEs |
-| Data Engineering — Warehousing & ETL | Intermediate | [Link](https://example.com/data-eng-vid) | Overview of BigQuery, Snowflake, and modern data stacks |
-
-### 🎓 Course
-
-| Title | Level | Link | Notes |
-|---|---|---|---|
-| DataCamp — Introduction to SQL | Beginner | [Link](https://example.com/datacamp-sql) | Interactive SQL exercises in browser |
-| Coursera — SQL for Data Science (UC Davis) | Beginner | [Link](https://example.com/coursera-sql) | Real-world data scenarios |
-| Mode Analytics — SQL School | Beginner | [Link](https://example.com/mode-sql) | Free, narrative tutorials with a built-in query editor |
-
-### 🕹️ Visualizer / Playground
-
-| Title | Level | Link | Notes |
-|---|---|---|---|
-| SQL Fiddle | Beginner | [Link](https://example.com/sql-fiddle) | Test SQL queries online without installing anything |
-| DB Fiddle | Beginner | [Link](https://example.com/db-fiddle) | Supports PostgreSQL, MySQL, SQLite |
-| SQL Query Visualizer (explain.depesz.com) | Intermediate | [Link](https://example.com/depesz) | Visualizes query plans for optimization learning |
-
-### 💻 Code / Notebook
-
-| Title | Level | Link | Notes |
-|---|---|---|---|
-| SQL Murder Mystery (Knight Lab) | Beginner | [Link](https://example.com/sql-mystery) | Solve a crime using SQL queries |
-| SQL for Data Analysis (Jupyter + SQLite) | Beginner | [Link](https://example.com/jupyter-sql) | Running SQL directly in notebooks with `%%sql` magic |
-| Python + PostgreSQL Connection Examples | Intermediate | [Link](https://example.com/python-postgres) | psycopg2, SQLAlchemy, and async patterns |
-| BigQuery Public Datasets Explorations | Intermediate | [Link](https://example.com/bigquery-public) | Querying terabytes of public data with standard SQL |
-
-### 📰 Blog
-
-| Title | Level | Link | Notes |
-|---|---|---|---|
-| *SQL Window Functions Explained Simply* | Beginner | [Link](https://example.com/window-functions) | Illustrated guide to OVER, PARTITION BY, ORDER BY |
-| *Indexing Strategies for Data Scientists* | Intermediate | [Link](https://example.com/indexing-strategies) | When and how to create indexes for analytical queries |
-| *Data Warehousing vs Data Lakes vs Lakehouses* | Beginner | [Link](https://example.com/warehouse-vs-lake) | Modern data architecture overview |
+> 💡 **Tip:** SQL is one of the highest ROI skills in Data Science. Spend more time solving SQL problems than reading syntax.
 
 ---
 
-## Key Concepts Checklist
+# Resources
 
-- [ ] SELECT, FROM, WHERE, ORDER BY, LIMIT
-- [ ] JOIN operations (INNER, LEFT, RIGHT, FULL OUTER, CROSS)
-- [ ] Aggregation and GROUP BY with HAVING
-- [ ] Subqueries (correlated and uncorrelated)
-- [ ] Common Table Expressions (WITH clause, recursive CTEs)
-- [ ] Window functions (ROW_NUMBER, RANK, LAG, LEAD, SUM OVER)
-- [ ] String functions, date functions, and type casting
-- [ ] Set operations (UNION, INTERSECT, EXCEPT)
-- [ ] Indexes and query performance basics
-- [ ] Connecting Python to SQL databases (SQLAlchemy, psycopg2, duckdb)
-- [ ] Database design: normalization, primary/foreign keys
-- [ ] BigQuery, Snowflake, Redshift: cloud data warehouse concepts
+## 📘 Docs & Textbooks
+
+| Resource | Level | Link | Notes |
+|----------|------|------|------|
+| SQLBolt | Beginner | https://sqlbolt.com | Interactive SQL lessons with exercises |
+| PostgreSQL Documentation | Intermediate | https://www.postgresql.org/docs/ | Official PostgreSQL documentation |
+| SQLite Documentation | Beginner | https://sqlite.org/docs.html | Lightweight SQL database documentation |
+| DuckDB Documentation | Intermediate | https://duckdb.org/docs | SQL analytics engine for Data Science |
+| *Learning SQL* – Alan Beaulieu | Beginner | https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/ | Excellent beginner-friendly SQL book |
+| *SQL Performance Explained* | Advanced | https://sql-performance-explained.com | Learn indexing and optimization |
 
 ---
 
-## Projects / Practice
+## 🎥 Videos
+
+| Resource | Level | Link | Notes |
+|----------|------|------|------|
+| freeCodeCamp SQL Course | Beginner | https://youtu.be/HXV3zeQKqGY | Complete SQL course |
+| Programming with Mosh – SQL Tutorial | Beginner | https://youtu.be/7S_tz1z_5bA | Covers SQL fundamentals and joins |
+| Hussein Nasser Database Playlist | Intermediate | https://www.youtube.com/@hnasr/playlists | Excellent database internals |
+| CMU Database Systems (Andy Pavlo) | Advanced | https://www.youtube.com/@CMUDatabaseGroup | One of the best database lecture series |
+
+---
+
+## 🎓 Courses
+
+| Resource | Level | Link | Notes |
+|----------|------|------|------|
+| Kaggle – Intro to SQL | Beginner | https://www.kaggle.com/learn/intro-to-sql | Interactive SQL exercises |
+| Kaggle – Advanced SQL | Intermediate | https://www.kaggle.com/learn/advanced-sql | Window functions, nested queries |
+| Harvard CS50 SQL | Intermediate | https://cs50.harvard.edu/sql/ | Modern SQL course |
+| Stanford SQL | Intermediate | https://online.stanford.edu/courses/soe-ydatabases-databases | University database course |
+
+---
+
+## 🕹️ Interactive Practice
+
+| Resource | Level | Link | Notes |
+|----------|------|------|------|
+| SQLBolt | Beginner | https://sqlbolt.com | Learn SQL interactively |
+| SQLZoo | Beginner | https://sqlzoo.net | Interactive SQL challenges |
+| DB Fiddle | Beginner | https://www.db-fiddle.com | Test SQL queries online |
+| SQL Fiddle | Beginner | https://sqlfiddle.com | Multi-database playground |
+| SQLite Online | Beginner | https://sqliteonline.com | Browser SQLite editor |
+| OneCompiler PostgreSQL | Beginner | https://onecompiler.com/postgresql | Instant PostgreSQL playground |
+
+---
+
+## 💻 Code & Practice
+
+| Resource | Level | Link | Notes |
+|----------|------|------|------|
+| LeetCode Database | Intermediate | https://leetcode.com/problemset/database/ | SQL interview questions |
+| DataLemur SQL | Intermediate | https://datalemur.com | FAANG SQL interview practice |
+| StrataScratch | Advanced | https://www.stratascratch.com | Real company SQL questions |
+| HackerRank SQL | Beginner | https://www.hackerrank.com/domains/sql | Progressive SQL exercises |
+| SQL Practice | Beginner | https://www.sql-practice.com | Practice with datasets |
+| SQLAlchemy Tutorial | Intermediate | https://docs.sqlalchemy.org/en/20/tutorial/ | Python + SQL |
+| psycopg Documentation | Intermediate | https://www.psycopg.org/docs/ | PostgreSQL adapter for Python |
+| Jupyter SQL Magic | Intermediate | https://github.com/catherinedevlin/ipython-sql | Execute SQL inside notebooks |
+
+---
+
+## 📰 Blogs & Articles
+
+| Resource | Level | Link | Notes |
+|----------|------|------|------|
+| Use The Index, Luke! | Intermediate | https://use-the-index-luke.com | Best resource for SQL optimization |
+| Crunchy Data Blog | Intermediate | https://www.crunchydata.com/blog | PostgreSQL tutorials |
+| DuckDB Blog | Intermediate | https://duckdb.org/news | Modern analytical SQL |
+| Planet PostgreSQL | Advanced | https://planet.postgresql.org | Community articles and news |
+
+---
+
+# Learning Roadmap
+
+## SQL Fundamentals
+
+- [ ] SELECT
+- [ ] FROM
+- [ ] WHERE
+- [ ] DISTINCT
+- [ ] ORDER BY
+- [ ] LIMIT
+- [ ] Aliases
+- [ ] Arithmetic Expressions
+
+---
+
+## Filtering & Conditional Logic
+
+- [ ] LIKE
+- [ ] BETWEEN
+- [ ] IN
+- [ ] NOT
+- [ ] IS NULL
+- [ ] CASE WHEN
+
+---
+
+## Aggregation
+
+- [ ] COUNT
+- [ ] SUM
+- [ ] AVG
+- [ ] MIN
+- [ ] MAX
+- [ ] GROUP BY
+- [ ] HAVING
+
+---
+
+## Joins
+
+- [ ] INNER JOIN
+- [ ] LEFT JOIN
+- [ ] RIGHT JOIN
+- [ ] FULL OUTER JOIN
+- [ ] CROSS JOIN
+- [ ] SELF JOIN
+
+---
+
+## Intermediate SQL
+
+- [ ] Subqueries
+- [ ] Correlated Subqueries
+- [ ] Common Table Expressions (CTEs)
+- [ ] Recursive CTEs
+- [ ] UNION
+- [ ] UNION ALL
+- [ ] INTERSECT
+- [ ] EXCEPT
+
+---
+
+## Window Functions
+
+- [ ] ROW_NUMBER()
+- [ ] RANK()
+- [ ] DENSE_RANK()
+- [ ] NTILE()
+- [ ] LAG()
+- [ ] LEAD()
+- [ ] FIRST_VALUE()
+- [ ] LAST_VALUE()
+- [ ] SUM() OVER()
+- [ ] AVG() OVER()
+- [ ] PARTITION BY
+- [ ] Window Frames
+
+---
+
+## Functions
+
+- [ ] String Functions
+- [ ] Date Functions
+- [ ] Aggregate Functions
+- [ ] Mathematical Functions
+- [ ] Type Casting
+- [ ] NULL Handling
+
+---
+
+## Database Design
+
+- [ ] Primary Keys
+- [ ] Foreign Keys
+- [ ] Constraints
+- [ ] Composite Keys
+- [ ] Normalization
+- [ ] Denormalization
+- [ ] ER Diagrams
+
+---
+
+## Query Optimization
+
+- [ ] Indexes
+- [ ] B-Tree Indexes
+- [ ] Hash Indexes
+- [ ] Query Planner
+- [ ] EXPLAIN
+- [ ] EXPLAIN ANALYZE
+- [ ] Query Optimization Basics
+
+---
+
+## SQL + Python
+
+- [ ] pandas.read_sql()
+- [ ] SQLAlchemy
+- [ ] psycopg
+- [ ] DuckDB
+- [ ] SQLite
+- [ ] PostgreSQL
+
+---
+
+## Modern Data Warehouses
+
+- [ ] BigQuery Basics
+- [ ] Snowflake Concepts
+- [ ] Amazon Redshift
+- [ ] Databricks SQL
+- [ ] Data Lake vs Warehouse vs Lakehouse
+
+---
+
+# Projects / Practice
 
 | Project | Description |
-|---|---|
-| Build a Chinook Database Query Set | Write queries to answer business questions on a sample music store DB |
-| Migrate CSV Data into SQLite | Import a messy CSV, write SQL to clean and aggregate it |
-| Performance Optimization Lab | Take a slow query, add indexes, rewrite joins, and measure improvements |
+|----------|-------------|
+| Chinook Database Analysis | Answer business questions using SQL queries |
+| IMDb SQL Analysis | Practice joins, aggregation, and window functions |
+| Spotify Listening Dashboard | Analyze music listening history using SQL |
+| Sales Analytics Dashboard | PostgreSQL + Python + Plotly |
+| Olympic Database Explorer | Explore Olympic datasets using SQL |
+| Kaggle SQL Exercises | Solve SQL problems on real datasets |
 
 ---
 
-## See also
+# Best Free Datasets
 
-- [Data Wrangling](data-wrangling.md) — combines SQL results with pandas for further cleaning
-- [EDA & Visualization](eda-and-visualization.md) — visualizing query results
-- [Case Studies](case-studies.md) — end-to-end examples using SQL + Python
+| Dataset | Link |
+|----------|------|
+| Chinook Database | https://github.com/lerocha/chinook-database |
+| Kaggle Datasets | https://www.kaggle.com/datasets |
+| Google Dataset Search | https://datasetsearch.research.google.com |
+| Our World in Data | https://ourworldindata.org |
+| UCI Machine Learning Repository | https://archive.ics.uci.edu |
+
+---
+
+# Recommended Learning Order
+
+1. SQLBolt
+2. Kaggle Intro to SQL
+3. PostgreSQL Documentation
+4. SQLZoo
+5. HackerRank SQL
+6. Kaggle Advanced SQL
+7. LeetCode Database
+8. DataLemur
+9. StrataScratch
+10. Use The Index, Luke!
+
+---
+
+# See also
+
+- [Data Wrangling](data-wrangling.md)
+- [EDA & Visualization](eda-and-visualization.md)
+- [Case Studies](case-studies.md)
+- [Feature Engineering](../03-machine-learning/feature-engineering.md)
+- [Machine Learning](../03-machine-learning/README.md)
