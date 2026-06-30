@@ -107,16 +107,16 @@ def parse_issue_body(body: str) -> dict:
     return result
 
 
-def generate_row(link: str, reason: str) -> str:
-    """Generate a canonical table row from a link and reason."""
+def generate_row(link: str, reason: str) -> tuple[str, str]:
+    """Generate a canonical table row from a link and reason, and return its inferred category."""
     # Extract a readable title from the URL
     title = link.rstrip("/").split("/")[-1].replace("-", " ").replace("_", " ").title()
     resource_type = infer_resource_type(title, link)
     level = guess_level(reason, title)
-    today = datetime.utcnow().strftime("%Y-%m")
-
-    row = f"| [{title}]({link}) | {resource_type} | {level} | {today} | {reason} |"
-    return row
+    
+    # New format: | Title | Level | Link | Notes |
+    row = f"| *{title}* | {level} | {link} | {reason} |"
+    return row, resource_type
 
 
 def fetch_issue(issue_number: str, repo: str, token: str) -> dict:
@@ -161,7 +161,7 @@ def main():
         sys.exit(1)
 
     # Generate the table row
-    row = generate_row(link, reason)
+    row, resource_category = generate_row(link, reason)
 
     # Determine target file
     file_path = f"{topic}/{subtopic}" if subtopic else f"{topic}/README.md"
@@ -173,6 +173,7 @@ def main():
         "link": link,
         "reason": reason,
         "topic": topic,
+        "category": resource_category,
     }
 
     print(json.dumps(output, indent=2))
@@ -185,6 +186,7 @@ def main():
             f.write(f"file={file_path}\n")
             f.write(f"link={link}\n")
             f.write(f"topic={topic}\n")
+            f.write(f"category={resource_category}\n")
 
 
 if __name__ == "__main__":

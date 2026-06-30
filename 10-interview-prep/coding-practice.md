@@ -2,16 +2,43 @@
 
 > Resources for algorithm coding (LeetCode-style), ML coding rounds, and take-home assignments.
 
+**Last Reviewed:** 2026-06
+
 ## Resource Table
 
-| Category | Title | Description | Level |
+## Resources
+
+### 🕹️ Visualizer/Playground
+
+| Title | Level | Link | Notes |
 |---|---|---|---|
-|  Visualizer/Playground | [LeetCode](https://example.com/leetcode) | Algorithm problems with editor, test cases, and solutions | All levels |
-|  Code/Notebook | [NeetCode 150 Solutions](https://example.com/neetcode150) | Curated 150 problems with video explanations | All levels |
-|  Code/Notebook | [ML Coding Notebook — From Scratch](https://example.com/ml-coding-scratch) | Implement KNN, Logistic Regression, K-Means from scratch | Intermediate |
-|  Video | [Python for ML Interviews — YouTube](https://example.com/python-ml-interview) | Python tricks, numpy/pandas/sklearn coding challenges | Intermediate |
-|  Docs | [HackerRank ML Preparation Guide](https://example.com/hackerrank-ml) | Platform-specific ML coding challenges | Beginner |
-|  Blog | [Take-Home ML Assignments — Guide & Examples](https://example.com/takehome-ml) | How to approach ML take-home tests | Intermediate |
+| *LeetCode* | All levels | https://leetcode.com/ | Algorithm problems with editor, test cases, and solutions |
+
+### 💻 Code/Notebook
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *NeetCode 150 Solutions* | All levels | https://neetcode.io/practice | Curated 150 problems with video explanations |
+| *ML Coding Notebook — From Scratch* | Intermediate | https://github.com/eriklindernoren/ML-From-Scratch | Implement KNN, Logistic Regression, K-Means from scratch |
+
+### 🎥 Video
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Python for ML Interviews — YouTube* | Intermediate | https://www.youtube.com/@NeetCode | Python tricks, numpy/pandas/sklearn coding challenges |
+
+### 📘 Docs
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *HackerRank ML Preparation Guide* | Beginner | https://www.hackerrank.com/domains/ai | Platform-specific ML coding challenges |
+
+### 📰 Blog
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Take-Home ML Assignments — Guide & Examples* | Intermediate | https://mimansajaiswal.github.io/posts/llm-ml-job-interviews-resources/ | How to approach ML take-home tests |
+
 
 ## Types of Coding Rounds
 
@@ -41,7 +68,3 @@
 | BFS / DFS | Medium | Number of Islands |
 | Dynamic Programming | Medium | Coin Change, Longest Increasing Subsequence |
 | Tree Traversals | Medium | Binary Tree Level Order Traversal |
-
----
-
-> **Last Reviewed:** 2026-06

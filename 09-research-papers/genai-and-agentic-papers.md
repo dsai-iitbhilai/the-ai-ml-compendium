@@ -6,14 +6,19 @@
 
 ## Resource Table
 
-| Category | Title | Description | Level | Link |
-|---|---|---|---|---|
-|  Paper | GPT-4 Technical Report (OpenAI, 2023) | Architecture, training, and capabilities of GPT-4 | Advanced | <https://arxiv.org/abs/2303.08774> |
-|  Paper | LLaMA: Open and Efficient Foundation Language Models (Meta, 2023) | Efficient LLM design enabling open-source research | Advanced | <https://arxiv.org/abs/2302.13971> |
-|  Paper | Denoising Diffusion Probabilistic Models (Ho et al., 2020) | DDPM — foundation of modern image generation | Advanced | <https://arxiv.org/abs/2006.11239> |
-|  Paper | ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al., 2022) | Reasoning + action loops for LLM agents | Intermediate | <https://arxiv.org/abs/2210.03629> |
-|  Paper | Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al., 2020) | Grounding LLMs with external knowledge | Intermediate | <https://arxiv.org/abs/2005.11401> |
-|  Paper | Toolformer: Language Models Can Teach Themselves to Use Tools (Schick et al., 2023) | LLMs learning to call external APIs | Advanced | <https://arxiv.org/abs/2302.04761> |
+## Resources
+
+### 📄 Paper
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *GPT-4 Technical Report (OpenAI, 2023)* | Advanced | https://arxiv.org/abs/2303.08774 | Architecture, training, and capabilities of GPT-4 |
+| *LLaMA: Open and Efficient Foundation Language Models (Meta, 2023)* | Advanced | https://arxiv.org/abs/2302.13971 | Efficient LLM design enabling open-source research |
+| *Denoising Diffusion Probabilistic Models (Ho et al., 2020)* | Advanced | https://arxiv.org/abs/2006.11239 | DDPM — foundation of modern image generation |
+| *ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al., 2022)* | Intermediate | https://arxiv.org/abs/2210.03629 | Reasoning + action loops for LLM agents |
+| *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al., 2020)* | Intermediate | https://arxiv.org/abs/2005.11401 | Grounding LLMs with external knowledge |
+| *Toolformer: Language Models Can Teach Themselves to Use Tools (Schick et al., 2023)* | Advanced | https://arxiv.org/abs/2302.04761 | LLMs learning to call external APIs |
+
 
 ## Emerging Topics (2024–2026)
 

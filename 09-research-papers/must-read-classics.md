@@ -4,16 +4,21 @@
 
 ## Resource Table
 
-| Category | Title | Description | Level |
+## Resources
+
+### 📄 Paper
+
+| Title | Level | Link | Notes |
 |---|---|---|---|
-|  Paper | [Attention Is All You Need — Vaswani et al. 2017](https://arxiv.org/abs/1706.03762) | The Transformer architecture; foundation of modern NLP/CV | Advanced |
-|  Paper | [ImageNet Classification with Deep CNNs — Krizhevsky et al. 2012](https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf) | AlexNet — the paper that started the deep learning revolution | Intermediate |
-|  Paper | [Deep Residual Learning for Image Recognition — He et al. 2016](https://arxiv.org/abs/1512.03385) | ResNet — skip connections enabling very deep networks | Intermediate |
-|  Paper | [Generative Adversarial Nets — Goodfellow et al. 2014](https://arxiv.org/abs/1406.2661) | GANs — generative modeling via adversarial training | Advanced |
-|  Paper | [Dropout: A Simple Way to Prevent Neural Nets from Overfitting — Srivastava et al. 2014](https://jmlr.org/papers/v15/srivastava14a.html) | Dropout regularization technique | Intermediate |
-|  Paper | [Random Forests — Breiman 2001](https://doi.org/10.1023/A:1010933404324) | Ensemble method that remains widely used today | Intermediate |
-|  Paper | [Adam: A Method for Stochastic Optimization — Kingma & Ba 2014](https://arxiv.org/abs/1412.6980) | The most widely used optimization algorithm for deep learning | Intermediate |
-|  Paper | [Long Short-Term Memory — Hochreiter & Schmidhuber 1997](https://dl.acm.org/doi/10.1162/neco.1997.9.8.1735) | Foundation for sequential learning | Intermediate |
+| *Attention Is All You Need — Vaswani et al. 2017* | Advanced | https://arxiv.org/abs/1706.03762 | The Transformer architecture; foundation of modern NLP/CV |
+| *ImageNet Classification with Deep CNNs — Krizhevsky et al. 2012* | Intermediate | https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf | AlexNet — the paper that started the deep learning revolution |
+| *Deep Residual Learning for Image Recognition — He et al. 2016* | Intermediate | https://arxiv.org/abs/1512.03385 | ResNet — skip connections enabling very deep networks |
+| *Generative Adversarial Nets — Goodfellow et al. 2014* | Advanced | https://arxiv.org/abs/1406.2661 | GANs — generative modeling via adversarial training |
+| *Dropout: A Simple Way to Prevent Neural Nets from Overfitting — Srivastava et al. 2014* | Intermediate | https://jmlr.org/papers/v15/srivastava14a.html | Dropout regularization technique |
+| *Random Forests — Breiman 2001* | Intermediate | https://doi.org/10.1023/A:1010933404324 | Ensemble method that remains widely used today |
+| *Adam: A Method for Stochastic Optimization — Kingma & Ba 2014* | Intermediate | https://arxiv.org/abs/1412.6980 | The most widely used optimization algorithm for deep learning |
+| *Long Short-Term Memory — Hochreiter & Schmidhuber 1997* | Intermediate | https://dl.acm.org/doi/10.1162/neco.1997.9.8.1735 | Foundation for sequential learning |
+
 
 ## Honorable Mentions
 

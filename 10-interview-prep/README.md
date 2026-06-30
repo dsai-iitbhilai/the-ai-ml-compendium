@@ -2,6 +2,8 @@
 
 > **Goal:** Prepare for ML engineering and data science interviews — covering ML theory, system design, coding, and behavioral questions.
 
+**Last Reviewed:** 2026-06
+
 ## Sections
 
 | Section | Description | Level |
@@ -22,12 +24,9 @@
 
 ## General Interview Resources
 
-| Category | Title | Description | Level |
-|---|---|---|---|
-|  Docs | [Ace the Data Science Interview — Book](https://example.com/ace-ds) | Comprehensive Q&A for DS interviews | All levels |
-|  Video | [ML Interview Prep Playlist — YouTube](https://example.com/ml-interview-playlist) | Mock interviews and topic reviews | Intermediate |
-|  Blog | [ML System Design Interview Guide — ByteByteGo](https://example.com/bytebytego-ml) | Structured approach to ML design questions | Advanced |
-
----
-
-> **Last Reviewed:** 2026-06
+| Category | Title | Description | Level | Link |
+|---|---|---|---|---|
+| 📘 Docs | Ace the Data Science Interview — Book | Comprehensive Q&A for DS interviews | All levels | https://www.acethedatascienceinterview.com/ |
+| 🎥 Video | ML Interview Prep Playlist — YouTube | Mock interviews and topic reviews | Intermediate | https://www.youtube.com/@MLOpsCommunity |
+| 📰 Blog | ML System Design Interview Guide | Structured approach to ML design questions | Advanced | https://bytebytego.com/ |
+"""

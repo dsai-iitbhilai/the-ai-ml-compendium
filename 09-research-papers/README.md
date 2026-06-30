@@ -26,11 +26,11 @@
 
 ## Paper Repositories
 
-- [arXiv](https://example.com/arxiv) — pre-print server for all ML
-- [Papers with Code](https://example.com/paperswithcode) — papers + code + benchmarks
-- [Semantic Scholar](https://example.com/semanticscholar) — AI-powered paper search
-- [OpenReview](https://example.com/openreview) — peer-reviewed conference papers
-- [dblp](https://example.com/dblp) — computer science bibliography
+- [arXiv](https://arxiv.org/) — pre-print server for all ML
+- [Papers with Code](https://huggingface.co/papers/trending) — papers + code + benchmarks
+- [Semantic Scholar](https://www.semanticscholar.org/) — AI-powered paper search
+- [OpenReview](https://www.semanticscholar.org/) — peer-reviewed conference papers
+- [dblp](https://dblp.org/) — computer science bibliography
 
 ---
 

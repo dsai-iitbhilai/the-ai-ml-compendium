@@ -2,16 +2,43 @@
 
 > Commonly asked ML theory and applied ML questions organized by topic.
 
+**Last Reviewed:** 2026-06
+
 ## Resource Table
 
-| Category | Title | Description | Level |
+## Resources
+
+### 📘 Docs
+
+| Title | Level | Link | Notes |
 |---|---|---|---|
-|  Docs | [100+ ML Interview Questions — GitHub Repo](https://example.com/100-ml-questions) | Curated list with answers across all ML topics | All levels |
-|  Video | [ML Interview Q&A Walkthrough — StatQuest](https://example.com/statquest-interview) | Video explanations of classic ML questions | Beginner |
-|  Blog | [Deep Learning Interview Questions — Springboard](https://example.com/dl-interview-questions) | Neural network fundamentals, backprop, CNNs, RNNs | Intermediate |
-|  Code/Notebook | [ML from Scratch Interview Notebook](https://example.com/ml-from-scratch) | Implement KNN, Linear Regression, Logistic Regression | Intermediate |
-|  Docs | [Google ML Interview Prep Guide](https://example.com/google-ml-prep) | Official guide with sample questions and format | All levels |
-|  Course | [ML Interview Prep — DataCamp](https://example.com/datacamp-interview) | 8-hour course covering theory and practice | Intermediate |
+| *100+ ML Interview Questions — GitHub Repo* | All levels | https://github.com/AlexeyGrigorev/data-science-interviews | Curated list with answers across all ML topics |
+| *Google ML Interview Prep Guide* | All levels | https://techdevguide.withgoogle.com/ | Official guide with sample questions and format |
+
+### 🎥 Video
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *ML Interview Q&A Walkthrough — StatQuest* | Beginner | https://www.youtube.com/c/joshstarmer | Video explanations of classic ML questions |
+
+### 📰 Blog
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Deep Learning Interview Questions* | Intermediate | https://www.springboard.com/blog/data-science/deep-learning-interview-questions/ | Neural network fundamentals, backprop, CNNs, RNNs |
+
+### 💻 Code/Notebook
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *ML from Scratch Interview Notebook* | Intermediate | https://github.com/eriklindernoren/ML-From-Scratch | Implement KNN, Linear Regression, Logistic Regression |
+
+### 🎓 Course
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *ML Interview Prep — DataCamp* | Intermediate | https://www.datacamp.com/courses/machine-learning-for-interview-preparation | 8-hour course covering theory and practice |
+
 
 ## Topic Checklist
 
@@ -37,7 +64,3 @@
 | How would you detect data drift in a production model? | MLOps |
 | Compare Bagging vs. Boosting. Give examples of each. | Ensemble Methods |
 | Explain the attention mechanism in Transformers. | NLP |
-
----
-
-> **Last Reviewed:** 2026-06

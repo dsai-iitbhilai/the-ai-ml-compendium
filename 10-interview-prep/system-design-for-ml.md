@@ -2,16 +2,40 @@
 
 > How to approach ML system design interview questions — frameworks, patterns, and practice resources.
 
+**Last Reviewed:** 2026-06
+
 ## Resource Table
 
-| Category | Title | Description | Level |
+## Resources
+
+### 📘 Docs
+
+| Title | Level | Link | Notes |
 |---|---|---|---|
-|  Docs | [ML System Design — GitHub Repo (chiphuyen)](https://example.com/ml-system-design) | Comprehensive guide with example designs | Advanced |
-|  Video | [ML System Design Interview — YouTube Series](https://example.com/ml-design-youtube) | Mock interviews for common ML system design prompts | Advanced |
-|  Blog | [Designing a Recommendation System — ByteByteGo](https://example.com/recsys-design) | Real-world recsys architecture walkthrough | Advanced |
-|  Blog | [Designing an Ad Click Predictor — ML Engineering Blog](https://example.com/ad-click-design) | Feature engineering, model selection, latency constraints | Advanced |
-|  Docs | [Full-Stack Deep Learning — System Design Syllabus](https://example.com/fsdl-design) | Curriculum covering production ML architecture patterns | Intermediate |
-|  Course | [Grokking the ML System Design Interview](https://example.com/grokking-ml) | Structured prep with common question patterns | Advanced |
+| *ML System Design — GitHub Repo (chiphuyen)* | Advanced | https://github.com/chiphuyen/machine-learning-systems-design | A booklet on machine learning systems design with exercises [cite: 1.1.1]. |
+| *Designing ML Systems Resources (chiphuyen)* | Advanced | https://github.com/chiphuyen/dmls-book | Summaries and resources for Designing Machine Learning Systems book (Chip Huyen, O'Reilly 2022) [cite: 1.1.2]. |
+| *Full-Stack Deep Learning — System Design Syllabus* | Intermediate | https://fullstackdeeplearning.com/ | Curriculum covering production ML architecture patterns |
+
+### 🎥 Video
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *ML System Design Interview — YouTube Series* | Advanced | https://www.youtube.com/@MLOpsCommunity | Mock interviews for common ML system design prompts |
+
+### 📰 Blog
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Designing a Recommendation System — ByteByteGo* | Advanced | https://bytebytego.com/ | Real-world recsys architecture walkthrough |
+| *Real-Time Machine Learning — Chip Huyen* | Advanced | https://huyenchip.com/2020/12/27/real-time-machine-learning.html | Explores challenges and solutions for online prediction and continuous learning [cite: 1.2.2]. |
+| *Prepare for ML Engineer Interview* | Intermediate | https://medium.com/marvelous-mlops/prepare-for-ml-engineer-interview-cfe0e54cb951 | Guide covering coding and ML system design interviews [cite: 1.2.5]. |
+
+### 🎓 Course
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Grokking the ML System Design Interview* | Advanced | https://www.educative.io/courses/grokking-the-machine-learning-interview | Structured prep with common question patterns |
+
 
 ## Design Framework (5-Step)
 
@@ -44,7 +68,3 @@
 | **System design depth** — from data to deployment | 30% |
 | **Scalability & reliability** — handling scale, failures, latency | 15% |
 | **Communication** — structured, clear, collaborative | 10% |
-
----
-
-> **Last Reviewed:** 2026-06

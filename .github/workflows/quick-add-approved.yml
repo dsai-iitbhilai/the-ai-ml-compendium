@@ -65,7 +65,7 @@ jobs:
               title: `[Quick Add] ${issue.title.replace('[Add Resource] ', '')}`,
               head: branch,
               base: 'main',
-              body: `## Auto-generated from Quick Add Issue\n\nCloses #${issue.number}\n\n**Original request:** ${issue.html_url}\n\n> ⚠️ **Reviewers:** Please verify the generated table row is in the correct file and position. The row was auto-generated and may need manual adjustment.\n\n---\n\n*This PR was automatically created when issue #${issue.number} was approved.*`,
+              body: `## Auto-generated from Quick Add Issue\n\nCloses #${issue.number}\n\n**Original request:** ${issue.html_url}\n\n> ⚠️ **Reviewers:** Please verify the generated table row is in the correct file and position. The row was auto-generated and may need manual adjustment.\n\n**Suggested Category Header:** \`${{ steps.parse.outputs.category }}\`\n\n---\n\n*This PR was automatically created when issue #${issue.number} was approved.*`,
             });
 
             // Comment on the issue linking to the PR

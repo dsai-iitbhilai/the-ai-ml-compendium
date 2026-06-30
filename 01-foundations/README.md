@@ -87,5 +87,5 @@ All sub‑pages link back here. Visualizers can be used alongside any topic.
 
 ## See also
 
-- [NN SVG](https://nn-svg.example.com) — interactive neural net diagrams
+- [NN SVG](https://alexlenail.me/NN-SVG/) — interactive neural net diagrams
 - [03 – Deep Learning](../04-deep-learning/README.md) (once created)
