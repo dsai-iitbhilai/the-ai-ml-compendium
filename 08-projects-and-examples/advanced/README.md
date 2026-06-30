@@ -16,12 +16,12 @@
 
 | Category | Title | Description | Level |
 |---|---|---|---|
-| 📄 Paper | [LoRA: Low-Rank Adaptation of LLMs](https://example.com/lora-paper) | Parameter-efficient fine-tuning | Advanced |
-| 💻 Code/Notebook | [LLM Fine-Tuning with DeepSpeed](https://example.com/deepspeed-llm) | Distributed training configuration and scripts | Advanced |
-| 📘 Docs | [Kubeflow Pipeline SDK Guide](https://example.com/kubeflow-sdk) | Building and compiling pipelines programmatically | Advanced |
-| 🎥 Video | [Multi-Agent Systems with LangGraph — DeepLearning.AI](https://example.com/langgraph-agent) | Building agentic workflows | Advanced |
-| 📰 Blog | [Building a Real-Time Recommender at Pinterest](https://example.com/pinterest-recsys) | Industrial recommendation architecture | Advanced |
-| 🎓 Course | [Stanford CS329 — Systems for ML](https://example.com/cs329) | Distributed systems for machine learning | Advanced |
+|  Paper | [LoRA: Low-Rank Adaptation of LLMs](https://example.com/lora-paper) | Parameter-efficient fine-tuning | Advanced |
+|  Code/Notebook | [LLM Fine-Tuning with DeepSpeed](https://example.com/deepspeed-llm) | Distributed training configuration and scripts | Advanced |
+|  Docs | [Kubeflow Pipeline SDK Guide](https://example.com/kubeflow-sdk) | Building and compiling pipelines programmatically | Advanced |
+|  Video | [Multi-Agent Systems with LangGraph — DeepLearning.AI](https://example.com/langgraph-agent) | Building agentic workflows | Advanced |
+|  Blog | [Building a Real-Time Recommender at Pinterest](https://example.com/pinterest-recsys) | Industrial recommendation architecture | Advanced |
+|  Course | [Stanford CS329 — Systems for ML](https://example.com/cs329) | Distributed systems for machine learning | Advanced |
 
 ## Infrastructure Considerations
 

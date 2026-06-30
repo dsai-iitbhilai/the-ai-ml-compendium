@@ -10,17 +10,17 @@ Focus on statistical modeling, experimentation, and deriving insights from data.
 
 | Step | Module | Key Resources | Goal |
 |---|---|---|---|
-| 1 | [Module 01 — ML Fundamentals](../01-fundamentals/) | Metrics, evaluation, cross-validation | Solid evaluation practice |
-| 2 | [Module 02 — ML Algorithms](../02-machine-learning/) | Linear/Logistic Regression, Trees, Ensembles | Interpretable models |
-| 3 | [Module 04 — NLP](../04-nlp/) | Text processing, sentiment, topic modeling | Unstructured data analysis |
-| 4 | [Module 06 — Advanced Topics](../06-advanced-topics/) | XGBoost, feature engineering, hyperopt | High-performance modeling |
+| 1 | [Module 01 — ML Fundamentals](../01-foundations/README.md) | Metrics, evaluation, cross-validation | Solid evaluation practice |
+| 2 | [Module 02 — ML Algorithms](../03-machine-learning/README.md) | Linear/Logistic Regression, Trees, Ensembles | Interpretable models |
+| 3 | [Module 04 — NLP](../05-generative-ai/README.md) | Text processing, sentiment, topic modeling | Unstructured data analysis |
+| 4 | [Module 06 — Advanced Topics](../06-agentic-ai/README.md) | XGBoost, feature engineering, hyperopt | High-performance modeling |
 
 ## Elective Modules
 
 | Module | When to Take |
 |---|---|
-| [Module 03 — Deep Learning](../03-deep-learning/) | If working with images or sequence data |
-| [Module 05 — GenAI](../05-genai/) | If interested in LLMs for data analysis |
+| [Module 03 — Deep Learning](../04-deep-learning/README.md) | If working with images or sequence data |
+| [Module 05 — GenAI](../05-generative-ai/README.md) | If interested in LLMs for data analysis |
 | [Module 07 — MLOps](../07-mlops-and-deployment/) | If deploying models to production |
 
 ## Projects

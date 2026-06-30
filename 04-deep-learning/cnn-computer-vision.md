@@ -49,12 +49,12 @@ Vision Transformers
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Dive into Deep Learning – Computer Vision | Beginner | https://d2l.ai/chapter_computer-vision/index.html | Free interactive textbook |
-| Deep Learning Book (Goodfellow) – CNN Chapter | Intermediate | https://www.deeplearningbook.org/ | Mathematical foundations |
-| Understanding Deep Learning (Prince) | Intermediate | https://udlbook.github.io/udlbook/ | Modern deep learning textbook |
-| PyTorch Vision Tutorials | Beginner | https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html | Official detection & segmentation tutorials |
-| TorchVision Documentation | Beginner | https://pytorch.org/vision/stable/index.html | Models, datasets, transforms |
-| OpenCV Documentation | Beginner | https://docs.opencv.org/ | Image processing library |
+| Dive into Deep Learning – Computer Vision | Beginner | <https://d2l.ai/chapter_computer-vision/index.html> | Free interactive textbook |
+| Deep Learning Book (Goodfellow) – CNN Chapter | Intermediate | <https://www.deeplearningbook.org/> | Mathematical foundations |
+| Understanding Deep Learning (Prince) | Intermediate | <https://udlbook.github.io/udlbook/> | Modern deep learning textbook |
+| PyTorch Vision Tutorials | Beginner | <https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html> | Official detection & segmentation tutorials |
+| TorchVision Documentation | Beginner | <https://pytorch.org/vision/stable/index.html> | Models, datasets, transforms |
+| OpenCV Documentation | Beginner | <https://docs.opencv.org/> | Image processing library |
 
 ---
 
@@ -62,11 +62,11 @@ Vision Transformers
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| 3Blue1Brown – CNNs Explained | Beginner | https://www.youtube.com/watch?v=KuXjwB4LzSA | Best intuition for convolution |
-| Stanford CS231n Lecture Series | Intermediate | https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv | Gold-standard CV lectures |
-| MIT 6.S191 Computer Vision | Intermediate | https://www.youtube.com/@MITDeepLearning | Modern CV concepts |
-| Yannic Kilcher Paper Reviews | Advanced | https://www.youtube.com/@YannicKilcher | CNN architectures explained |
-| Aladdin Persson CNN Playlist | Beginner | https://www.youtube.com/@AladdinPersson | Excellent PyTorch implementations |
+| 3Blue1Brown – CNNs Explained | Beginner | <https://www.youtube.com/watch?v=KuXjwB4LzSA> | Best intuition for convolution |
+| Stanford CS231n Lecture Series | Intermediate | <https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv> | Gold-standard CV lectures |
+| MIT 6.S191 Computer Vision | Intermediate | <https://www.youtube.com/@MITDeepLearning> | Modern CV concepts |
+| Yannic Kilcher Paper Reviews | Advanced | <https://www.youtube.com/@YannicKilcher> | CNN architectures explained |
+| Aladdin Persson CNN Playlist | Beginner | <https://www.youtube.com/@AladdinPersson> | Excellent PyTorch implementations |
 
 ---
 
@@ -74,11 +74,11 @@ Vision Transformers
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| DeepLearning.AI – CNNs | Beginner | https://www.coursera.org/learn/convolutional-neural-networks | Andrew Ng |
-| fast.ai Practical Deep Learning | Beginner | https://course.fast.ai/ | Top-down learning |
-| Stanford CS231n | Intermediate | https://cs231n.stanford.edu/ | Best university course |
-| MIT 6.S191 | Intermediate | https://introtodeeplearning.com/ | Modern CV |
-| Kaggle Computer Vision Micro-course | Beginner | https://www.kaggle.com/learn/computer-vision | Hands-on notebooks |
+| DeepLearning.AI – CNNs | Beginner | <https://www.coursera.org/learn/convolutional-neural-networks> | Andrew Ng |
+| fast.ai Practical Deep Learning | Beginner | <https://course.fast.ai/> | Top-down learning |
+| Stanford CS231n | Intermediate | <https://cs231n.stanford.edu/> | Best university course |
+| MIT 6.S191 | Intermediate | <https://introtodeeplearning.com/> | Modern CV |
+| Kaggle Computer Vision Micro-course | Beginner | <https://www.kaggle.com/learn/computer-vision> | Hands-on notebooks |
 
 ---
 
@@ -86,11 +86,11 @@ Vision Transformers
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| CNN Explainer | Beginner | https://poloclub.github.io/cnn-explainer/ | Best CNN visualization |
-| ConvNetJS Demo | Beginner | https://cs.stanford.edu/people/karpathy/convnetjs/ | Browser CNN demo |
-| TensorFlow Playground | Beginner | https://playground.tensorflow.org/ | Neural network intuition |
-| Distill Feature Visualization | Intermediate | https://distill.pub/2017/feature-visualization/ | Internal CNN representations |
-| Activation Atlas | Advanced | https://distill.pub/2019/activation-atlas/ | Feature space exploration |
+| CNN Explainer | Beginner | <https://poloclub.github.io/cnn-explainer/> | Best CNN visualization |
+| ConvNetJS Demo | Beginner | <https://cs.stanford.edu/people/karpathy/convnetjs/> | Browser CNN demo |
+| TensorFlow Playground | Beginner | <https://playground.tensorflow.org/> | Neural network intuition |
+| Distill Feature Visualization | Intermediate | <https://distill.pub/2017/feature-visualization/> | Internal CNN representations |
+| Activation Atlas | Advanced | <https://distill.pub/2019/activation-atlas/> | Feature space exploration |
 
 ---
 
@@ -98,18 +98,18 @@ Vision Transformers
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| LeNet-5 (1998) | Beginner | http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf | First successful CNN |
-| AlexNet (2012) | Intermediate | https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf | Started deep learning revolution |
-| VGGNet (2014) | Intermediate | https://arxiv.org/abs/1409.1556 | Simple deep architecture |
-| GoogLeNet/Inception (2014) | Intermediate | https://arxiv.org/abs/1409.4842 | Inception modules |
-| ResNet (2015) | Intermediate | https://arxiv.org/abs/1512.03385 | Residual learning |
-| DenseNet | Intermediate | https://arxiv.org/abs/1608.06993 | Dense connections |
-| MobileNetV2 | Intermediate | https://arxiv.org/abs/1801.04381 | Efficient CNN |
-| EfficientNet | Intermediate | https://arxiv.org/abs/1905.11946 | Compound scaling |
-| YOLO | Intermediate | https://arxiv.org/abs/1506.02640 | Real-time detection |
-| Faster R-CNN | Advanced | https://arxiv.org/abs/1506.01497 | Two-stage detector |
-| U-Net | Intermediate | https://arxiv.org/abs/1505.04597 | Segmentation |
-| Vision Transformer | Advanced | https://arxiv.org/abs/2010.11929 | CNN alternative |
+| LeNet-5 (1998) | Beginner | <http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf> | First successful CNN |
+| AlexNet (2012) | Intermediate | <https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf> | Started deep learning revolution |
+| VGGNet (2014) | Intermediate | <https://arxiv.org/abs/1409.1556> | Simple deep architecture |
+| GoogLeNet/Inception (2014) | Intermediate | <https://arxiv.org/abs/1409.4842> | Inception modules |
+| ResNet (2015) | Intermediate | <https://arxiv.org/abs/1512.03385> | Residual learning |
+| DenseNet | Intermediate | <https://arxiv.org/abs/1608.06993> | Dense connections |
+| MobileNetV2 | Intermediate | <https://arxiv.org/abs/1801.04381> | Efficient CNN |
+| EfficientNet | Intermediate | <https://arxiv.org/abs/1905.11946> | Compound scaling |
+| YOLO | Intermediate | <https://arxiv.org/abs/1506.02640> | Real-time detection |
+| Faster R-CNN | Advanced | <https://arxiv.org/abs/1506.01497> | Two-stage detector |
+| U-Net | Intermediate | <https://arxiv.org/abs/1505.04597> | Segmentation |
+| Vision Transformer | Advanced | <https://arxiv.org/abs/2010.11929> | CNN alternative |
 
 ---
 
@@ -117,11 +117,11 @@ Vision Transformers
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| PyTorch CIFAR-10 Tutorial | Beginner | https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html | First CNN |
-| TensorFlow Image Classification | Beginner | https://www.tensorflow.org/tutorials/images/classification | Official tutorial |
-| Detectron2 Tutorials | Intermediate | https://detectron2.readthedocs.io/ | Detection & segmentation |
-| Ultralytics YOLO Docs | Beginner | https://docs.ultralytics.com/ | Modern YOLO implementation |
-| OpenMMLab | Advanced | https://github.com/open-mmlab | Large CV ecosystem |
+| PyTorch CIFAR-10 Tutorial | Beginner | <https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html> | First CNN |
+| TensorFlow Image Classification | Beginner | <https://www.tensorflow.org/tutorials/images/classification> | Official tutorial |
+| Detectron2 Tutorials | Intermediate | <https://detectron2.readthedocs.io/> | Detection & segmentation |
+| Ultralytics YOLO Docs | Beginner | <https://docs.ultralytics.com/> | Modern YOLO implementation |
+| OpenMMLab | Advanced | <https://github.com/open-mmlab> | Large CV ecosystem |
 
 ---
 
@@ -129,11 +129,11 @@ Vision Transformers
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Lilian Weng – Object Detection | Intermediate | https://lilianweng.github.io/posts/2018-12-27-object-recognition-part-4/ | Excellent detector overview |
-| PyImageSearch | Beginner | https://pyimagesearch.com/ | Practical OpenCV & DL tutorials |
-| Papers with Code – Computer Vision | Intermediate | https://paperswithcode.com/area/computer-vision | Papers + implementations |
-| LearnOpenCV | Beginner | https://learnopencv.com/ | Underrated practical resource |
-| TheAISummer | Intermediate | https://theaisummer.com/ | High-quality vision articles |
+| Lilian Weng – Object Detection | Intermediate | <https://lilianweng.github.io/posts/2018-12-27-object-recognition-part-4/> | Excellent detector overview |
+| PyImageSearch | Beginner | <https://pyimagesearch.com/> | Practical OpenCV & DL tutorials |
+| Papers with Code – Computer Vision | Intermediate | <https://paperswithcode.com/area/computer-vision> | Papers + implementations |
+| LearnOpenCV | Beginner | <https://learnopencv.com/> | Underrated practical resource |
+| TheAISummer | Intermediate | <https://theaisummer.com/> | High-quality vision articles |
 
 ---
 
@@ -249,7 +249,7 @@ Vision Transformers
 
 - [Neural Network Fundamentals](neural-network-fundamentals.md)
 - [Transformers](transformers.md)
-- [Generative AI](generative-ai.md)
+- [Generative AI](../visualizers-and-playgrounds/README.md)
 - [PyTorch](frameworks.md)
 - [TensorFlow](frameworks.md)
 - [Visualizers](visualizers.md)

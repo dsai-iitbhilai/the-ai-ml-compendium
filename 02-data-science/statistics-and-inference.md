@@ -18,12 +18,12 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Think Stats (Allen Downey) | Beginner | https://greenteapress.com/wp/think-stats-2e/ | Free book using Python |
-| OpenIntro Statistics | Beginner | https://www.openintro.org/book/os/ | Excellent open-source statistics textbook |
-| Introduction to Statistical Learning (ISLR) | Intermediate | https://www.statlearning.com | Statistics for Machine Learning (free PDF) |
-| Penn State STAT Online | Intermediate | https://online.stat.psu.edu/statprogram/ | University-quality statistics notes |
-| Seeing Theory Notes | Beginner | https://seeing-theory.brown.edu | Interactive explanations with theory |
-| Statistical Inference (Casella & Berger) | Advanced | https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126 | Classic graduate-level reference |
+| Think Stats (Allen Downey) | Beginner | <https://greenteapress.com/wp/think-stats-2e/> | Free book using Python |
+| OpenIntro Statistics | Beginner | <https://www.openintro.org/book/os/> | Excellent open-source statistics textbook |
+| Introduction to Statistical Learning (ISLR) | Intermediate | <https://www.statlearning.com> | Statistics for Machine Learning (free PDF) |
+| Penn State STAT Online | Intermediate | <https://online.stat.psu.edu/statprogram/> | University-quality statistics notes |
+| Seeing Theory Notes | Beginner | <https://seeing-theory.brown.edu> | Interactive explanations with theory |
+| Statistical Inference (Casella & Berger) | Advanced | <https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126> | Classic graduate-level reference |
 
 ---
 
@@ -31,11 +31,11 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| StatQuest Statistics Playlist | Beginner | https://www.youtube.com/@statquest/playlists | Best explanations for statistical concepts |
-| CrashCourse Statistics | Beginner | https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr | Intuitive introduction |
-| Khan Academy Statistics | Beginner | https://www.khanacademy.org/math/statistics-probability | Comprehensive free course |
-| Brandon Foltz Statistics | Intermediate | https://www.youtube.com/@BrandonFoltz | Detailed university-style lectures |
-| Harvard Statistics 110 (Joe Blitzstein) | Advanced | https://projects.iq.harvard.edu/stat110 | One of the best probability courses |
+| StatQuest Statistics Playlist | Beginner | <https://www.youtube.com/@statquest/playlists> | Best explanations for statistical concepts |
+| CrashCourse Statistics | Beginner | <https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr> | Intuitive introduction |
+| Khan Academy Statistics | Beginner | <https://www.khanacademy.org/math/statistics-probability> | Comprehensive free course |
+| Brandon Foltz Statistics | Intermediate | <https://www.youtube.com/@BrandonFoltz> | Detailed university-style lectures |
+| Harvard Statistics 110 (Joe Blitzstein) | Advanced | <https://projects.iq.harvard.edu/stat110> | One of the best probability courses |
 
 ---
 
@@ -43,11 +43,11 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Khan Academy Statistics & Probability | Beginner | https://www.khanacademy.org/math/statistics-probability | Complete free curriculum |
-| Harvard Statistics 110 | Intermediate | https://projects.iq.harvard.edu/stat110 | Probability & statistical thinking |
-| Coursera – Inferential Statistics (Duke) | Intermediate | https://www.coursera.org/learn/inferential-statistics-intro | Statistical inference and hypothesis testing |
-| OpenIntro Labs | Beginner | https://openintrostat.github.io | Practical statistics exercises |
-| MIT OpenCourseWare Probability | Advanced | https://ocw.mit.edu | Mathematical probability foundations |
+| Khan Academy Statistics & Probability | Beginner | <https://www.khanacademy.org/math/statistics-probability> | Complete free curriculum |
+| Harvard Statistics 110 | Intermediate | <https://projects.iq.harvard.edu/stat110> | Probability & statistical thinking |
+| Coursera – Inferential Statistics (Duke) | Intermediate | <https://www.coursera.org/learn/inferential-statistics-intro> | Statistical inference and hypothesis testing |
+| OpenIntro Labs | Beginner | <https://openintrostat.github.io> | Practical statistics exercises |
+| MIT OpenCourseWare Probability | Advanced | <https://ocw.mit.edu> | Mathematical probability foundations |
 
 ---
 
@@ -55,11 +55,11 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Seeing Theory | Beginner | https://seeing-theory.brown.edu | Interactive probability & statistics visualizations |
-| Rossman/Chance Applets | Beginner | https://www.rossmanchance.com/applets | Simulate hypothesis tests and sampling |
-| SOCR Simulations | Intermediate | https://socr.umich.edu | Interactive statistical simulations |
-| Shiny Central Limit Theorem Demo | Beginner | https://gallery.shinyapps.io/CLT_mean/ | Visualize the Central Limit Theorem |
-| Distribution Explorer | Beginner | https://distribution-explorer.github.io | Understand common probability distributions |
+| Seeing Theory | Beginner | <https://seeing-theory.brown.edu> | Interactive probability & statistics visualizations |
+| Rossman/Chance Applets | Beginner | <https://www.rossmanchance.com/applets> | Simulate hypothesis tests and sampling |
+| SOCR Simulations | Intermediate | <https://socr.umich.edu> | Interactive statistical simulations |
+| Shiny Central Limit Theorem Demo | Beginner | <https://gallery.shinyapps.io/CLT_mean/> | Visualize the Central Limit Theorem |
+| Distribution Explorer | Beginner | <https://distribution-explorer.github.io> | Understand common probability distributions |
 
 ---
 
@@ -67,11 +67,11 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| SciPy Statistics Documentation | Beginner | https://docs.scipy.org/doc/scipy/reference/stats.html | Official statistical functions |
-| statsmodels Documentation | Intermediate | https://www.statsmodels.org | Regression and statistical modeling |
-| Pingouin Documentation | Intermediate | https://pingouin-stats.org | Simple statistical testing library |
-| Think Stats GitHub | Beginner | https://github.com/AllenDowney/ThinkStats2 | Code accompanying the book |
-| ISLR Labs | Intermediate | https://github.com/JWarmenhoven/ISLR-python | Python implementation of ISLR labs |
+| SciPy Statistics Documentation | Beginner | <https://docs.scipy.org/doc/scipy/reference/stats.html> | Official statistical functions |
+| statsmodels Documentation | Intermediate | <https://www.statsmodels.org> | Regression and statistical modeling |
+| Pingouin Documentation | Intermediate | <https://pingouin-stats.org> | Simple statistical testing library |
+| Think Stats GitHub | Beginner | <https://github.com/AllenDowney/ThinkStats2> | Code accompanying the book |
+| ISLR Labs | Intermediate | <https://github.com/JWarmenhoven/ISLR-python> | Python implementation of ISLR labs |
 
 ---
 
@@ -79,10 +79,10 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Towards Data Science – Statistics | Beginner | https://towardsdatascience.com/tagged/statistics | Practical statistical concepts |
-| Statistical Modeling, Causal Inference, and Social Science | Advanced | https://statmodeling.stat.columbia.edu | Andrew Gelman's blog |
-| Simply Statistics | Intermediate | https://simplystatistics.org | Applied statistics and data science |
-| Statistics By Jim | Beginner | https://statisticsbyjim.com | Excellent explanations of hypothesis testing, regression, ANOVA, and confidence intervals |
+| Towards Data Science – Statistics | Beginner | <https://towardsdatascience.com/tagged/statistics> | Practical statistical concepts |
+| Statistical Modeling, Causal Inference, and Social Science | Advanced | <https://statmodeling.stat.columbia.edu> | Andrew Gelman's blog |
+| Simply Statistics | Intermediate | <https://simplystatistics.org> | Applied statistics and data science |
+| Statistics By Jim | Beginner | <https://statisticsbyjim.com> | Excellent explanations of hypothesis testing, regression, ANOVA, and confidence intervals |
 
 ---
 
@@ -218,11 +218,11 @@
 
 | Dataset | Link |
 |----------|------|
-| Kaggle Datasets | https://www.kaggle.com/datasets |
-| UCI Machine Learning Repository | https://archive.ics.uci.edu |
-| Our World in Data | https://ourworldindata.org |
-| Gapminder | https://www.gapminder.org/data/ |
-| FiveThirtyEight Data | https://github.com/fivethirtyeight/data |
+| Kaggle Datasets | <https://www.kaggle.com/datasets> |
+| UCI Machine Learning Repository | <https://archive.ics.uci.edu> |
+| Our World in Data | <https://ourworldindata.org> |
+| Gapminder | <https://www.gapminder.org/data/> |
+| FiveThirtyEight Data | <https://github.com/fivethirtyeight/data> |
 
 ---
 

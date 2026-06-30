@@ -16,11 +16,11 @@
 
 | Category | Title | Description | Level |
 |---|---|---|---|
-| 💻 Code/Notebook | [BERT Sentiment Fine-Tune Notebook](https://example.com/bert-sentiment) | Complete fine-tuning pipeline with HF | Intermediate |
-| 🎓 Course | [Coursera — Applied ML with Python](https://example.com/coursera-ml) | Project-based ML course | Intermediate |
-| 📰 Blog | [Building a Recommender System in PyTorch](https://example.com/recommender-blog) | Deep-dive into matrix factorization | Intermediate |
-| 📘 Docs | [DVC + MLflow Tutorial](https://example.com/dvc-mlflow) | Version data and track experiments | Intermediate |
-| 🎥 Video | [Deploy FastAPI Model to Render/AWS](https://example.com/fastapi-deploy) | Full deployment walkthrough | Intermediate |
+|  Code/Notebook | [BERT Sentiment Fine-Tune Notebook](https://example.com/bert-sentiment) | Complete fine-tuning pipeline with HF | Intermediate |
+|  Course | [Coursera — Applied ML with Python](https://example.com/coursera-ml) | Project-based ML course | Intermediate |
+|  Blog | [Building a Recommender System in PyTorch](https://example.com/recommender-blog) | Deep-dive into matrix factorization | Intermediate |
+|  Docs | [DVC + MLflow Tutorial](https://example.com/dvc-mlflow) | Version data and track experiments | Intermediate |
+|  Video | [Deploy FastAPI Model to Render/AWS](https://example.com/fastapi-deploy) | Full deployment walkthrough | Intermediate |
 
 ## Suggested Extensions
 

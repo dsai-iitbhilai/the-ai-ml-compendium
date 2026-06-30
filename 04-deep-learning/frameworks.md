@@ -52,14 +52,14 @@ Model Deployment
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| PyTorch Documentation | Beginner | https://pytorch.org/docs/stable/ | Official documentation |
-| PyTorch Tutorials | Beginner | https://pytorch.org/tutorials/ | Best place to start |
-| TensorFlow Documentation | Beginner | https://www.tensorflow.org/guide | Official guides |
-| TensorFlow Tutorials | Beginner | https://www.tensorflow.org/tutorials | Hands-on tutorials |
-| JAX Documentation | Intermediate | https://jax.readthedocs.io/en/latest/ | Official documentation |
-| Flax Documentation | Intermediate | https://flax.readthedocs.io/ | Neural network library for JAX |
-| Dive into Deep Learning | Beginner | https://d2l.ai/ | Free interactive textbook |
-| Deep Learning Book | Intermediate | https://www.deeplearningbook.org/ | Deep learning theory |
+| PyTorch Documentation | Beginner | <https://pytorch.org/docs/stable/> | Official documentation |
+| PyTorch Tutorials | Beginner | <https://pytorch.org/tutorials/> | Best place to start |
+| TensorFlow Documentation | Beginner | <https://www.tensorflow.org/guide> | Official guides |
+| TensorFlow Tutorials | Beginner | <https://www.tensorflow.org/tutorials> | Hands-on tutorials |
+| JAX Documentation | Intermediate | <https://jax.readthedocs.io/en/latest/> | Official documentation |
+| Flax Documentation | Intermediate | <https://flax.readthedocs.io/> | Neural network library for JAX |
+| Dive into Deep Learning | Beginner | <https://d2l.ai/> | Free interactive textbook |
+| Deep Learning Book | Intermediate | <https://www.deeplearningbook.org/> | Deep learning theory |
 
 ---
 
@@ -67,12 +67,12 @@ Model Deployment
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Learn PyTorch for Deep Learning | Beginner | https://www.youtube.com/watch?v=V_xro1bcAuA | Daniel Bourke |
-| freeCodeCamp PyTorch Course | Beginner | https://www.youtube.com/watch?v=Z_ikDlimN6A | Complete beginner course |
-| TensorFlow Full Course (freeCodeCamp) | Beginner | https://www.youtube.com/watch?v=tPYj3fFJGjk | TensorFlow 2.x |
-| Tech With Tim TensorFlow Playlist | Beginner | https://www.youtube.com/@TechWithTim | Practical TensorFlow |
-| JAX Crash Course | Intermediate | https://www.youtube.com/results?search_query=JAX+crash+course | Modern JAX tutorials |
-| Full Stack Deep Learning Lectures | Intermediate | https://fullstackdeeplearning.com/ | Industry-focused DL |
+| Learn PyTorch for Deep Learning | Beginner | <https://www.youtube.com/watch?v=V_xro1bcAuA> | Daniel Bourke |
+| freeCodeCamp PyTorch Course | Beginner | <https://www.youtube.com/watch?v=Z_ikDlimN6A> | Complete beginner course |
+| TensorFlow Full Course (freeCodeCamp) | Beginner | <https://www.youtube.com/watch?v=tPYj3fFJGjk> | TensorFlow 2.x |
+| Tech With Tim TensorFlow Playlist | Beginner | <https://www.youtube.com/@TechWithTim> | Practical TensorFlow |
+| JAX Crash Course | Intermediate | <https://www.youtube.com/results?search_query=JAX+crash+course> | Modern JAX tutorials |
+| Full Stack Deep Learning Lectures | Intermediate | <https://fullstackdeeplearning.com/> | Industry-focused DL |
 
 ---
 
@@ -80,11 +80,11 @@ Model Deployment
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Learn PyTorch | Beginner | https://www.learnpytorch.io/ | Free and comprehensive |
-| fast.ai Practical Deep Learning | Beginner | https://course.fast.ai/ | Production-first approach |
-| Full Stack Deep Learning | Intermediate | https://fullstackdeeplearning.com/ | Covers modern tooling |
-| Kaggle Intro to Deep Learning | Beginner | https://www.kaggle.com/learn/intro-to-deep-learning | Hands-on notebooks |
-| DeepLearning.AI TensorFlow Developer | Beginner | https://www.coursera.org/professional-certificates/tensorflow-in-practice | TensorFlow specialization |
+| Learn PyTorch | Beginner | <https://www.learnpytorch.io/> | Free and comprehensive |
+| fast.ai Practical Deep Learning | Beginner | <https://course.fast.ai/> | Production-first approach |
+| Full Stack Deep Learning | Intermediate | <https://fullstackdeeplearning.com/> | Covers modern tooling |
+| Kaggle Intro to Deep Learning | Beginner | <https://www.kaggle.com/learn/intro-to-deep-learning> | Hands-on notebooks |
+| DeepLearning.AI TensorFlow Developer | Beginner | <https://www.coursera.org/professional-certificates/tensorflow-in-practice> | TensorFlow specialization |
 
 ---
 
@@ -92,11 +92,11 @@ Model Deployment
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| TensorFlow Playground | Beginner | https://playground.tensorflow.org/ | Neural network intuition |
-| Netron | Beginner | https://netron.app/ | Visualize neural network architectures |
-| TorchViz | Intermediate | https://github.com/szagoruyko/pytorchviz | Visualize computation graphs |
-| TensorBoard | Beginner | https://www.tensorflow.org/tensorboard | Visualize training |
-| Weights & Biases Reports | Beginner | https://wandb.ai/site | Experiment tracking |
+| TensorFlow Playground | Beginner | <https://playground.tensorflow.org/> | Neural network intuition |
+| Netron | Beginner | <https://netron.app/> | Visualize neural network architectures |
+| TorchViz | Intermediate | <https://github.com/szagoruyko/pytorchviz> | Visualize computation graphs |
+| TensorBoard | Beginner | <https://www.tensorflow.org/tensorboard> | Visualize training |
+| Weights & Biases Reports | Beginner | <https://wandb.ai/site> | Experiment tracking |
 
 ---
 
@@ -104,10 +104,10 @@ Model Deployment
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| PyTorch: An Imperative Style, High-Performance Deep Learning Library | Intermediate | https://arxiv.org/abs/1912.01703 | PyTorch architecture |
-| TensorFlow: Large-Scale Machine Learning | Intermediate | https://research.google/pubs/pub45381/ | TensorFlow design |
-| JAX: Composable Transformations | Advanced | https://github.com/google/jax | Functional programming approach |
-| ONNX: Open Neural Network Exchange | Intermediate | https://onnx.ai/ | Cross-framework interoperability |
+| PyTorch: An Imperative Style, High-Performance Deep Learning Library | Intermediate | <https://arxiv.org/abs/1912.01703> | PyTorch architecture |
+| TensorFlow: Large-Scale Machine Learning | Intermediate | <https://research.google/pubs/pub45381/> | TensorFlow design |
+| JAX: Composable Transformations | Advanced | <https://github.com/google/jax> | Functional programming approach |
+| ONNX: Open Neural Network Exchange | Intermediate | <https://onnx.ai/> | Cross-framework interoperability |
 
 ---
 
@@ -115,13 +115,13 @@ Model Deployment
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| PyTorch 60 Minute Blitz | Beginner | https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html | Official quickstart |
-| TensorFlow Quickstart | Beginner | https://www.tensorflow.org/tutorials/quickstart/beginner | Official beginner guide |
-| Hugging Face Course | Beginner | https://huggingface.co/course | Uses PyTorch & TensorFlow |
-| Lightning Documentation | Intermediate | https://lightning.ai/docs/pytorch/stable/ | High-level PyTorch framework |
-| FastAI Documentation | Beginner | https://docs.fast.ai/ | Production-ready abstractions |
-| OpenMMLab | Advanced | https://github.com/open-mmlab | CV ecosystem |
-| PyTorch Examples | Intermediate | https://github.com/pytorch/examples | Official examples |
+| PyTorch 60 Minute Blitz | Beginner | <https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html> | Official quickstart |
+| TensorFlow Quickstart | Beginner | <https://www.tensorflow.org/tutorials/quickstart/beginner> | Official beginner guide |
+| Hugging Face Course | Beginner | <https://huggingface.co/course> | Uses PyTorch & TensorFlow |
+| Lightning Documentation | Intermediate | <https://lightning.ai/docs/pytorch/stable/> | High-level PyTorch framework |
+| FastAI Documentation | Beginner | <https://docs.fast.ai/> | Production-ready abstractions |
+| OpenMMLab | Advanced | <https://github.com/open-mmlab> | CV ecosystem |
+| PyTorch Examples | Intermediate | <https://github.com/pytorch/examples> | Official examples |
 
 ---
 
@@ -129,12 +129,12 @@ Model Deployment
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| LearnPyTorch.io | Beginner | https://www.learnpytorch.io/ | One of the best PyTorch resources |
-| Sebastian Raschka Blog | Intermediate | https://sebastianraschka.com/blog/ | Deep learning tutorials |
-| Lilian Weng Blog | Intermediate | https://lilianweng.github.io/ | State-of-the-art concepts |
-| Full Stack Deep Learning Blog | Intermediate | https://fullstackdeeplearning.com/blog/ | Production ML |
-| AssemblyAI Engineering Blog | Intermediate | https://www.assemblyai.com/blog/ | Speech & deep learning |
-| Hugging Face Blog | Beginner | https://huggingface.co/blog | Modern AI ecosystem |
+| LearnPyTorch.io | Beginner | <https://www.learnpytorch.io/> | One of the best PyTorch resources |
+| Sebastian Raschka Blog | Intermediate | <https://sebastianraschka.com/blog/> | Deep learning tutorials |
+| Lilian Weng Blog | Intermediate | <https://lilianweng.github.io/> | State-of-the-art concepts |
+| Full Stack Deep Learning Blog | Intermediate | <https://fullstackdeeplearning.com/blog/> | Production ML |
+| AssemblyAI Engineering Blog | Intermediate | <https://www.assemblyai.com/blog/> | Speech & deep learning |
+| Hugging Face Blog | Beginner | <https://huggingface.co/blog> | Modern AI ecosystem |
 
 ---
 
@@ -322,7 +322,7 @@ Model Deployment
 - [Neural Network Fundamentals](neural-network-fundamentals.md)
 - [CNN & Computer Vision](cnn-computer-vision.md)
 - [Transformers](transformers.md)
-- [Generative AI](generative-ai.md)
-- [MLOps](../07-deployment/mlops.md)
+- [Generative AI](../visualizers-and-playgrounds/README.md)
+- [MLOps](../visualizers-and-playgrounds/README.md)
 - [Projects](../08-projects-and-examples/README.md)
 ```

@@ -16,12 +16,12 @@
 
 | Category | Title | Description | Level |
 |---|---|---|---|
-| 💻 Code/Notebook | [Full-Stack RAG App (ChromaDB + Ollama)](https://example.com/fullstack-rag) | Complete local RAG system with UI | Intermediate |
-| 💻 Code/Notebook | [CLIP Image Search Deployment](https://example.com/clip-search) | End-to-end image similarity search | Advanced |
-| 🎓 Course | [Full Stack Deep Learning](https://example.com/fsdl-course) | Hands-on course building production ML systems | Intermediate |
-| 📰 Blog | [Architecting ML Systems — MLflow + FastAPI + React](https://example.com/architecting-ml) | System design patterns for ML apps | Intermediate |
-| 🎥 Video | [Building a Production ML App in 1 Hour](https://example.com/prod-ml-app) | Live coding a full-stack ML project | Intermediate |
-| 📘 Docs | [Streamlit + FastAPI Integration Guide](https://example.com/streamlit-fastapi) | Patterns for serving ML via Streamlit | Beginner |
+|  Code/Notebook | [Full-Stack RAG App (ChromaDB + Ollama)](https://example.com/fullstack-rag) | Complete local RAG system with UI | Intermediate |
+|  Code/Notebook | [CLIP Image Search Deployment](https://example.com/clip-search) | End-to-end image similarity search | Advanced |
+|  Course | [Full Stack Deep Learning](https://example.com/fsdl-course) | Hands-on course building production ML systems | Intermediate |
+|  Blog | [Architecting ML Systems — MLflow + FastAPI + React](https://example.com/architecting-ml) | System design patterns for ML apps | Intermediate |
+|  Video | [Building a Production ML App in 1 Hour](https://example.com/prod-ml-app) | Live coding a full-stack ML project | Intermediate |
+|  Docs | [Streamlit + FastAPI Integration Guide](https://example.com/streamlit-fastapi) | Patterns for serving ML via Streamlit | Beginner |
 
 ## Architecture Template
 

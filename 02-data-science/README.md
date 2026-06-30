@@ -26,13 +26,13 @@ Data science is the practice of turning messy, real-world data into actionable k
 
 ```
 ┌─────────────────────────────────────────────┐
-│            01 – Foundations                   │
-│  (Python, NumPy, pandas, math basics)        │
+│               01 - Foundations              │
+│     (Python, NumPy, pandas, math basics)    │
 └──────────────────┬──────────────────────────┘
                    │
                    ▼
 ┌─────────────────────────────────────────────┐
-│        02 – Data Science                     │
+│              02 - Data Science              │
 │                                             │
 │  Data Wrangling ──► EDA & Visualization     │
 │       │                      │              │
@@ -46,7 +46,7 @@ Data science is the practice of turning messy, real-world data into actionable k
                    │
                    ▼
 ┌─────────────────────────────────────────────┐
-│        03 – Machine Learning                 │
+│            03 - Machine Learning            │
 └─────────────────────────────────────────────┘
 ```
 

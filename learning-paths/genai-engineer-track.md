@@ -10,16 +10,16 @@ Focus on prompt engineering, retrieval-augmented generation, fine-tuning, and LL
 
 | Step | Module | Key Resources | Goal |
 |---|---|---|---|
-| 1 | [Module 04 — NLP](../04-nlp/) | Tokenization, embeddings, Transformers | Foundation for LLMs |
-| 2 | [Module 05 — GenAI](../05-genai/) | LLMs, prompting, RAG, agents | Core GenAI patterns |
+| 1 | [Module 04 — NLP](../05-generative-ai/README.md) | Tokenization, embeddings, Transformers | Foundation for LLMs |
+| 2 | [Module 05 — GenAI](../05-generative-ai/README.md) | LLMs, prompting, RAG, agents | Core GenAI patterns |
 | 3 | [Module 07 — Model Serving](../07-mlops-and-deployment/model-serving.md) | Triton, BentoML, vLLM | Deploy LLMs in production |
 
 ## Elective Modules
 
 | Module | When to Take |
 |---|---|
-| [Module 03 — Deep Learning](../03-deep-learning/) | If fine-tuning models or building custom architectures |
-| [Module 06 — Advanced Topics](../06-advanced-topics/) | Diffusion models, multimodal systems |
+| [Module 03 — Deep Learning](../04-deep-learning/README.md) | If fine-tuning models or building custom architectures |
+| [Module 06 — Advanced Topics](../06-agentic-ai/README.md) | Diffusion models, multimodal systems |
 | [Module 07 — CI/CD for ML](../07-mlops-and-deployment/ci-cd-for-ml.md) | Automating fine-tuning pipelines |
 
 ## Projects

@@ -10,7 +10,7 @@ Focus on infrastructure, pipelines, serving, and reliability. Less emphasis on m
 
 | Step | Module | Key Resources | Goal |
 |---|---|---|---|
-| 1 | [Module 01 — ML Fundamentals](../01-fundamentals/) | ML lifecycle, types of ML systems | ML-specific terminology |
+| 1 | [Module 01 — ML Fundamentals](../01-foundations/README.md) | ML lifecycle, types of ML systems | ML-specific terminology |
 | 2 | [Module 07 — MLOps & Deployment](../07-mlops-and-deployment/) | Model serving, Docker, K8s, CI/CD | Deploy a model to production |
 | 3 | [Module 07 — Containers & Orchestration](../07-mlops-and-deployment/containers-and-orchestration.md) | Docker, Kubernetes | Containerized ML workloads |
 | 4 | [Module 07 — CI/CD for ML](../07-mlops-and-deployment/ci-cd-for-ml.md) | MLflow, DVC, pipeline automation | Automate retraining pipeline |
@@ -19,10 +19,10 @@ Focus on infrastructure, pipelines, serving, and reliability. Less emphasis on m
 
 | Module | When to Take |
 |---|---|
-| [Module 03 — Deep Learning](../03-deep-learning/) | If serving neural network models |
-| [Module 05 — GenAI](../05-genai/) | If deploying LLMs and RAG systems |
-| [Module 04 — NLP](../04-nlp/) | If working on text-based models |
-| [Module 02 — ML Algorithms](../02-machine-learning/) | If building traditional ML models |
+| [Module 03 — Deep Learning](../04-deep-learning/README.md) | If serving neural network models |
+| [Module 05 — GenAI](../05-generative-ai/README.md) | If deploying LLMs and RAG systems |
+| [Module 04 — NLP](../05-generative-ai/README.md) | If working on text-based models |
+| [Module 02 — ML Algorithms](../03-machine-learning/README.md) | If building traditional ML models |
 
 ## Projects
 

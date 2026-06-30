@@ -44,10 +44,10 @@ Training Deep Networks
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Dive into Deep Learning | Beginner | https://d2l.ai | Best free deep learning book with code in PyTorch, MXNet, JAX & TensorFlow |
-| Deep Learning (Goodfellow, Bengio & Courville) | Intermediate | https://www.deeplearningbook.org | The deep learning "Bible" |
-| Understanding Deep Learning (Simon Prince) | Intermediate | https://udlbook.github.io/udlbook/ | Modern explanations with strong mathematical intuition |
-| Neural Networks and Deep Learning (Michael Nielsen) | Beginner | http://neuralnetworksanddeeplearning.com | Outstanding intuitive explanation of backpropagation |
+| Dive into Deep Learning | Beginner | <https://d2l.ai> | Best free deep learning book with code in PyTorch, MXNet, JAX & TensorFlow |
+| Deep Learning (Goodfellow, Bengio & Courville) | Intermediate | <https://www.deeplearningbook.org> | The deep learning "Bible" |
+| Understanding Deep Learning (Simon Prince) | Intermediate | <https://udlbook.github.io/udlbook/> | Modern explanations with strong mathematical intuition |
+| Neural Networks and Deep Learning (Michael Nielsen) | Beginner | <http://neuralnetworksanddeeplearning.com> | Outstanding intuitive explanation of backpropagation |
 
 ---
 
@@ -55,10 +55,10 @@ Training Deep Networks
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| 3Blue1Brown — Neural Networks Series | Beginner | https://www.youtube.com/watch?v=aircAruvnKk | Best visual intuition available |
-| Andrej Karpathy — Neural Networks: Zero to Hero | Intermediate | https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ | Build neural networks completely from scratch |
-| StatQuest — Neural Networks | Beginner | https://www.youtube.com/@statquest | Beginner-friendly explanations |
-| Stanford CS231n Lecture 4 | Intermediate | https://www.youtube.com/watch?v=gYpoJMlgyXA | Forward & Backpropagation |
+| 3Blue1Brown — Neural Networks Series | Beginner | <https://www.youtube.com/watch?v=aircAruvnKk> | Best visual intuition available |
+| Andrej Karpathy — Neural Networks: Zero to Hero | Intermediate | <https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ> | Build neural networks completely from scratch |
+| StatQuest — Neural Networks | Beginner | <https://www.youtube.com/@statquest> | Beginner-friendly explanations |
+| Stanford CS231n Lecture 4 | Intermediate | <https://www.youtube.com/watch?v=gYpoJMlgyXA> | Forward & Backpropagation |
 
 ---
 
@@ -66,10 +66,10 @@ Training Deep Networks
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| DeepLearning.AI — Neural Networks and Deep Learning | Beginner | https://www.coursera.org/learn/neural-networks-deep-learning | Andrew Ng's famous course |
-| fast.ai Practical Deep Learning | Beginner | https://course.fast.ai | Learn by building real models |
-| MIT 6.S191 Deep Learning | Intermediate | https://introtodeeplearning.com | Excellent lectures and labs |
-| Dive into Deep Learning Interactive Course | Beginner | https://d2l.ai | Free with executable notebooks |
+| DeepLearning.AI — Neural Networks and Deep Learning | Beginner | <https://www.coursera.org/learn/neural-networks-deep-learning> | Andrew Ng's famous course |
+| fast.ai Practical Deep Learning | Beginner | <https://course.fast.ai> | Learn by building real models |
+| MIT 6.S191 Deep Learning | Intermediate | <https://introtodeeplearning.com> | Excellent lectures and labs |
+| Dive into Deep Learning Interactive Course | Beginner | <https://d2l.ai> | Free with executable notebooks |
 
 ---
 
@@ -77,10 +77,10 @@ Training Deep Networks
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| TensorFlow Playground | Beginner | https://playground.tensorflow.org | Best visualization of neural networks |
-| NN-SVG | Beginner | https://alexlenail.me/NN-SVG | Draw and visualize architectures |
-| ConvNetJS Demo | Beginner | https://cs.stanford.edu/people/karpathy/convnetjs | Interactive neural network demos |
-| CNN Explainer | Intermediate | https://poloclub.github.io/cnn-explainer | Interactive convolution visualization |
+| TensorFlow Playground | Beginner | <https://playground.tensorflow.org> | Best visualization of neural networks |
+| NN-SVG | Beginner | <https://alexlenail.me/NN-SVG> | Draw and visualize architectures |
+| ConvNetJS Demo | Beginner | <https://cs.stanford.edu/people/karpathy/convnetjs> | Interactive neural network demos |
+| CNN Explainer | Intermediate | <https://poloclub.github.io/cnn-explainer> | Interactive convolution visualization |
 
 ---
 
@@ -88,10 +88,10 @@ Training Deep Networks
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Learning Representations by Back-propagating Errors (1986) | Intermediate | https://www.nature.com/articles/323533a0 | Birth of backpropagation |
-| Understanding the Difficulty of Training Deep Feedforward Neural Networks | Advanced | https://proceedings.mlr.press/v9/glorot10a.html | Xavier Initialization |
-| Deep Sparse Rectifier Neural Networks | Advanced | https://proceedings.mlr.press/v15/glorot11a.html | ReLU paper |
-| Delving Deep into Rectifiers | Advanced | https://arxiv.org/abs/1502.01852 | He Initialization |
+| Learning Representations by Back-propagating Errors (1986) | Intermediate | <https://www.nature.com/articles/323533a0> | Birth of backpropagation |
+| Understanding the Difficulty of Training Deep Feedforward Neural Networks | Advanced | <https://proceedings.mlr.press/v9/glorot10a.html> | Xavier Initialization |
+| Deep Sparse Rectifier Neural Networks | Advanced | <https://proceedings.mlr.press/v15/glorot11a.html> | ReLU paper |
+| Delving Deep into Rectifiers | Advanced | <https://arxiv.org/abs/1502.01852> | He Initialization |
 
 ---
 
@@ -99,10 +99,10 @@ Training Deep Networks
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| micrograd | Intermediate | https://github.com/karpathy/micrograd | Build autograd from scratch |
-| makemore | Intermediate | https://github.com/karpathy/makemore | Neural network implementation from scratch |
-| PyTorch 60 Minute Blitz | Beginner | https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html | Official PyTorch tutorial |
-| Dive into Deep Learning Notebooks | Beginner | https://github.com/d2l-ai/d2l-en | Every chapter has runnable notebooks |
+| micrograd | Intermediate | <https://github.com/karpathy/micrograd> | Build autograd from scratch |
+| makemore | Intermediate | <https://github.com/karpathy/makemore> | Neural network implementation from scratch |
+| PyTorch 60 Minute Blitz | Beginner | <https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html> | Official PyTorch tutorial |
+| Dive into Deep Learning Notebooks | Beginner | <https://github.com/d2l-ai/d2l-en> | Every chapter has runnable notebooks |
 
 ---
 
@@ -110,10 +110,10 @@ Training Deep Networks
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Yes, You Should Understand Backprop | Intermediate | https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b | Karpathy explains why |
-| Distill — Feature Visualization | Intermediate | https://distill.pub | Beautiful deep learning visualizations |
-| Lil'Log | Intermediate | https://lilianweng.github.io | Deep learning concepts explained clearly |
-| Michael Nielsen's Blog | Beginner | http://neuralnetworksanddeeplearning.com | Excellent mathematical intuition |
+| Yes, You Should Understand Backprop | Intermediate | <https://karpathy.medium.com/yes-you-should-understand-backprop-e2f06eab496b> | Karpathy explains why |
+| Distill — Feature Visualization | Intermediate | <https://distill.pub> | Beautiful deep learning visualizations |
+| Lil'Log | Intermediate | <https://lilianweng.github.io> | Deep learning concepts explained clearly |
+| Michael Nielsen's Blog | Beginner | <http://neuralnetworksanddeeplearning.com> | Excellent mathematical intuition |
 
 ---
 

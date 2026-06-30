@@ -15,16 +15,16 @@ Focus on reasoning loops, tool integration, memory, multi-agent orchestration, a
 
 | Step | Module | Key Resources | Goal |
 |---|---|---|---|
-| 1 | [Module 05 — GenAI (Agents Section)](../05-genai/) | ReAct, tool use, agent loops | Understand agent architecture |
-| 2 | [Module 05 — GenAI (Multi-Agent)](../05-genai/) | LangGraph, AutoGen, CrewAI | Multi-agent orchestration |
+| 1 | [Module 05 — GenAI (Agents Section)](../05-generative-ai/README.md) | ReAct, tool use, agent loops | Understand agent architecture |
+| 2 | [Module 05 — GenAI (Multi-Agent)](../05-generative-ai/README.md) | LangGraph, AutoGen, CrewAI | Multi-agent orchestration |
 | 3 | [Module 08 — Advanced Projects](../08-projects-and-examples/advanced/) | Build a multi-agent system | Hands-on implementation |
 
 ## Elective Modules
 
 | Module | When to Take |
 |---|---|
-| [Module 04 — NLP](../04-nlp/) | If needing stronger NLP foundations |
-| [Module 06 — Advanced Topics](../06-advanced-topics/) | RLHF, preference optimization |
+| [Module 04 — NLP](../05-generative-ai/README.md) | If needing stronger NLP foundations |
+| [Module 06 — Advanced Topics](../06-agentic-ai/README.md) | RLHF, preference optimization |
 | [Module 07 — MLOps](../07-mlops-and-deployment/) | Deploying agents in production |
 
 ## Projects

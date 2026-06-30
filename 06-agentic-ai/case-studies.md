@@ -68,17 +68,47 @@
 
 ---
 
-## Resource Table
 
-| Category | Title | Level | Link |
-|----------|-------|-------|------|
-| 📰 Blog | "How Klarna's AI Assistant Handled 2.3M Conversations" | Intermediate | https://www.klarna.com/international/press/klarna-ai-assistant/ |
-| 📰 Blog | "Building a Code Review Agent at Scale" | Advanced | https://www.cursor.com/blog/code-review-agent |
-| 📰 Blog | "Replit Agent — From IDE to Agentic Coding" | Intermediate | https://blog.replit.com/agent |
-| 🎥 Video | "Agentic Systems at Intercom" | Intermediate | https://www.youtube.com/watch?v=_iG_k2ZEdbA |
-| 📄 Paper | "AgentBench: Evaluating LLMs as Agents" (Liu et al., 2023) | Advanced | https://arxiv.org/abs/2308.03688 |
-| 📄 Paper | "WebArena: A Realistic Web Environment for Agent Evaluation" (Zhou et al., 2024) | Advanced | https://arxiv.org/abs/2307.13854 |
-| 💻 Code/Notebook | Agent Evaluation Suite (AgentBench) | Advanced | https://github.com/THUDM/AgentBench |
+## Resources
+
+### 📘 Docs & Textbooks
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Anthropic — Evaluating Agents* | Intermediate | <https://docs.anthropic.com/en/docs/build-with-claude/agentic> | Best practices on grading non-deterministic outputs and building evaluation pipelines. |
+
+### 🎥 Video
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Agentic Systems at Intercom* | Intermediate | <https://www.youtube.com/watch?v=_iG_k2ZEdbA> | Practical teardown of deploying and evaluating customer-facing AI agents at scale. |
+
+### 📄 Paper
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *AgentBench: Evaluating LLMs as Agents* (Liu et al., 2023) | Advanced | <https://arxiv.org/abs/2308.03688> | A comprehensive framework evaluating LLMs as agents across varied interactive environments. |
+| *WebArena: A Realistic Web Environment for Agent Evaluation* (Zhou et al., 2024) | Advanced | <https://arxiv.org/abs/2307.13854> | Highly realistic web environment for testing autonomous web navigation. |
+| *GAIA: a benchmark for General AI Assistants* (Mialon et al., 2023) | Advanced | <https://arxiv.org/abs/2311.12983> | Meta's benchmark for testing reasoning, multi-modality, and tool-use proficiency [cite: 1.4.2, 1.4.3]. |
+| *Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments* (Froger et al., 2026) | Advanced | <https://arxiv.org/abs/2602.11964> | Evaluates agents operating under temporal constraints in evolving environments [cite: 1.4.1]. |
+| *SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks* (Wang et al., 2025) | Advanced | <https://arxiv.org/abs/2512.17419> | Automates benchmark generation from live GitHub pull requests across 11 programming languages [cite: 1.1.2]. |
+| *OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents* | Advanced | <https://arxiv.org/html/2510.24563v2> | Assesses dynamic interaction between direct GUI operations and external tool calls [cite: 1.2.1]. |
+
+### 💻 Code / Notebook
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *AgentBench* | Advanced | <https://github.com/THUDM/AgentBench> | The official repository and evaluation suite for the AgentBench paper. |
+
+### 📰 Blog
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *How Klarna's AI Assistant Handled 2.3M Conversations* | Intermediate | <https://www.klarna.com/international/press/klarna-ai-assistant/> | Case study showing how Klarna's agent resolves tasks in under 2 minutes across 35 languages [cite: 1.3.3]. |
+| *Building a Code Review Agent at Scale* | Advanced | <https://www.cursor.com/blog/code-review-agent> | Behind-the-scenes engineering breakdown of building autonomous coding workflows. |
+| *Replit Agent — From IDE to Agentic Coding* | Intermediate | <https://blog.replit.com/agent> | Details the transition from copilot autocomplete patterns to agentic goal-completion. |
+
+---
 
 ## Recurring Themes
 

@@ -18,15 +18,15 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Fundamentals of Data Visualization (Claus Wilke) | ⭐ Beginner | https://clauswilke.com/dataviz/ | One of the best FREE books on visualization |
-| Storytelling with Data Blog | Beginner | https://www.storytellingwithdata.com/blog | Excellent visualization principles (book is paid, blog is free) |
-| matplotlib User Guide | Beginner | https://matplotlib.org/stable/users/index.html | Official documentation |
-| matplotlib Gallery | Beginner | https://matplotlib.org/stable/gallery/index.html | Hundreds of visualization examples |
-| seaborn Official Tutorials | Beginner | https://seaborn.pydata.org/tutorial.html | Learn every major plot |
-| seaborn Gallery | Beginner | https://seaborn.pydata.org/examples/index.html | Beautiful example gallery |
-| Plotly Python Documentation | Beginner | https://plotly.com/python/ | Interactive plotting documentation |
-| Plotly Express Guide | Beginner | https://plotly.com/python/plotly-express/ | High-level plotting API |
-| Altair Documentation | Intermediate | https://altair-viz.github.io/ | Declarative visualization library (highly underrated) |
+| Fundamentals of Data Visualization (Claus Wilke) | ⭐ Beginner | <https://clauswilke.com/dataviz/> | One of the best FREE books on visualization |
+| Storytelling with Data Blog | Beginner | <https://www.storytellingwithdata.com/blog> | Excellent visualization principles (book is paid, blog is free) |
+| matplotlib User Guide | Beginner | <https://matplotlib.org/stable/users/index.html> | Official documentation |
+| matplotlib Gallery | Beginner | <https://matplotlib.org/stable/gallery/index.html> | Hundreds of visualization examples |
+| seaborn Official Tutorials | Beginner | <https://seaborn.pydata.org/tutorial.html> | Learn every major plot |
+| seaborn Gallery | Beginner | <https://seaborn.pydata.org/examples/index.html> | Beautiful example gallery |
+| Plotly Python Documentation | Beginner | <https://plotly.com/python/> | Interactive plotting documentation |
+| Plotly Express Guide | Beginner | <https://plotly.com/python/plotly-express/> | High-level plotting API |
+| Altair Documentation | Intermediate | <https://altair-viz.github.io/> | Declarative visualization library (highly underrated) |
 
 ---
 
@@ -34,11 +34,11 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Corey Schafer — Matplotlib Tutorials | Beginner | https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_ | Best matplotlib introduction |
-| Data School — Seaborn Playlist | Beginner | https://www.youtube.com/@dataschool | Practical statistical visualization |
-| Keith Galli — Data Visualization | Beginner | https://www.youtube.com/@KeithGalli | Excellent beginner-friendly examples |
-| freeCodeCamp — Data Analysis with Python | Beginner | https://www.youtube.com/watch?v=r-uOLxNrNk8 | Includes EDA workflow |
-| Plotly Official YouTube | Intermediate | https://www.youtube.com/@plotlygraphs | Interactive dashboards and visualizations |
+| Corey Schafer — Matplotlib Tutorials | Beginner | <https://www.youtube.com/playlist?list=PL-osiE80TeTvipOqomVEeZ1HRrcEvtZB_> | Best matplotlib introduction |
+| Data School — Seaborn Playlist | Beginner | <https://www.youtube.com/@dataschool> | Practical statistical visualization |
+| Keith Galli — Data Visualization | Beginner | <https://www.youtube.com/@KeithGalli> | Excellent beginner-friendly examples |
+| freeCodeCamp — Data Analysis with Python | Beginner | <https://www.youtube.com/watch?v=r-uOLxNrNk8> | Includes EDA workflow |
+| Plotly Official YouTube | Intermediate | <https://www.youtube.com/@plotlygraphs> | Interactive dashboards and visualizations |
 
 ---
 
@@ -46,11 +46,11 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Kaggle — Data Visualization | Beginner | https://www.kaggle.com/learn/data-visualization | Hands-on seaborn exercises |
-| Kaggle — Data Cleaning | Beginner | https://www.kaggle.com/learn/data-cleaning | Essential before EDA |
-| Google Data Analytics Visualization Articles | Beginner | https://developers.google.com/machine-learning/crash-course | Basic visualization concepts |
-| Harvard CS109A Visualization Materials | Intermediate | https://harvard-iacs.github.io/2021-CS109A/ | University-level notebooks |
-| Data Carpentry — Data Visualization | Beginner | https://datacarpentry.org/python-ecology-lesson/ | Often overlooked practical lessons |
+| Kaggle — Data Visualization | Beginner | <https://www.kaggle.com/learn/data-visualization> | Hands-on seaborn exercises |
+| Kaggle — Data Cleaning | Beginner | <https://www.kaggle.com/learn/data-cleaning> | Essential before EDA |
+| Google Data Analytics Visualization Articles | Beginner | <https://developers.google.com/machine-learning/crash-course> | Basic visualization concepts |
+| Harvard CS109A Visualization Materials | Intermediate | <https://harvard-iacs.github.io/2021-CS109A/> | University-level notebooks |
+| Data Carpentry — Data Visualization | Beginner | <https://datacarpentry.org/python-ecology-lesson/> | Often overlooked practical lessons |
 
 ---
 
@@ -58,12 +58,12 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Plotly Chart Studio | Beginner | https://chart-studio.plotly.com | Interactive plotting online |
-| From Data to Viz | Beginner | https://www.data-to-viz.com/ | Choose the right visualization |
-| RAWGraphs | Beginner | https://www.rawgraphs.io | Build advanced charts without coding |
-| Observable | Intermediate | https://observablehq.com | Interactive visualization notebooks |
-| Flourish Public Templates | Beginner | https://flourish.studio/examples/ | Inspiration for dashboards |
-| ColorBrewer 2.0 | Beginner | https://colorbrewer2.org | Best color palette chooser |
+| Plotly Chart Studio | Beginner | <https://chart-studio.plotly.com> | Interactive plotting online |
+| From Data to Viz | Beginner | <https://www.data-to-viz.com/> | Choose the right visualization |
+| RAWGraphs | Beginner | <https://www.rawgraphs.io> | Build advanced charts without coding |
+| Observable | Intermediate | <https://observablehq.com> | Interactive visualization notebooks |
+| Flourish Public Templates | Beginner | <https://flourish.studio/examples/> | Inspiration for dashboards |
+| ColorBrewer 2.0 | Beginner | <https://colorbrewer2.org> | Best color palette chooser |
 
 ---
 
@@ -71,12 +71,12 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| pandas Visualization Guide | Beginner | https://pandas.pydata.org/docs/user_guide/visualization.html | Built-in plotting |
-| Plotly Express Examples | Beginner | https://plotly.com/python/plotly-express/ | Official examples |
-| matplotlib Tutorials | Beginner | https://matplotlib.org/stable/tutorials/index.html | Learn incrementally |
-| Seaborn Example Gallery | Beginner | https://seaborn.pydata.org/examples/index.html | Ready-to-run code |
-| Python Graph Gallery | Intermediate | https://python-graph-gallery.com | One of the best underrated visualization collections |
-| Geopandas Gallery | Intermediate | https://geopandas.org/en/stable/gallery/index.html | Maps and geospatial EDA |
+| pandas Visualization Guide | Beginner | <https://pandas.pydata.org/docs/user_guide/visualization.html> | Built-in plotting |
+| Plotly Express Examples | Beginner | <https://plotly.com/python/plotly-express/> | Official examples |
+| matplotlib Tutorials | Beginner | <https://matplotlib.org/stable/tutorials/index.html> | Learn incrementally |
+| Seaborn Example Gallery | Beginner | <https://seaborn.pydata.org/examples/index.html> | Ready-to-run code |
+| Python Graph Gallery | Intermediate | <https://python-graph-gallery.com> | One of the best underrated visualization collections |
+| Geopandas Gallery | Intermediate | <https://geopandas.org/en/stable/gallery/index.html> | Maps and geospatial EDA |
 
 ---
 
@@ -84,13 +84,13 @@
 
 | Dataset | Difficulty | Link |
 |----------|------------|------|
-| Titanic | Beginner | https://www.kaggle.com/competitions/titanic |
-| House Prices | Beginner | https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques |
-| Iris | Beginner | https://archive.ics.uci.edu/dataset/53/iris |
-| Wine Quality | Beginner | https://archive.ics.uci.edu/dataset/186/wine+quality |
-| Palmer Penguins | Beginner | https://github.com/allisonhorst/palmerpenguins |
-| Gapminder | Beginner | https://www.gapminder.org/data/ |
-| NYC Taxi Trips | Intermediate | https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page |
+| Titanic | Beginner | <https://www.kaggle.com/competitions/titanic> |
+| House Prices | Beginner | <https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques> |
+| Iris | Beginner | <https://archive.ics.uci.edu/dataset/53/iris> |
+| Wine Quality | Beginner | <https://archive.ics.uci.edu/dataset/186/wine+quality> |
+| Palmer Penguins | Beginner | <https://github.com/allisonhorst/palmerpenguins> |
+| Gapminder | Beginner | <https://www.gapminder.org/data/> |
+| NYC Taxi Trips | Intermediate | <https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page> |
 
 ---
 
@@ -98,12 +98,12 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Python Graph Gallery | Beginner | https://python-graph-gallery.com | Hundreds of visualization examples |
-| FlowingData | Beginner | https://flowingdata.com | Excellent visualization inspiration |
-| Storytelling with Data Blog | Beginner | https://www.storytellingwithdata.com/blog | Communication through visualization |
-| Towards Data Science — EDA | Intermediate | https://towardsdatascience.com/tagged/exploratory-data-analysis | Real-world walkthroughs |
-| Distill Archive | Intermediate | https://distill.pub/archive/ | Beautiful interactive explanations |
-| Data Elixir | Intermediate | https://dataelixir.com | Weekly curated visualization resources |
+| Python Graph Gallery | Beginner | <https://python-graph-gallery.com> | Hundreds of visualization examples |
+| FlowingData | Beginner | <https://flowingdata.com> | Excellent visualization inspiration |
+| Storytelling with Data Blog | Beginner | <https://www.storytellingwithdata.com/blog> | Communication through visualization |
+| Towards Data Science — EDA | Intermediate | <https://towardsdatascience.com/tagged/exploratory-data-analysis> | Real-world walkthroughs |
+| Distill Archive | Intermediate | <https://distill.pub/archive/> | Beautiful interactive explanations |
+| Data Elixir | Intermediate | <https://dataelixir.com> | Weekly curated visualization resources |
 
 ---
 

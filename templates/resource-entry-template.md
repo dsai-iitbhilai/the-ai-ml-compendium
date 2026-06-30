@@ -17,13 +17,13 @@ Use this format when adding resources to any topic `.md` file.
 
 | Type | Tag |
 |---|---|
-| Documentation | `📘 Docs` |
-| Video | `🎥 Video` |
-| Course | `🎓 Course` |
-| Visualizer / Playground | `🕹️ Visualizer/Playground` |
-| Research Paper | `📄 Paper` |
-| Code / Notebook | `💻 Code/Notebook` |
-| Blog Post | `📰 Blog` |
+| Documentation | ` Docs` |
+| Video | ` Video` |
+| Course | ` Course` |
+| Visualizer / Playground | `️ Visualizer/Playground` |
+| Research Paper | ` Paper` |
+| Code / Notebook | ` Code/Notebook` |
+| Blog Post | ` Blog` |
 
 ## Level Taxonomy
 
@@ -51,9 +51,9 @@ Use `**See also:** [Topic Name](./file.md)` instead of duplicating tables when a
 
 | Resource | Type | Level | Last Reviewed | Notes |
 |---|---|---|---|---|
-| [StatQuest: Linear Regression](https://youtube.com/...) | 🎥 Video | Beginner | 2026-06 | Best first intuition-builder |
-| [Scikit-learn Docs: Linear Models](https://scikit-learn.org/...) | 📘 Docs | Beginner | 2026-06 | Reference implementation |
-| [Andrew Ng — ML Specialization](https://coursera.org/...) | 🎓 Course | Beginner | 2026-06 | Full module on regression |
+| [StatQuest: Linear Regression](https://youtube.com/...) |  Video | Beginner | 2026-06 | Best first intuition-builder |
+| [Scikit-learn Docs: Linear Models](https://scikit-learn.org/...) |  Docs | Beginner | 2026-06 | Reference implementation |
+| [Andrew Ng — ML Specialization](https://coursera.org/...) |  Course | Beginner | 2026-06 | Full module on regression |
 
 **See also:** [Logistic Regression](./classification.md) for the classification analogue
 ```

@@ -6,13 +6,13 @@ Interactive playgrounds let you experiment with generative AI models without wri
 
 | Category | Title | Description | Level | Last Reviewed |
 |----------|-------|-------------|-------|---------------|
-| 🕹️ Visualizer/Playground | [OpenAI Playground](https://platform.openai.com/playground) | Chat and completion interface with system prompt, temperature, top-p, frequency penalty, and JSON mode | Beginner | 2026-06 |
-| 🕹️ Visualizer/Playground | [Anthropic Console — Claude](https://console.anthropic.com/) | Prompt development environment for Claude with message history, system prompt editor, and output comparison | Beginner | 2026-06 |
-| 🕹️ Visualizer/Playground | [Google AI Studio — Gemini](https://aistudio.google.com/) | Free browser IDE for Gemini with multimodal prompting (image, audio, video), safety tuning, and model comparison | Beginner | 2026-06 |
-| 🕹️ Visualizer/Playground | [HuggingFace Spaces](https://huggingface.co/spaces) | Community-hosted Gradio/Streamlit demos for thousands of models: text, image, audio, video, 3D | Intermediate | 2026-06 |
-| 🕹️ Visualizer/Playground | [Replicate](https://replicate.com/) | Cloud API with a web UI to run open-source models: Stable Diffusion, Flux, Whisper, LLaMA, and more | Beginner | 2026-06 |
-| 🕹️ Visualizer/Playground | [Stable Diffusion Web UI (AUTOMATIC1111)](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Self-hosted Gradio interface for image generation, inpainting, ControlNet, and LoRA switching | Intermediate | 2026-06 |
-| 🕹️ Visualizer/Playground | [Perplexity Labs](https://labs.perplexity.ai/) | Free chat interface for experimenting with open-source LLMs (Llama, Mistral, Mixtral, Sonar) | Beginner | 2026-06 |
+| ️ Visualizer/Playground | [OpenAI Playground](https://platform.openai.com/playground) | Chat and completion interface with system prompt, temperature, top-p, frequency penalty, and JSON mode | Beginner | 2026-06 |
+| ️ Visualizer/Playground | [Anthropic Console — Claude](https://console.anthropic.com/) | Prompt development environment for Claude with message history, system prompt editor, and output comparison | Beginner | 2026-06 |
+| ️ Visualizer/Playground | [Google AI Studio — Gemini](https://aistudio.google.com/) | Free browser IDE for Gemini with multimodal prompting (image, audio, video), safety tuning, and model comparison | Beginner | 2026-06 |
+| ️ Visualizer/Playground | [HuggingFace Spaces](https://huggingface.co/spaces) | Community-hosted Gradio/Streamlit demos for thousands of models: text, image, audio, video, 3D | Intermediate | 2026-06 |
+| ️ Visualizer/Playground | [Replicate](https://replicate.com/) | Cloud API with a web UI to run open-source models: Stable Diffusion, Flux, Whisper, LLaMA, and more | Beginner | 2026-06 |
+| ️ Visualizer/Playground | [Stable Diffusion Web UI (AUTOMATIC1111)](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Self-hosted Gradio interface for image generation, inpainting, ControlNet, and LoRA switching | Intermediate | 2026-06 |
+| ️ Visualizer/Playground | [Perplexity Labs](https://labs.perplexity.ai/) | Free chat interface for experimenting with open-source LLMs (Llama, Mistral, Mixtral, Sonar) | Beginner | 2026-06 |
 
 ## Playground Comparison
 

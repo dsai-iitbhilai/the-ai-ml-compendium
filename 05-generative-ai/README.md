@@ -6,9 +6,9 @@ This module covers the foundations and practical applications of Generative AI, 
 
 | Module | Topic | Required |
 |--------|-------|----------|
-| [04 Deep Learning](/ai-ml-compendium/04-deep-learning/README.md) | Neural network fundamentals | Yes |
-| [04 Deep Learning — Transformers](/ai-ml-compendium/04-deep-learning/transformers.md) | Transformer architecture, attention, self-attention | **Essential** |
-| [04 Deep Learning — CNNs](/ai-ml-compendium/04-deep-learning/cnns.md) | Convolutional networks (for vision-based GenAI) | Recommended |
+| [04 Deep Learning](../04-deep-learning/README.md) | Neural network fundamentals | Yes |
+| [04 Deep Learning — Transformers](../04-deep-learning/transformers.md) | Transformer architecture, attention, self-attention | **Essential** |
+| [04 Deep Learning — CNNs](../04-deep-learning/cnn-computer-vision.md) | Convolutional networks (for vision-based GenAI) | Recommended |
 | Python & PyTorch | Basic proficiency | Yes |
 
 ## Topics

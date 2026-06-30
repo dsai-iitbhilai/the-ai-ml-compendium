@@ -16,11 +16,11 @@
 
 | Category | Title | Description | Level |
 |---|---|---|---|
-| 🎓 Course | [Kaggle Learn — Intro to ML](https://example.com/kaggle-intro-ml) | Free micro-course covering fundamentals | Beginner |
-| 💻 Code/Notebook | [Titanic Complete Walkthrough Notebook](https://example.com/titanic-notebook) | Step-by-step with EDA, feature engineering | Beginner |
-| 📘 Docs | [Scikit-learn Getting Started](https://example.com/sklearn-start) | Official quickstart with examples | Beginner |
-| 🎥 Video | [Build Your First ML Model — YouTube](https://example.com/first-ml-model) | Live coding walkthrough | Beginner |
-| 📰 Blog | [10 Beginner ML Projects — DataCamp](https://example.com/beginner-projects) | Ideas with code snippets and explanations | Beginner |
+|  Course | [Kaggle Learn — Intro to ML](https://example.com/kaggle-intro-ml) | Free micro-course covering fundamentals | Beginner |
+|  Code/Notebook | [Titanic Complete Walkthrough Notebook](https://example.com/titanic-notebook) | Step-by-step with EDA, feature engineering | Beginner |
+|  Docs | [Scikit-learn Getting Started](https://example.com/sklearn-start) | Official quickstart with examples | Beginner |
+|  Video | [Build Your First ML Model — YouTube](https://example.com/first-ml-model) | Live coding walkthrough | Beginner |
+|  Blog | [10 Beginner ML Projects — DataCamp](https://example.com/beginner-projects) | Ideas with code snippets and explanations | Beginner |
 
 ## Getting Started
 

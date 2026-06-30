@@ -18,12 +18,12 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| SQLBolt | Beginner | https://sqlbolt.com | Interactive SQL lessons with exercises |
-| PostgreSQL Documentation | Intermediate | https://www.postgresql.org/docs/ | Official PostgreSQL documentation |
-| SQLite Documentation | Beginner | https://sqlite.org/docs.html | Lightweight SQL database documentation |
-| DuckDB Documentation | Intermediate | https://duckdb.org/docs | SQL analytics engine for Data Science |
-| *Learning SQL* – Alan Beaulieu | Beginner | https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/ | Excellent beginner-friendly SQL book |
-| *SQL Performance Explained* | Advanced | https://sql-performance-explained.com | Learn indexing and optimization |
+| SQLBolt | Beginner | <https://sqlbolt.com> | Interactive SQL lessons with exercises |
+| PostgreSQL Documentation | Intermediate | <https://www.postgresql.org/docs/> | Official PostgreSQL documentation |
+| SQLite Documentation | Beginner | <https://sqlite.org/docs.html> | Lightweight SQL database documentation |
+| DuckDB Documentation | Intermediate | <https://duckdb.org/docs> | SQL analytics engine for Data Science |
+| *Learning SQL* – Alan Beaulieu | Beginner | <https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/> | Excellent beginner-friendly SQL book |
+| *SQL Performance Explained* | Advanced | <https://sql-performance-explained.com> | Learn indexing and optimization |
 
 ---
 
@@ -31,10 +31,10 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| freeCodeCamp SQL Course | Beginner | https://youtu.be/HXV3zeQKqGY | Complete SQL course |
-| Programming with Mosh – SQL Tutorial | Beginner | https://youtu.be/7S_tz1z_5bA | Covers SQL fundamentals and joins |
-| Hussein Nasser Database Playlist | Intermediate | https://www.youtube.com/@hnasr/playlists | Excellent database internals |
-| CMU Database Systems (Andy Pavlo) | Advanced | https://www.youtube.com/@CMUDatabaseGroup | One of the best database lecture series |
+| freeCodeCamp SQL Course | Beginner | <https://youtu.be/HXV3zeQKqGY> | Complete SQL course |
+| Programming with Mosh – SQL Tutorial | Beginner | <https://youtu.be/7S_tz1z_5bA> | Covers SQL fundamentals and joins |
+| Hussein Nasser Database Playlist | Intermediate | <https://www.youtube.com/@hnasr/playlists> | Excellent database internals |
+| CMU Database Systems (Andy Pavlo) | Advanced | <https://www.youtube.com/@CMUDatabaseGroup> | One of the best database lecture series |
 
 ---
 
@@ -42,10 +42,10 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Kaggle – Intro to SQL | Beginner | https://www.kaggle.com/learn/intro-to-sql | Interactive SQL exercises |
-| Kaggle – Advanced SQL | Intermediate | https://www.kaggle.com/learn/advanced-sql | Window functions, nested queries |
-| Harvard CS50 SQL | Intermediate | https://cs50.harvard.edu/sql/ | Modern SQL course |
-| Stanford SQL | Intermediate | https://online.stanford.edu/courses/soe-ydatabases-databases | University database course |
+| Kaggle – Intro to SQL | Beginner | <https://www.kaggle.com/learn/intro-to-sql> | Interactive SQL exercises |
+| Kaggle – Advanced SQL | Intermediate | <https://www.kaggle.com/learn/advanced-sql> | Window functions, nested queries |
+| Harvard CS50 SQL | Intermediate | <https://cs50.harvard.edu/sql/> | Modern SQL course |
+| Stanford SQL | Intermediate | <https://online.stanford.edu/courses/soe-ydatabases-databases> | University database course |
 
 ---
 
@@ -53,12 +53,12 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| SQLBolt | Beginner | https://sqlbolt.com | Learn SQL interactively |
-| SQLZoo | Beginner | https://sqlzoo.net | Interactive SQL challenges |
-| DB Fiddle | Beginner | https://www.db-fiddle.com | Test SQL queries online |
-| SQL Fiddle | Beginner | https://sqlfiddle.com | Multi-database playground |
-| SQLite Online | Beginner | https://sqliteonline.com | Browser SQLite editor |
-| OneCompiler PostgreSQL | Beginner | https://onecompiler.com/postgresql | Instant PostgreSQL playground |
+| SQLBolt | Beginner | <https://sqlbolt.com> | Learn SQL interactively |
+| SQLZoo | Beginner | <https://sqlzoo.net> | Interactive SQL challenges |
+| DB Fiddle | Beginner | <https://www.db-fiddle.com> | Test SQL queries online |
+| SQL Fiddle | Beginner | <https://sqlfiddle.com> | Multi-database playground |
+| SQLite Online | Beginner | <https://sqliteonline.com> | Browser SQLite editor |
+| OneCompiler PostgreSQL | Beginner | <https://onecompiler.com/postgresql> | Instant PostgreSQL playground |
 
 ---
 
@@ -66,14 +66,14 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| LeetCode Database | Intermediate | https://leetcode.com/problemset/database/ | SQL interview questions |
-| DataLemur SQL | Intermediate | https://datalemur.com | FAANG SQL interview practice |
-| StrataScratch | Advanced | https://www.stratascratch.com | Real company SQL questions |
-| HackerRank SQL | Beginner | https://www.hackerrank.com/domains/sql | Progressive SQL exercises |
-| SQL Practice | Beginner | https://www.sql-practice.com | Practice with datasets |
-| SQLAlchemy Tutorial | Intermediate | https://docs.sqlalchemy.org/en/20/tutorial/ | Python + SQL |
-| psycopg Documentation | Intermediate | https://www.psycopg.org/docs/ | PostgreSQL adapter for Python |
-| Jupyter SQL Magic | Intermediate | https://github.com/catherinedevlin/ipython-sql | Execute SQL inside notebooks |
+| LeetCode Database | Intermediate | <https://leetcode.com/problemset/database/> | SQL interview questions |
+| DataLemur SQL | Intermediate | <https://datalemur.com> | FAANG SQL interview practice |
+| StrataScratch | Advanced | <https://www.stratascratch.com> | Real company SQL questions |
+| HackerRank SQL | Beginner | <https://www.hackerrank.com/domains/sql> | Progressive SQL exercises |
+| SQL Practice | Beginner | <https://www.sql-practice.com> | Practice with datasets |
+| SQLAlchemy Tutorial | Intermediate | <https://docs.sqlalchemy.org/en/20/tutorial/> | Python + SQL |
+| psycopg Documentation | Intermediate | <https://www.psycopg.org/docs/> | PostgreSQL adapter for Python |
+| Jupyter SQL Magic | Intermediate | <https://github.com/catherinedevlin/ipython-sql> | Execute SQL inside notebooks |
 
 ---
 
@@ -81,10 +81,10 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Use The Index, Luke! | Intermediate | https://use-the-index-luke.com | Best resource for SQL optimization |
-| Crunchy Data Blog | Intermediate | https://www.crunchydata.com/blog | PostgreSQL tutorials |
-| DuckDB Blog | Intermediate | https://duckdb.org/news | Modern analytical SQL |
-| Planet PostgreSQL | Advanced | https://planet.postgresql.org | Community articles and news |
+| Use The Index, Luke! | Intermediate | <https://use-the-index-luke.com> | Best resource for SQL optimization |
+| Crunchy Data Blog | Intermediate | <https://www.crunchydata.com/blog> | PostgreSQL tutorials |
+| DuckDB Blog | Intermediate | <https://duckdb.org/news> | Modern analytical SQL |
+| Planet PostgreSQL | Advanced | <https://planet.postgresql.org> | Community articles and news |
 
 ---
 
@@ -240,11 +240,11 @@
 
 | Dataset | Link |
 |----------|------|
-| Chinook Database | https://github.com/lerocha/chinook-database |
-| Kaggle Datasets | https://www.kaggle.com/datasets |
-| Google Dataset Search | https://datasetsearch.research.google.com |
-| Our World in Data | https://ourworldindata.org |
-| UCI Machine Learning Repository | https://archive.ics.uci.edu |
+| Chinook Database | <https://github.com/lerocha/chinook-database> |
+| Kaggle Datasets | <https://www.kaggle.com/datasets> |
+| Google Dataset Search | <https://datasetsearch.research.google.com> |
+| Our World in Data | <https://ourworldindata.org> |
+| UCI Machine Learning Repository | <https://archive.ics.uci.edu> |
 
 ---
 

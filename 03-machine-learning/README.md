@@ -28,20 +28,20 @@ Machine learning is the study of algorithms that improve through experience. Thi
 
 ```
 ┌─────────────────────────────────────────────┐
-│            01 – Foundations                   │
-│  (linear algebra, calculus, prob & stats,    │
-│   Python, NumPy, pandas)                     │
+│               01 - Foundations              │
+│  (linear algebra, calculus, prob & stats,   │
+│   Python, NumPy, pandas)                    │
 └──────────────────┬──────────────────────────┘
                    │
                    ▼
 ┌─────────────────────────────────────────────┐
-│            02 – Data Science                 │
-│  (wrangling, EDA, statistics, SQL)           │
+│               02 - Data Science             │
+│       (wrangling, EDA, statistics, SQL)     │
 └──────────────────┬──────────────────────────┘
                    │
                    ▼
 ┌─────────────────────────────────────────────┐
-│          03 – Machine Learning               │
+│             03 - Machine Learning           │
 │                                             │
 │  Supervised ──► Unsupervised                │
 │       │              │                      │
@@ -50,8 +50,9 @@ Machine learning is the study of algorithms that improve through experience. Thi
 │       │                    │                │
 │       ▼                    ▼                │
 │  Feature Engineering  Frameworks            │
-│                                    │        │
-│                               Playgrounds   │
+│       │                    │                │
+│       ▼                    ▼                │
+│  Playgrounds          Visualizers           │
 └─────────────────────────────────────────────┘
 ```
 
@@ -83,5 +84,5 @@ Machine learning is the study of algorithms that improve through experience. Thi
 ## See also
 
 - [04 – Deep Learning](../04-deep-learning/README.md) — neural network–based approaches (once created)
-- [🧩 Visualizers & Playgrounds](../../visualizers-and-playgrounds/README.md) — interactive ML demos
+- [🧩 Visualizers & Playgrounds](../visualizers-and-playgrounds/README.md) — interactive ML demos
 - [Templates / Resource Entry Template](../templates/resource-entry-template.md)

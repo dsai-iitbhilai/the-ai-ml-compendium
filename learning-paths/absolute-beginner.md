@@ -11,8 +11,8 @@ The goal is to build a solid foundation in ML concepts, complete 2–3 projects,
 | Step | Module | Key Resources | Goal |
 |---|---|---|---|
 | 1 | Python for ML | Python tutorials, numpy, pandas | Comfortable data manipulation |
-| 2 | [Module 00 — Math Refresher](../00-math-refresher/) | Linear algebra, probability, calculus intuition | Understand ML math |
-| 3 | [Module 01 — ML Fundamentals](../01-fundamentals/) | Supervised vs. unsupervised, train/test split | Core ML vocabulary |
+| 2 | [Module 00 — Math Refresher](../01-foundations/README.md) | Linear algebra, probability, calculus intuition | Understand ML math |
+| 3 | [Module 01 — ML Fundamentals](../01-foundations/README.md) | Supervised vs. unsupervised, train/test split | Core ML vocabulary |
 
 **Visualizers to try:** TensorFlow Playground, ML Playground, Decision Tree Visualizer
 
@@ -20,8 +20,8 @@ The goal is to build a solid foundation in ML concepts, complete 2–3 projects,
 
 | Step | Module | Key Resources | Goal |
 |---|---|---|---|
-| 4 | [Module 02 — ML Algorithms](../02-machine-learning/) | Regression, classification, clustering | Implement basic models with sklearn |
-| 5 | [Module 03 — Deep Learning](../03-deep-learning/) | Neural nets, CNNs, backpropagation | Train a simple neural network |
+| 4 | [Module 02 — ML Algorithms](../03-machine-learning/README.md) | Regression, classification, clustering | Implement basic models with sklearn |
+| 5 | [Module 03 — Deep Learning](../04-deep-learning/README.md) | Neural nets, CNNs, backpropagation | Train a simple neural network |
 | 6 | [08-Beginner Projects](../08-projects-and-examples/beginner/) | Titanic, Iris, MNIST | Build 2 portfolio projects |
 
 **Visualizers to try:** CNN Explainer, Image Kernel Explorer
@@ -30,7 +30,7 @@ The goal is to build a solid foundation in ML concepts, complete 2–3 projects,
 
 | Step | Module | Key Resources | Goal |
 |---|---|---|---|
-| 7 | [Module 04 — NLP](../04-nlp/) | Text classification, embeddings | Build a text classifier |
+| 7 | [Module 04 — NLP](../05-generative-ai/README.md) | Text classification, embeddings | Build a text classifier |
 | 8 | [08-Intermediate Projects](../08-projects-and-examples/intermediate/) | Sentiment analysis, image classifier | Deploy a model with FastAPI |
 | 9 | [07-MLOps Basics](../07-mlops-and-deployment/) | Model serving, Docker basics | Containerize a model |
 

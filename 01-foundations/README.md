@@ -18,7 +18,7 @@ This module covers the core prerequisites for understanding modern machine learn
 | [Mathematics / Optimization](mathematics/optimization.md) | 8–12 | Important |
 | [Programming / Python for AI](programming/python-for-ai.md) | 10–15 | Essential |
 | [Programming / Data Structures & Algorithms](programming/data-structures-algorithms.md) | 8–12 | Helpful |
-| [🧩 Visualizers](visualizers.md) | — | Supplementary |
+| [ Visualizers](visualizers.md) | — | Supplementary |
 
 ---
 
@@ -26,36 +26,36 @@ This module covers the core prerequisites for understanding modern machine learn
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│                 High‑School Math & Basic Coding               │
+│                High-School Math & Basic Coding               │
 └───────────┬──────────────────────────────┬───────────────────┘
             │                              │
             ▼                              ▼
 ┌──────────────────────┐     ┌──────────────────────────────┐
-│   Linear Algebra      │     │  Python for AI                │
-│   (vectors, matrices, │     │  (NumPy, pandas, matplotlib)  │
-│    eigendecomposition)│     │                              │
-└──────────┬────────────┘     └──────────────┬───────────────┘
-           │                                 │
-           ▼                                 ▼
+│ Linear Algebra       │     │ Python for AI                │
+│ (vectors, matrices,  │     │ (NumPy, pandas, matplotlib)  │
+│  eigendecomposition) │     │                              │
+└──────────┬───────────┘     └──────────────┬───────────────┘
+           │                                │
+           ▼                                ▼
 ┌──────────────────────┐     ┌──────────────────────────────┐
-│   Calculus            │     │  Data Structures & Algos      │
-│   (derivatives,       │     │  (arrays, hash tables,        │
-│    gradients, chain   │     │   recursion, big‑O)           │
-│    rule)              │     │                              │
-└──────────┬────────────┘     └──────────────┬───────────────┘
-           │                                 │
-           ▼                                 ▼
+│ Calculus             │     │ Data Structures & Algos      │
+│ (derivatives,        │     │ (arrays, hash tables,        │
+│  gradients, chain    │     │  recursion, big-O)           │
+│  rule)               │     │                              │
+└──────────┬───────────┘     └──────────────┬───────────────┘
+           │                                │
+           ▼                                ▼
 ┌──────────────────────┐     ┌──────────────────────────────┐
-│ Probability & Stats   │     │  Optimization                 │
-│ (distributions,       │◄────┤  (gradient descent,           │
-│  Bayes, hypothesis    │     │   convexity, constrained)     │
-│  testing)             │     │                              │
-└──────────┬────────────┘     └──────────────┬───────────────┘
-           │                                 │
-           └─────────────┬───────────────────┘
+│ Probability & Stats  │     │ Optimization                 │
+│ (distributions,      │◄────┤ (gradient descent,           │
+│  Bayes, hypothesis   │     │  convexity, constrained)     │
+│  testing)            │     │                              │
+└──────────┬───────────┘     └──────────────┬───────────────┘
+           │                                │
+           └─────────────┬──────────────────┘
                          ▼
           ┌──────────────────────────────────┐
-          │    02 – Supervised Learning       │
+          │     02 - Supervised Learning     │
           └──────────────────────────────────┘
 ```
 
@@ -88,4 +88,4 @@ All sub‑pages link back here. Visualizers can be used alongside any topic.
 ## See also
 
 - [NN SVG](https://nn-svg.example.com) — interactive neural net diagrams
-- [03 – Deep Learning](../03-deep-learning/README.md) (once created)
+- [03 – Deep Learning](../visualizers-and-playgrounds/README.md) (once created)

@@ -1,52 +1,93 @@
 # Fine-Tuning & PEFT
 
-Fine-tuning adapts a pretrained LLM to a specific domain or task by updating its weights. Parameter-Efficient Fine-Tuning (PEFT) methods like LoRA and QLoRA make this feasible on consumer hardware by updating only a small set of trainable parameters. This file also covers instruction tuning, adapter architectures, and catastrophic forgetting.
+>Fine-tuning adapts a pretrained LLM to a specific domain or task by updating its weights. Parameter-Efficient Fine-Tuning (PEFT) methods like LoRA and QLoRA make this feasible on consumer hardware by updating only a small set of trainable parameters. This file also covers instruction tuning, adapter architectures, and the mathematical mechanics of weight decomposition.
+
+**Last Reviewed:** 2026-06
+
+**Prerequisites:** [LLM Fundamentals](llm-fundamentals.md) · Linear Algebra
+
+---
 
 ## Resources
 
-| Category | Title | Description | Level | Last Reviewed |
-|----------|-------|-------------|-------|---------------|
-| 📘 Docs | [HuggingFace PEFT Documentation](https://huggingface.co/docs/peft/en/index) | Official library docs for LoRA, IA3, AdaLoRA, Prompt Tuning, and more with code examples | Intermediate | 2026-06 |
-| 📄 Paper | [LoRA: Low-Rank Adaptation (Hu et al., 2021)](https://arxiv.org/abs/2106.09685) | Introduces low-rank weight updates that can be merged at inference time with zero added latency | Intermediate | 2026-06 |
-| 📄 Paper | [QLoRA: Efficient Finetuning of Quantized LLMs (Dettmers et al., 2023)](https://arxiv.org/abs/2305.14314) | Combines 4-bit NormalFloat quantization with LoRA to fine-tune 65B models on a single 48GB GPU | Advanced | 2026-06 |
-| 💻 Code/Notebook | [QLoRA fine-tuning tutorial (Colab)](https://github.com/example/qlora-finetune) | End-to-end notebook for fine-tuning Llama 2 / Mistral with QLoRA on custom datasets | Intermediate | 2026-06 |
-| 🎓 Course | [HuggingFace — Fine-tuning LLMs](https://huggingface.co/learn/nlp-course/chapter3/1) | Course module covering tokenizer training, dataset preparation, and trainer API for SFT | Intermediate | 2026-06 |
-| 📰 Blog | [LoRA explained (Sebastian Raschka)](https://magazine.sebastianraschka.com/p/practical-tips-for-finetuning-llms) | Practical deep-dive on LoRA rank selection, where to apply adapters, and merging strategies | Intermediate | 2026-06 |
-| 📰 Blog | [Axolotl — fine-tuning framework overview](https://github.com/example/axolotl) | Open-source library for simplified fine-tuning with support for multiple PEFT methods and distributed training | Advanced | 2026-06 |
+### 📘 Docs & Textbooks
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *HuggingFace PEFT Documentation* | Intermediate | <https://huggingface.co/docs/peft/en/index> | Official library docs for LoRA, IA3, AdaLoRA, Prompt Tuning, and more with code examples |
+
+### 📄 Paper
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *LoRA: Low-Rank Adaptation* (Hu et al., 2021) | Intermediate | <https://arxiv.org/abs/2106.09685> | Introduces low-rank weight updates (${\Delta}W = BA$) that can be merged at inference time with zero added latency |
+| *QLoRA: Efficient Finetuning of Quantized LLMs* (Dettmers et al., 2023) | Advanced | <https://arxiv.org/abs/2305.14314> | Combines 4-bit NormalFloat quantization with LoRA to fine-tune 65B models on a single 48GB GPU |
+
+### 💻 Code / Notebook
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *QLoRA Reference Implementation* | Advanced | <https://github.com/artidoro/qlora> | The official end-to-end repository for fine-tuning LLMs with QLoRA on custom datasets |
+| *Axolotl* | Advanced | <https://github.com/axolotl-ai-cloud/axolotl> | Open-source framework for simplified fine-tuning with support for multiple PEFT methods and distributed training pipelines |
+
+### 🎓 Course
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *HuggingFace — Fine-tuning LLMs* | Intermediate | <https://huggingface.co/learn/nlp-course/chapter3/1> | Course module covering tokenizer training, dataset preparation, and trainer API for SFT |
+
+### 📰 Blog
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Practical Tips for Finetuning LLMs* (Sebastian Raschka) | Intermediate | <https://magazine.sebastianraschka.com/p/practical-tips-for-finetuning-llms> | Practical deep-dive on LoRA rank selection, where to apply adapters, and merging strategies |
+
+---
 
 ## PEFT Methods Comparison
 
 | Method | Trainable Params | Inference Overhead | Key Idea |
 |--------|-----------------|-------------------|----------|
-| **Full Fine-Tuning** | 100% | None | Update all weights (expensive, prone to forgetting) |
-| **LoRA** | 0.1–1% | None (merged) | Low-rank matrices injected into attention layers |
-| **QLoRA** | 0.1–1% | None (merged) | LoRA on top of 4-bit quantized base model |
-| **AdaLoRA** | 0.1–1% | None (merged) | Budget-aware rank allocation across layers |
+| **Full Fine-Tuning** | 100% | None | Update all weights (expensive, prone to catastrophic forgetting) |
+| **LoRA** | 0.1–1% | None (merged) | Low-rank matrices ($B \in \mathbb{R}^{d \times r}, A \in \mathbb{R}^{r \times k}$) injected into attention layers |
+| **QLoRA** | 0.1–1% | None (merged) | LoRA on top of 4-bit quantized base model utilizing double quantization |
+| **AdaLoRA** | 0.1–1% | None (merged) | Budget-aware rank allocation dynamically adjusting singular values (SVD) across layers |
 | **IA3** | ~0.01% | None (merged) | Learns element-wise scaling vectors (fewest params) |
-| **Prompt Tuning** | ~0.01% | Increased context | Learns soft prompt embeddings prepended to input |
-| **(IA)³** | ~0.01% | None (merged) | Infused Adapter by Inhibiting and Amplifying Inner Activations |
+| **Prompt Tuning** | ~0.01% | Increased context | Learns soft prompt embeddings prepended to input sequence |
 
-## Key Concepts
+---
 
-| Concept | Description |
-|---------|-------------|
-| **Catastrophic forgetting** | Loss of previously learned knowledge when fine-tuning on narrow distributions |
-| **Instruction tuning** | Fine-tuning on (instruction, response) pairs to improve general instruction following |
-| **Adapter layers** | Small bottleneck networks inserted between transformer layers (Houlsby et al., 2019) |
-| **Quantization** | Reducing model precision (FP16 → int4) to decrease memory; NF4 used in QLoRA |
-| **Merge & unload** | Applying LoRA weights into the base model so inference runs at full speed |
-| **Multi-task fine-tuning** | Training a single model on multiple tasks simultaneously with shared parameters |
+## Key Concepts Checklist
 
-## Training Tips
+- **Weight Decomposition Logic:** Formulating weight updates as ${\Delta}W = B \cdot A$, where $B$ and $A$ are low-rank matrices, ensuring $W_{out} = W_{in} + {\Delta}W$.
+- **Quantization Constants:** The mathematics of mapping high-precision floating points into 4-bit NormalFloat (NF4) bins for QLoRA to ensure theoretically optimal storage.
+- **Catastrophic Forgetting:** Measuring the degradation of the original pretraining probability distribution $P(y|x)$ after fine-tuning on a highly specific target domain.
+- **Instruction Tuning:** Supervised Fine-Tuning (SFT) mapping cross-entropy loss over structured instruction-response pairs rather than standard autoregressive text completion.
+- **Merge & Unload Constraints:** Matrix addition mechanics to permanently apply the adapter ${\Delta}W$ to the base model weights to eliminate latency bottlenecks in production inference.
+- **Rank ($r$) and Alpha ($\alpha$) Scaling:** Understanding the theoretical capacity of the adapter ($r$) and the scaling factor ($\frac{\alpha}{r}$) on the learning rate.
 
-- **Rank (r) selection**: Start with r=8–16 for LoRA; increase for more complex tasks
-- **Target modules**: Fine-tune `q_proj` and `v_proj` first; add `o_proj`, `k_proj` for higher capacity
-- **Learning rate**: 1e-4 to 5e-4 is typical for LoRA; lower for full fine-tuning (1e-5)
-- **Dataset quality**: 500–2000 high-quality examples often outperform 50k noisy examples
-- **Evaluation**: Always hold out a validation set; watch for overfitting on small PEFT runs
+---
+
+## Projects / Practice
+
+| Project | Description |
+|---|---|
+| **Mathematical LoRA Derivation** | Bypass the HuggingFace `peft` library to implement the LoRA forward and backward passes completely from scratch in PyTorch or NumPy. Derive the gradients for matrices $A$ and $B$, mathematically proving that initializing $B$ to zero guarantees no initial deviation from the base model's state. |
+| **Scalable Agentic SFT Pipeline** | Construct a scalable, CI/CD-integrated fine-tuning pipeline utilizing `Axolotl` on a cloud GPU instance. Train a domain-specific agentic model on a synthetically generated tool-calling dataset, employing QLoRA with FlashAttention. Package the merged model weights into a Dockerized endpoint for high-throughput production inference. |
+
+---
 
 ## References
 
 - [T-Few: Fine-Tuning T0 with Adapters (Liu et al., 2022)](https://arxiv.org/abs/2205.05638)
 - [Scaling Down to Scale Up: A Guide to PEFT (Lialin et al., 2023)](https://arxiv.org/abs/2304.01852)
 - [LLaMA-Adapter (Zhang et al., 2023)](https://arxiv.org/abs/2303.06865)
+
+---
+
+## See also
+
+- [LLM Fundamentals](llm-fundamentals.md) — Architectural basis for adapter targeting (e.g., $q\_proj$, $v\_proj$).
+- [Prompt Engineering](prompt-engineering.md) — Comparing zero-shot prompt optimization against parameter updates for domain adaptation.
+- [MLOps](../visualizers-and-playgrounds/README.md) — Deployment engineering practices for testing, versioning, and hosting fine-tuned checkpoints.
+"""
