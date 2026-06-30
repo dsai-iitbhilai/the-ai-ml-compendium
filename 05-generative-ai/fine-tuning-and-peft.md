@@ -89,5 +89,4 @@
 
 - [LLM Fundamentals](llm-fundamentals.md) — Architectural basis for adapter targeting (e.g., $q\_proj$, $v\_proj$).
 - [Prompt Engineering](prompt-engineering.md) — Comparing zero-shot prompt optimization against parameter updates for domain adaptation.
-- [MLOps](../visualizers-and-playgrounds/README.md) — Deployment engineering practices for testing, versioning, and hosting fine-tuned checkpoints.
-"""
+- [MLOps](../07-mlops-and-deployment/README.md) — Deployment engineering practices for testing, versioning, and hosting fine-tuned checkpoints.

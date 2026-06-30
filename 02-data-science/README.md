@@ -76,6 +76,6 @@ Data science is the practice of turning messy, real-world data into actionable k
 
 ## See also
 
-- [🧩 Visualizers & Playgrounds](../visualizers-and-playgrounds/README.md) — interactive tools for distributions, sampling, and plotting
+- [ Visualizers & Playgrounds](../visualizers-and-playgrounds/README.md) — interactive tools for distributions, sampling, and plotting
 - [03 – Machine Learning](../03-machine-learning/README.md) — next module
 - [Templates / Resource Entry Template](../templates/resource-entry-template.md)

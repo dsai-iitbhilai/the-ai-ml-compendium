@@ -84,12 +84,12 @@
 
 ## See also
 
-- [🧩 Foundation-Level Visualizers](../01-foundations/visualizers.md) — mathematics and programming visualizers
+- [ Foundation-Level Visualizers](../01-foundations/visualizers.md) — mathematics and programming visualizers
 - [Supervised Learning](supervised-learning.md) — explore decision boundaries and classification behavior
 - [Classic ML Frameworks](classic-ml-frameworks.md) — implement playground concepts using scikit-learn
 - [Deep Learning Fundamentals](../docs/04-deep-learning/neural-network-fundamentals.md) — neural networks, CNNs, and optimization
 - [Transformers](../docs/04-deep-learning/transformers.md) — attention and transformer visualizers
-- [Generative AI](../visualizers-and-playgrounds/README.md) — LLM and embedding playgrounds
-- [🧩 Visualizers & Playgrounds](../visualizers-and-playgrounds/README.md) — master index of interactive tools
+- [Generative AI](../05-generative-ai/README.md) — LLM and embedding playgrounds
+- [ Visualizers & Playgrounds](../visualizers-and-playgrounds/README.md) — master index of interactive tools
 
 ---

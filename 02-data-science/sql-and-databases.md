@@ -8,7 +8,7 @@
 
 ---
 
-> 💡 **Tip:** SQL is one of the highest ROI skills in Data Science. Spend more time solving SQL problems than reading syntax.
+>  **Tip:** SQL is one of the highest ROI skills in Data Science. Spend more time solving SQL problems than reading syntax.
 
 ---
 

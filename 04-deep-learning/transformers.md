@@ -175,7 +175,7 @@
 ## See also
 
 - [RNN & Sequence Models](rnn-sequence-models.md) — predecessors to attention
-- [LLMs & Generative AI](../visualizers-and-playgrounds/README.md) — prompt engineering, instruction tuning, RLHF
+- [LLMs & Generative AI](../05-generative-ai/README.md) — prompt engineering, instruction tuning, RLHF
 - [Frameworks](frameworks.md) — PyTorch, Hugging Face, TensorFlow
 - [MLOps](../07-mlops-and-deployment/README.md) — deploying transformer models
 - [Visualizers](visualizers.md) — attention visualizers and interactive transformer demos

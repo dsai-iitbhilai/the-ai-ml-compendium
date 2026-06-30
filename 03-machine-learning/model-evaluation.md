@@ -112,6 +112,6 @@
 - [Feature Engineering](feature-engineering.md) — feature importance and selection metrics
 - [Classic ML Frameworks](classic-ml-frameworks.md) — scikit-learn's `cross_val_score`, `GridSearchCV`, and evaluation APIs
 - [Probability & Statistics](../01-foundations/mathematics/probability-statistics.md) — statistical significance, confidence intervals, and hypothesis testing
-- [🧩 Visualizers](../01-foundations/visualizers.md) — interactive ROC, bias-variance, and diagnostics tools
-- [🤖 Machine Learning](README.md)
+- [ Visualizers](../01-foundations/visualizers.md) — interactive ROC, bias-variance, and diagnostics tools
+- [ Machine Learning](README.md)
 ---

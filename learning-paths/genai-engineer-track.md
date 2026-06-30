@@ -45,8 +45,8 @@ Focus on prompt engineering, retrieval-augmented generation, fine-tuning, and LL
 ## GenAI-Specific References
 
 - [GenAI & Agentic Papers](../09-research-papers/genai-and-agentic-papers.md)
-- [ChatGPT Prompt Engineering for Developers — DeepLearning.AI](https://example.com/prompt-eng)
-- [Building LLM Apps — LangChain Docs](https://example.com/langchain-docs)
+- [ChatGPT Prompt Engineering for Developers — DeepLearning.AI](https://www.deeplearning.ai/courses/chatgpt-prompt-eng)
+- [Building LLM Apps — LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview)
 
 ---
 

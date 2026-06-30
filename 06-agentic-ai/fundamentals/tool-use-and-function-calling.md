@@ -4,7 +4,7 @@
 
 **Last Reviewed:** 2026-06
 
-**Prerequisites:** [Prompt Engineering](../../docs/05-generative-ai/prompt-engineering.md) · [Agent Fundamentals](agent-fundamentals.md)
+**Prerequisites:** [Prompt Engineering](../../05-generative-ai/prompt-engineering.md) · [Agent Fundamentals](agent-fundamentals.md)
 
 ---
 
@@ -116,5 +116,5 @@
 ## See also
 
 - [Agent Fundamentals](agent-fundamentals.md) — How tool calling fits into the broader ReAct loop and autonomous planning.
-- [Prompt Engineering](../../docs/05-generative-ai/prompt-engineering.md) — Structuring system prompts to accurately describe tool behaviors and boundaries.
-- [MLOps](../../visualizers-and-playgrounds/README.md) — Monitoring and observing latency/token usage for extensive tool-calling pipelines.
+- [Prompt Engineering](../../05-generative-ai/prompt-engineering.md) — Structuring system prompts to accurately describe tool behaviors and boundaries.
+- [MLOps](../../07-mlops-and-deployment/README.md) — Monitoring and observing latency/token usage for extensive tool-calling pipelines.

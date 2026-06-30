@@ -95,5 +95,5 @@
 
 - [Linear Algebra](linear-algebra.md) — covariances and MLE solutions often use matrix notation
 - [Optimization](optimization.md) — MLE and MAP are optimisation problems
-- [🧩 Visualizers](../visualizers.md) — Seeing Theory and distribution explorers
-- [🔢 Mathematics](../README.md)
+- [ Visualizers](../visualizers.md) — Seeing Theory and distribution explorers
+- [ Mathematics](../README.md)

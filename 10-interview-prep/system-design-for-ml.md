@@ -6,12 +6,12 @@
 
 | Category | Title | Description | Level |
 |---|---|---|---|
-| 📘 Docs | [ML System Design — GitHub Repo (chiphuyen)](https://example.com/ml-system-design) | Comprehensive guide with example designs | Advanced |
-| 🎥 Video | [ML System Design Interview — YouTube Series](https://example.com/ml-design-youtube) | Mock interviews for common ML system design prompts | Advanced |
-| 📰 Blog | [Designing a Recommendation System — ByteByteGo](https://example.com/recsys-design) | Real-world recsys architecture walkthrough | Advanced |
-| 📰 Blog | [Designing an Ad Click Predictor — ML Engineering Blog](https://example.com/ad-click-design) | Feature engineering, model selection, latency constraints | Advanced |
-| 📘 Docs | [Full-Stack Deep Learning — System Design Syllabus](https://example.com/fsdl-design) | Curriculum covering production ML architecture patterns | Intermediate |
-| 🎓 Course | [Grokking the ML System Design Interview](https://example.com/grokking-ml) | Structured prep with common question patterns | Advanced |
+|  Docs | [ML System Design — GitHub Repo (chiphuyen)](https://example.com/ml-system-design) | Comprehensive guide with example designs | Advanced |
+|  Video | [ML System Design Interview — YouTube Series](https://example.com/ml-design-youtube) | Mock interviews for common ML system design prompts | Advanced |
+|  Blog | [Designing a Recommendation System — ByteByteGo](https://example.com/recsys-design) | Real-world recsys architecture walkthrough | Advanced |
+|  Blog | [Designing an Ad Click Predictor — ML Engineering Blog](https://example.com/ad-click-design) | Feature engineering, model selection, latency constraints | Advanced |
+|  Docs | [Full-Stack Deep Learning — System Design Syllabus](https://example.com/fsdl-design) | Curriculum covering production ML architecture patterns | Intermediate |
+|  Course | [Grokking the ML System Design Interview](https://example.com/grokking-ml) | Structured prep with common question patterns | Advanced |
 
 ## Design Framework (5-Step)
 

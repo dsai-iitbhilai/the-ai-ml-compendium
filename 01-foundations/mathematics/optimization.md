@@ -96,5 +96,5 @@
 - [Calculus](calculus.md) — gradients and Hessians are the building blocks
 - [Linear Algebra](linear-algebra.md) — convex sets, quadratic forms, KKT linear systems
 - [Python for AI](../programming/python-for-ai.md) — SciPy and CVXPY ecosystem
-- [🧩 Visualizers](../visualizers.md) — optimisation sandboxes
-- [🔢 Mathematics](../README.md)
+- [ Visualizers](../visualizers.md) — optimisation sandboxes
+- [ Mathematics](../README.md)

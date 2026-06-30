@@ -249,7 +249,7 @@ Vision Transformers
 
 - [Neural Network Fundamentals](neural-network-fundamentals.md)
 - [Transformers](transformers.md)
-- [Generative AI](../visualizers-and-playgrounds/README.md)
+- [Generative AI](../05-generative-ai/README.md)
 - [PyTorch](frameworks.md)
 - [TensorFlow](frameworks.md)
 - [Visualizers](visualizers.md)

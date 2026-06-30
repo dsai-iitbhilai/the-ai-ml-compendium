@@ -4,7 +4,7 @@
 
 **Last Reviewed:** 2026-06
 
-**Prerequisites:** [Containers & Orchestration for ML](../docs/07-mlops-and-deployment/containers-and-orchestration.md) · [LLM Fundamentals](../docs/05-generative-ai/llm-fundamentals.md)
+**Prerequisites:** [Containers & Orchestration for ML](../docs/07-mlops-and-deployment/containers-and-orchestration.md) · [LLM Fundamentals](../05-generative-ai/llm-fundamentals.md)
 
 ---
 
@@ -95,4 +95,4 @@
 ## See also
 
 - [Containers & Orchestration for ML](../docs/07-mlops-and-deployment/containers-and-orchestration.md) — How these serving engines are ultimately deployed to Kubernetes clusters.
-- [LLM Fundamentals](../docs/05-generative-ai/llm-fundamentals.md) — The transformer mathematics underlying KV-Caching and PagedAttention.
+- [LLM Fundamentals](../05-generative-ai/llm-fundamentals.md) — The transformer mathematics underlying KV-Caching and PagedAttention.

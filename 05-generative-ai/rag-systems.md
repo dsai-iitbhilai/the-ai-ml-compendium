@@ -69,13 +69,13 @@ User Query (q)
     │
     ▼
  ┌─────────────┐     ┌────────────────────────────────┐
- │  Embedding  │────▶│  Vector Database               │
+ │  Embedding  │────│  Vector Database               │
  │  Model E(q) │     │  argmax_{d_i} cosine(E(q), E(d))│
  └─────────────┘     └────────┬───────────────────────┘
                               │ top-k chunks {d_1...d_k}
                               ▼
  ┌─────────────┐     ┌────────────────────────────────┐
- │  LLM        │◀────│  Prompt Builder                │
+ │  LLM        │────│  Prompt Builder                │
  │  P(y|q, D)  │     │  Context: D = [d_1, ..., d_k]  │
  └──────┬──────┘     └────────────────────────────────┘
         │
@@ -145,6 +145,6 @@ User Query (q)
 
 ## See also
 
-- [Agentic AI](../visualizers-and-playgrounds/README.md) — Extending RAG by granting the LLM agency to query, filter, and summarize external databases dynamically.
+- [Agentic AI](../06-agentic-ai/README.md) — Extending RAG by granting the LLM agency to query, filter, and summarize external databases dynamically.
 - [Prompt Engineering](prompt-engineering.md) — Structuring the prompt context to maximize the LLM's adherence to retrieved chunks.
-- [MLOps](../visualizers-and-playgrounds/README.md) — Handling the vector database infrastructure, embedding model versioning, and pipeline tracing.
+- [MLOps](../07-mlops-and-deployment/README.md) — Handling the vector database infrastructure, embedding model versioning, and pipeline tracing.

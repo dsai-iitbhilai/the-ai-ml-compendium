@@ -8,7 +8,7 @@
 
 ---
 
-> 💡 **Tip:** RNNs are no longer state-of-the-art for NLP, but understanding them makes Transformers, Attention, and LLMs much easier to grasp.
+>  **Tip:** RNNs are no longer state-of-the-art for NLP, but understanding them makes Transformers, Attention, and LLMs much easier to grasp.
 
 ---
 

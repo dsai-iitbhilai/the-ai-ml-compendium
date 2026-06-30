@@ -85,5 +85,5 @@ Deep learning extends classical machine learning with multi-layer neural network
 ## See also
 
 - [05 – Reinforcement Learning](../04-deep-learning/README.md) — deep RL extensions (once created)
-- [🧩 Visualizers & Playgrounds](../visualizers-and-playgrounds/README.md) — interactive DL demos
+- [ Visualizers & Playgrounds](../visualizers-and-playgrounds/README.md) — interactive DL demos
 - [Templates / Resource Entry Template](../templates/resource-entry-template.md)

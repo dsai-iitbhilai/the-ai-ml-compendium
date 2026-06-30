@@ -8,7 +8,7 @@
 
 ---
 
-> 💡 **Tip:** Don't just memorize equations. Implement a tiny neural network from scratch using NumPy once—you'll understand deep learning far better than by only using PyTorch.
+>  **Tip:** Don't just memorize equations. Implement a tiny neural network from scratch using NumPy once—you'll understand deep learning far better than by only using PyTorch.
 
 ---
 

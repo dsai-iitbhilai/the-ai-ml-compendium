@@ -4,9 +4,9 @@
 
 **Last Reviewed:** 2026-06
 
-**Prerequisites:** [Tool Use & Function Calling](../../docs/06-agentic-ai/fundamentals/tool-use-and-function-calling.md) · [Agent Fundamentals](../../docs/06-agentic-ai/fundamentals/agent-fundamentals.md)
+**Prerequisites:** [Tool Use & Function Calling](../../docs/06-agentic-ai/fundamentals/tool-use-and-function-calling.md) · [Agent Fundamentals](../fundamentals/agent-fundamentals.md)
 
-> ⚠️ **Fast-moving section** — MCP is under active development. Server implementations, client libraries, and the spec itself evolve quickly. Verify against official docs.
+>  **Fast-moving section** — MCP is under active development. Server implementations, client libraries, and the spec itself evolve quickly. Verify against official docs.
 
 ---
 

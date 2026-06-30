@@ -271,12 +271,12 @@ Model Deployment
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Beginner Friendly | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
-| Research | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| Production | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| Flexibility | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| Speed | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| Community | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| Beginner Friendly |  |  |  |
+| Research |  |  |  |
+| Production |  |  |  |
+| Flexibility |  |  |  |
+| Speed |  |  |  |
+| Community |  |  |  |
 
 ---
 
@@ -322,7 +322,7 @@ Model Deployment
 - [Neural Network Fundamentals](neural-network-fundamentals.md)
 - [CNN & Computer Vision](cnn-computer-vision.md)
 - [Transformers](transformers.md)
-- [Generative AI](../visualizers-and-playgrounds/README.md)
-- [MLOps](../visualizers-and-playgrounds/README.md)
+- [Generative AI](../05-generative-ai/README.md)
+- [MLOps](../07-mlops-and-deployment/README.md)
 - [Projects](../08-projects-and-examples/README.md)
 ```

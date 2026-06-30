@@ -104,4 +104,4 @@ eq P_{test}(Y)$ while $P(X\|Y)$ remains constant. | Monitoring output percentile
 
 - [Model Serving, Inference & APIs](../docs/07-mlops-and-deployment/model-serving.md) — Where the telemetry instrumentation is physically injected.
 - [CI/CD for Machine Learning](../docs/07-mlops-and-deployment/ci-cd-for-ml.md) — How a triggered drift alert automatically kicks off the continuous training (CT) pipeline.
-- [Agent Evaluation & Production](../visualizers-and-playgrounds/README.md) — Correlating live observability traces back to offline benchmark performance.
+- [Agent Evaluation & Production](README.md) — Correlating live observability traces back to offline benchmark performance.

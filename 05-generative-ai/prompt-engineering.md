@@ -89,9 +89,9 @@
 
 ## See also
 
-- [Agentic AI](../visualizers-and-playgrounds/README.md) — Expanding reasoning techniques into autonomous loops and sophisticated tool-calling frameworks.
+- [Agentic AI](../06-agentic-ai/README.md) — Expanding reasoning techniques into autonomous loops and sophisticated tool-calling frameworks.
 - [LLM Fundamentals](llm-fundamentals.md) — The underlying transformer architecture, KV-caching, and scaling laws that make these prompting topologies function.
-- [MLOps](../visualizers-and-playgrounds/README.md) — Strategies for versioning, evaluating, and deploying these optimized prompt pipelines in production environments.
+- [MLOps](../07-mlops-and-deployment/README.md) — Strategies for versioning, evaluating, and deploying these optimized prompt pipelines in production environments.
 
 ## References
 

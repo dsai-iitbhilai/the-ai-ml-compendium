@@ -25,7 +25,7 @@ This module covers the theory behind agent loops, the ReAct pattern, function-ca
 | 5 | [Current Tooling / MCP (Model Context Protocol)](current-tooling/mcp-model-context-protocol.md) | Intermediate | MCP protocol, servers, clients, tool discovery |
 | 6 | [Case Studies](case-studies.md) | Advanced | Real-world agent deployments and production lessons |
 
-> **⚠️ Fast-moving content** — Sections 4 and 5 cover rapidly evolving tooling. APIs, SDK versions, and best-practices change frequently. Cross-reference with official documentation before building production systems.
+> ** Fast-moving content** — Sections 4 and 5 cover rapidly evolving tooling. APIs, SDK versions, and best-practices change frequently. Cross-reference with official documentation before building production systems.
 
 ## How to Use This Module
 

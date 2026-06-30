@@ -113,4 +113,4 @@
 
 - [LLM Fundamentals](llm-fundamentals.md) — The core autoregressive architecture underlying unified multimodal models.
 - [Diffusion Models](diffusion-models.md) — Understanding the generation side of multimodal systems.
-- [Agentic AI](../visualizers-and-playgrounds/README.md) — Giving VLMs tools to execute actions based on spatial reasoning.
+- [Agentic AI](../06-agentic-ai/README.md) — Giving VLMs tools to execute actions based on spatial reasoning.

@@ -68,7 +68,7 @@ All sub‑pages link back here. Visualizers can be used alongside any topic.
 1. Start with **Linear Algebra** and **Python for AI** if you are new.
 2. Work through **Calculus** and **Probability & Statistics** next.
 3. Finish with **Optimization** and optionally **DSA**.
-4. Use the [🧩 Visualizers](visualizers.md) anytime you need an interactive intuition builder.
+4. Use the [ Visualizers](visualizers.md) anytime you need an interactive intuition builder.
 
 ---
 
@@ -88,4 +88,4 @@ All sub‑pages link back here. Visualizers can be used alongside any topic.
 ## See also
 
 - [NN SVG](https://nn-svg.example.com) — interactive neural net diagrams
-- [03 – Deep Learning](../visualizers-and-playgrounds/README.md) (once created)
+- [03 – Deep Learning](../04-deep-learning/README.md) (once created)

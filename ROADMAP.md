@@ -2,28 +2,28 @@
 
 ## Status Legend
 
-- ✅ Complete
-- 🔧 In Progress
-- ⬜ Stub (placeholder content only)
-- 📋 Planned
+-  Complete
+-  In Progress
+-  Stub (placeholder content only)
+-  Planned
 
 ## Current Status
 
 | Module | Status | Notes |
 |---|---|---|
-| 01 Foundations | 🔧 | `linear-algebra.md` fully populated as reference; others need resources |
-| 02 Data Science | ⬜ | Structure defined, needs resources |
-| 03 Machine Learning | ⬜ | Structure defined, needs resources |
-| 04 Deep Learning | ⬜ | Structure defined, needs resources |
-| 05 Generative AI | ⬜ | Structure defined, needs resources |
-| 06 Agentic AI | ⬜ | Structure defined, needs resources |
-| 07 MLOps & Deployment | ⬜ | Structure defined, needs resources |
-| 08 Projects & Examples | ⬜ | Structure defined, needs resources |
-| 09 Research Papers | ⬜ | Structure defined, needs resources |
-| 10 Interview Prep | ⬜ | Structure defined, needs resources |
-| Visualizers & Playgrounds | ⬜ | Structure defined, needs resources |
-| Learning Paths | ⬜ | Structure defined, needs resources |
-| Community | ⬜ | Structure defined, needs resources |
+| 01 Foundations |  | `linear-algebra.md` fully populated as reference; others need resources |
+| 02 Data Science |  | Structure defined, needs resources |
+| 03 Machine Learning |  | Structure defined, needs resources |
+| 04 Deep Learning |  | Structure defined, needs resources |
+| 05 Generative AI |  | Structure defined, needs resources |
+| 06 Agentic AI |  | Structure defined, needs resources |
+| 07 MLOps & Deployment |  | Structure defined, needs resources |
+| 08 Projects & Examples |  | Structure defined, needs resources |
+| 09 Research Papers |  | Structure defined, needs resources |
+| 10 Interview Prep |  | Structure defined, needs resources |
+| Visualizers & Playgrounds |  | Structure defined, needs resources |
+| Learning Paths |  | Structure defined, needs resources |
+| Community |  | Structure defined, needs resources |
 
 ## Future Modules (Planned)
 

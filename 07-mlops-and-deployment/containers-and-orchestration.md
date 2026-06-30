@@ -89,4 +89,4 @@
 ## See also
 
 - [CI/CD for Machine Learning](../docs/07-mlops-and-deployment/ci-cd-for-ml.md) — How Docker images are built and pushed to registries (ECR/GCR) during automated pipelines.
-- [Agent Evaluation & Production](../visualizers-and-playgrounds/README.md) — How the orchestration layer provisions sandboxed Docker environments for code-execution agents.
+- [Agent Evaluation & Production](README.md) — How the orchestration layer provisions sandboxed Docker environments for code-execution agents.

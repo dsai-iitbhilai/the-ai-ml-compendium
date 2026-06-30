@@ -1,42 +1,61 @@
 # End-to-End Systems
 
-> Complete system examples that tie together model development, API serving, frontend, and infrastructure.
+> Complete system examples that tie together model development, API serving, frontend interfaces, and resilient data infrastructure.
 
-## Project List
+**Last Reviewed:** 2026-06
 
-| Project | Stack | Complexity |
-|---|---|---|
-| **Real-Time Sentiment Dashboard** | FastAPI + React + WebSocket + BERT | Intermediate |
-| **Document Question-Answering System** | RAG pipeline (ChromaDB + LLM + LangChain) + Streamlit | Intermediate |
-| **Image Search Engine** | CLIP embeddings + Qdrant + FastAPI + Next.js | Advanced |
-| **ML Model Marketplace** | Model registry + BentoML + React + Auth0 | Advanced |
-| **Personal AI Tutor** | Multi-agent system + RAG + TTS/SpeechRecognition | Advanced |
+---
 
-## Resource Table
+## Resources
 
-| Category | Title | Description | Level |
+### 📘 Docs & Textbooks
+
+| Title | Level | Link | Notes |
 |---|---|---|---|
-|  Code/Notebook | [Full-Stack RAG App (ChromaDB + Ollama)](https://example.com/fullstack-rag) | Complete local RAG system with UI | Intermediate |
-|  Code/Notebook | [CLIP Image Search Deployment](https://example.com/clip-search) | End-to-end image similarity search | Advanced |
-|  Course | [Full Stack Deep Learning](https://example.com/fsdl-course) | Hands-on course building production ML systems | Intermediate |
-|  Blog | [Architecting ML Systems — MLflow + FastAPI + React](https://example.com/architecting-ml) | System design patterns for ML apps | Intermediate |
-|  Video | [Building a Production ML App in 1 Hour](https://example.com/prod-ml-app) | Live coding a full-stack ML project | Intermediate |
-|  Docs | [Streamlit + FastAPI Integration Guide](https://example.com/streamlit-fastapi) | Patterns for serving ML via Streamlit | Beginner |
+| *Streamlit + FastAPI Integration Architecture* | Intermediate | <https://docs.streamlit.io/> | Design patterns for mapping microservice routes into crisp frontend objects. |
 
-## Architecture Template
+### 🎥 Video
 
-```
-Frontend (React/Streamlit)
-    │
-    ▼ HTTP / WebSocket
-API Gateway (FastAPI / Flask)
-    │
-    ▼
-Model Server (Triton / BentoML / KServe)
-    │
-    ▼
-Data Layer (Postgres / Redis / Vector DB)
-```
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Building a Production ML App in 1 Hour* | Intermediate | <https://www.youtube.com/watch?v=cOJE0nO18sM> | Live coding marathon establishing structured REST APIs from bare models. |
+
+### 🎓 Course
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Full Stack Deep Learning* | Intermediate | <https://fullstackdeeplearning.com/> | Industry standard curriculum addressing testing, container design, and infrastructure tradeoffs. |
+
+### 💻 Code / Notebook
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Full-Stack RAG System (Ollama + Chroma)* | Intermediate | <https://github.com/run-llama/llama_index> | Local reference blueprint showcasing vector databases and UI composition. |
+| *CLIP Image Search Deployment* | Advanced | <https://github.com/qdrant/qdrant> | High-performance template wiring vector distance matrices to visual indexes. |
+
+### 📰 Blog
+
+| Title | Level | Link | Notes |
+|---|---|---|---|
+| *Architecting ML Systems Patterns* | Intermediate | <https://neptune.ai/blog/mlops-architecture-components-and-patterns> | Structural engineering manual handling caching, authentication, and database boundaries. |
+
+---
+
+## System Architecture Reference
+
+Modern end-to-end production designs separate structural client interactions from computational inference layers via decoupled topologies:
+
+```text
+Frontend UI (React / Streamlit)
+       │
+       ▼ HTTP / WebSocket / Streaming Deltas
+API Gateway (FastAPI Async Router)
+       │
+       ▼ RPC Serialization / Internal Networking
+Model Serving Engine (vLLM / Triton / BentoML)
+       │
+       ▼ Low-Latency Coordinate Query
+Data & Vector Storage (Postgres / Qdrant / Redis)
 
 ## Key Integration Points
 

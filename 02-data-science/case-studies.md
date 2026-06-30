@@ -8,7 +8,7 @@
 
 ---
 
-> 💡 **Tip:** Don't just read these case studies. Clone the notebook, download the dataset, reproduce the analysis, and then improve it.
+>  **Tip:** Don't just read these case studies. Clone the notebook, download the dataset, reproduce the analysis, and then improve it.
 
 ---
 

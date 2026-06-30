@@ -95,5 +95,5 @@
 
 - [Calculus](calculus.md) — needed for understanding gradient‑based methods that build on linear algebra
 - [Optimization](optimization.md) — convexity and descent methods rely heavily on vector spaces
-- [🔢 Mathematics](../README.md) — back to mathematics index
-- [🏠 Foundations / README](../README.md)
+- [ Mathematics](../README.md) — back to mathematics index
+- [ Foundations / README](../README.md)

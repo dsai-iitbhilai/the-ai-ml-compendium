@@ -8,7 +8,7 @@
 
 ---
 
-> 💡 **Tip:** Focus on understanding *why* statistical methods work instead of memorizing formulas. Visual intuition and hands-on experiments are far more valuable.
+>  **Tip:** Focus on understanding *why* statistical methods work instead of memorizing formulas. Visual intuition and hands-on experiments are far more valuable.
 
 ---
 

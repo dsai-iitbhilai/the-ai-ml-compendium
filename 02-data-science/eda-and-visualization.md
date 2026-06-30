@@ -8,7 +8,7 @@
 
 ---
 
-> 💡 **Tip:** Great EDA isn't about making beautiful charts—it's about asking the right questions. Every visualization should answer a specific business or scientific question.
+>  **Tip:** Great EDA isn't about making beautiful charts—it's about asking the right questions. Every visualization should answer a specific business or scientific question.
 
 ---
 
@@ -18,7 +18,7 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Fundamentals of Data Visualization (Claus Wilke) | ⭐ Beginner | <https://clauswilke.com/dataviz/> | One of the best FREE books on visualization |
+| Fundamentals of Data Visualization (Claus Wilke) |  Beginner | <https://clauswilke.com/dataviz/> | One of the best FREE books on visualization |
 | Storytelling with Data Blog | Beginner | <https://www.storytellingwithdata.com/blog> | Excellent visualization principles (book is paid, blog is free) |
 | matplotlib User Guide | Beginner | <https://matplotlib.org/stable/users/index.html> | Official documentation |
 | matplotlib Gallery | Beginner | <https://matplotlib.org/stable/gallery/index.html> | Hundreds of visualization examples |

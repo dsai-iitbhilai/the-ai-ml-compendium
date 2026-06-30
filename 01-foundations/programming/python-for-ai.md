@@ -90,5 +90,5 @@
 
 - [Data Structures & Algorithms](data-structures-algorithms.md) — complements Python skills with algorithmic thinking
 - [Linear Algebra](../mathematics/linear-algebra.md) — NumPy's `linalg` module
-- [🧩 Visualizers](../visualizers.md) — Python Tutor, Colab
-- [💻 Programming](../README.md)
+- [ Visualizers](../visualizers.md) — Python Tutor, Colab
+- [ Programming](../README.md)

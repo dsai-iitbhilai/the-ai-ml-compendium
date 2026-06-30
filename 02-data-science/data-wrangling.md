@@ -8,7 +8,7 @@
 
 ---
 
-> 💡 **Tip:** Spend more time mastering data wrangling than learning new models. In real-world projects, data cleaning often takes 70–80% of the effort.
+>  **Tip:** Spend more time mastering data wrangling than learning new models. In real-world projects, data cleaning often takes 70–80% of the effort.
 
 ---
 
@@ -18,7 +18,7 @@
 
 | Title | Level | Link | Notes |
 |---|---|---|---|
-| Python Data Science Handbook (Jake VanderPlas) | ⭐ Beginner | <https://jakevdp.github.io/PythonDataScienceHandbook/> | Free online book covering NumPy, pandas, visualization and ML |
+| Python Data Science Handbook (Jake VanderPlas) |  Beginner | <https://jakevdp.github.io/PythonDataScienceHandbook/> | Free online book covering NumPy, pandas, visualization and ML |
 | pandas User Guide | Beginner | <https://pandas.pydata.org/docs/user_guide/index.html> | Complete official pandas documentation |
 | pandas API Reference | Intermediate | <https://pandas.pydata.org/docs/reference/index.html> | Every DataFrame and Series function |
 | NumPy User Guide | Beginner | <https://numpy.org/doc/stable/user/index.html> | Broadcasting, arrays, indexing and performance |

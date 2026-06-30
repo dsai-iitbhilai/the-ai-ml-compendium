@@ -116,4 +116,4 @@ User Input → Supervisor Agent
 
 - [Agent Fundamentals](agent-fundamentals.md) — Core mechanics of the ReAct loop powering the individual agents.
 - [Tool Use & Function Calling](../../docs/06-agentic-ai/fundamentals/tool-use-and-function-calling.md) — The underlying mechanism enabling tool-based handoffs and delegation.
-- [MLOps](../../visualizers-and-playgrounds/README.md) — Scalable engineering practices for deploying heavily orchestrated LLM systems in production.
+- [MLOps](../../07-mlops-and-deployment/README.md) — Scalable engineering practices for deploying heavily orchestrated LLM systems in production.

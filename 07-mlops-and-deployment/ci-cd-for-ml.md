@@ -4,7 +4,7 @@
 
 **Last Reviewed:** 2026-06
 
-**Prerequisites:** [Tool Use & Function Calling](../docs/06-agentic-ai/fundamentals/tool-use-and-function-calling.md) · [Agent Evaluation & Production](../visualizers-and-playgrounds/README.md)
+**Prerequisites:** [Tool Use & Function Calling](../docs/06-agentic-ai/fundamentals/tool-use-and-function-calling.md) · [Agent Evaluation & Production](README.md)
 
 ---
 
@@ -124,5 +124,5 @@ Code Commit → Lint/Test → Train → Evaluate → Register → Deploy → Mon
 
 ## See also
 
-- [Agent Evaluation & Production](../visualizers-and-playgrounds/README.md) — How to evaluate non-deterministic models before pushing to the staging registry.
+- [Agent Evaluation & Production](README.md) — How to evaluate non-deterministic models before pushing to the staging registry.
 - [Tool Use & Function Calling](../docs/06-agentic-ai/fundamentals/tool-use-and-function-calling.md) — Monitoring error rates on production APIs used by models.

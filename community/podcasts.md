@@ -2,48 +2,44 @@
 
 > ML and AI podcasts for learning during commutes, workouts, or background listening.
 
+**Last Reviewed:** 2026-06
+
 ## Resource Table
 
-| Category | Title | Description | Level |
-|---|---|---|---|
-| 🎥 Video | [Lex Fridman Podcast](https://example.com/lex-podcast) | Long-form interviews with AI researchers and leaders | All levels |
-| 🎥 Video | [ML Street Talk](https://example.com/ml-street-talk) | Deep technical discussions on ML research | Advanced |
-| 🎥 Video | [Practical AI — Changelog Media](https://example.com/practical-ai) | Focused on applied ML and production systems | Intermediate |
-| 🎥 Video | [The TWIML AI Podcast](https://example.com/twiml) | "This Week in ML" — interviews with practitioners | Intermediate |
-| 🎥 Video | [Last Week in AI](https://example.com/last-week-ai) | Weekly news roundup and analysis | All levels |
-| 🎥 Video | [Data Skeptic](https://example.com/data-skeptic) | Mini-episodes on ML concepts + interviews | Beginner |
+| Category | Title | Description | Level | Link |
+|---|---|---|---|---|
+|  Video | Lex Fridman Podcast | Long-form interviews with AI researchers and leaders | All levels | <https://lexfridman.com/podcast/> |
+|  Video | Machine Learning Street Talk (MLST) | Deep technical discussions on ML research | Advanced | <https://www.youtube.com/@MachineLearningStreetTalk> |
+|  Video | Practical AI — Changelog Media | Focused on applied ML and production systems | Intermediate | <https://changelog.com/practicalai> |
+|  Video | The TWIML AI Podcast | "This Week in ML" — interviews with practitioners | Intermediate | <https://twimlai.com/podcast/twimlai/> |
+|  Video | Last Week in AI | Weekly news roundup and analysis | All levels | <https://lastweekin.ai/> |
+|  Video | Data Skeptic | Mini-episodes on ML concepts + interviews | Beginner | <https://dataskeptic.com/> |
 
 ## Podcasts by Focus Area
 
 ### Research & Deep Dives
-| Podcast | Best For |
-|---|---|
-| **ML Street Talk** | In-depth paper discussions with experts |
-| **Gradient Dissent** (Weights & Biases) | Conversations with ML researchers |
-| **The AI Podcast** (NVIDIA) | Industry leaders on AI impact |
-| **Generally Intelligent** | Deep dives into ML research |
+| Podcast | Best For | Link |
+|---|---|---|
+| **ML Street Talk** | In-depth paper discussions with experts | <https://www.youtube.com/@MachineLearningStreetTalk> |
+| **Gradient Dissent (W&B)** | Conversations with ML researchers | <https://wandb.ai/fully-connected/podcast> |
+| **The AI Podcast (NVIDIA)** | Industry leaders on AI impact | <https://blogs.nvidia.com/ai-podcast/> |
 
 ### Applied ML & Industry
-| Podcast | Best For |
-|---|---|
-| **Practical AI** | Production ML and real-world case studies |
-| **TWIML AI Podcast** | Interviews with ML practitioners |
-| **Data Engineering Podcast** | Data pipelines and infrastructure |
-| **Machine Learning Engineering** | MLOps, deployment, scaling |
+| Podcast | Best For | Link |
+|---|---|---|
+| **Practical AI** | Production ML and real-world case studies | <https://changelog.com/practicalai> |
+| **TWIML AI Podcast** | Interviews with ML practitioners | <https://twimlai.com/podcast/twimlai/> |
+| **Data Engineering Podcast** | Data pipelines and infrastructure | <https://www.dataengineeringpodcast.com/> |
 
 ### News & Current Events
-| Podcast | Best For |
-|---|---|
-| **Last Week in AI** | Weekly news summary (accessible) |
-| **AI Breakfast** | Short daily AI news briefings |
-| **The Gradient** | Monthly research podcast |
-| **Hard Fork** (NYT) | Tech news including AI (broad audience) |
+| Podcast | Best For | Link |
+|---|---|---|
+| **Last Week in AI** | Weekly news summary (accessible) | <https://lastweekin.ai/> |
+| **Hard Fork (NYT)** | Tech news including AI (broad audience) | <https://www.nytimes.com/column/hard-fork> |
+| **Latent Space** | The AI Engineer podcast | <https://www.latent.space/> |
 
 ### Beginner-Friendly
-| Podcast | Best For |
-|---|---|
-| **Data Skeptic** | Short episodes explaining ML concepts |
-| **Learning Machines 101** | Gentle introduction to AI topics |
-| **Talking Machines** | Accessible ML conversations |
-
-> **Last Reviewed:** 2026-06
+| Podcast | Best For | Link |
+|---|---|---|
+| **Data Skeptic** | Short episodes explaining ML concepts | <https://dataskeptic.com/> |
+| **Talking Machines** | Accessible ML conversations | <https://www.thetalkingmachines.com/> |

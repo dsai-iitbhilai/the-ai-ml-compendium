@@ -114,6 +114,6 @@
 - [Linear Algebra](../01-foundations/mathematics/linear-algebra.md) — vectors, matrices, projections
 - [Probability & Statistics](../01-foundations/mathematics/probability-statistics.md) — likelihood, Bayes' theorem, inference
 - [Playgrounds](playgrounds.md) — interactive decision boundary and classifier visualizations
-- [🤖 Machine Learning](README.md)
+- [ Machine Learning](README.md)
 
 ---

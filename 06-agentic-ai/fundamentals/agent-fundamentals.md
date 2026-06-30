@@ -4,7 +4,7 @@
 
 **Last Reviewed:** 2026-06
 
-**Prerequisites:** [Prompt Engineering](../../docs/05-generative-ai/prompt-engineering.md) · [LLM Fundamentals](../../docs/05-generative-ai/llm-fundamentals.md)
+**Prerequisites:** [Prompt Engineering](../../05-generative-ai/prompt-engineering.md) · [LLM Fundamentals](../../05-generative-ai/llm-fundamentals.md)
 
 ---
 
@@ -132,6 +132,6 @@ User Input
 
 ## See also
 
-- [Prompt Engineering](../../docs/05-generative-ai/prompt-engineering.md) — The foundation for writing robust system prompts that guide ReAct logic.
-- [RAG Systems](../../docs/05-generative-ai/rag-systems.md) — How agents access and index long-term semantic memory.
-- [MLOps](../../visualizers-and-playgrounds/README.md) — Managing the observability, cost-tracking, and deployment of stochastic agent loops.
+- [Prompt Engineering](../../05-generative-ai/prompt-engineering.md) — The foundation for writing robust system prompts that guide ReAct logic.
+- [RAG Systems](../../05-generative-ai/rag-systems.md) — How agents access and index long-term semantic memory.
+- [MLOps](../../07-mlops-and-deployment/README.md) — Managing the observability, cost-tracking, and deployment of stochastic agent loops.

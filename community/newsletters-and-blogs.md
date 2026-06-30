@@ -2,34 +2,32 @@
 
 > Stay informed with the latest ML research, industry news, and tutorials.
 
+**Last Reviewed:** 2026-06
+
 ## Resource Table
 
-| Category | Title | Description | Level |
-|---|---|---|---|
-| 📰 Blog | [The Batch — Andrew Ng (DeepLearning.AI)](https://example.com/the-batch) | Weekly AI news digest with expert commentary | All levels |
-| 📰 Blog | [Import AI — Jack Clark](https://example.com/import-ai) | Weekly newsletter on frontier AI developments | All levels |
-| 📰 Blog | [Sebastian Raschka's Blog](https://example.com/sebastian-blog) | Deep dives on LLMs, Transformers, and PyTorch | Intermediate / Advanced |
-| 📰 Blog | [Lil'Log — Lilian Weng](https://example.com/lil-log) | Comprehensive survey-style posts on RL, LLMs, agents | Advanced |
-| 📰 Blog | [Stability AI Blog](https://example.com/stability-blog) | Open-source generative model releases and research | Intermediate |
-| 📰 Blog | [Google AI Blog](https://example.com/google-ai) | Research announcements from Google DeepMind | All levels |
+| Category | Title | Description | Level | Link |
+|---|---|---|---|---|
+|  Blog | The Batch — Andrew Ng (DeepLearning.AI) | Weekly AI news digest with expert commentary | All levels | <https://www.deeplearning.ai/the-batch/> |
+|  Blog | Import AI — Jack Clark | Weekly newsletter on frontier AI developments | All levels | <https://importai.substack.com/> |
+|  Blog | Sebastian Raschka's Blog | Deep dives on LLMs, Transformers, and PyTorch | Intermediate / Advanced | <https://magazine.sebastianraschka.com/> |
+|  Blog | Lil'Log — Lilian Weng | Comprehensive survey-style posts on RL, LLMs, agents | Advanced | <https://lilianweng.github.io/> |
+|  Blog | Stability AI Blog | Open-source generative model releases and research | Intermediate | <https://stability.ai/news> |
+|  Blog | Google DeepMind Blog | Research announcements from Google DeepMind | All levels | <https://deepmind.google/discover/blog/> |
 
 ## Other Recommended Blogs
 
-| Blog | Focus |
-|---|---|
-| [OpenAI Blog](https://example.com/openai-blog) | GPT releases, safety research, system prompts |
-| [Meta AI Blog](https://example.com/meta-ai) | LLaMA, SAM, open-source AI research |
-| [Hugging Face Blog](https://example.com/hf-blog) | Tutorials, model releases, community highlights |
-| [Neptune AI Blog](https://example.com/neptune-blog) | MLOps, experiment tracking, best practices |
-| [Eugene Yan's Blog](https://example.com/eugeneyan) | Applied ML, recsys, and engineering |
-| [Machine Learning Mastery](https://example.com/ml-mastery) | Tutorials for beginners on specific algorithms |
+| Blog | Focus | Link |
+|---|---|---|
+| **OpenAI Blog** | GPT releases, safety research, system prompts | <https://openai.com/blog> |
+| **Meta AI Blog** | LLaMA, SAM, open-source AI research | <https://ai.meta.com/blog/> |
+| **Hugging Face Blog** | Tutorials, model releases, community highlights | <https://huggingface.co/blog> |
+| **Neptune AI Blog** | MLOps, experiment tracking, best practices | <https://neptune.ai/blog> |
+| **Eugene Yan's Blog** | Applied ML, recsys, and engineering | <https://eugeneyan.com/> |
+| **Machine Learning Mastery** | Tutorials for beginners on specific algorithms | <https://machinelearningmastery.com/> |
 
 ## How to Stay on Top
 
 - Use **Feedly** or **Inoreader** to aggregate RSS feeds
-- Subscribe to news digests like **TLDR AI** and **AIM Weekly**
-- Follow **Papers with Code** for daily new paper highlights
-
----
-
-> **Last Reviewed:** 2026-06
+- Subscribe to news digests like **TLDR AI** (https://tldr.tech/ai)
+- Follow **Papers with Code** (https://paperswithcode.com/) for daily new paper highlights

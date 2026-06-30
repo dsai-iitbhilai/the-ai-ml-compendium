@@ -24,9 +24,9 @@
 
 | Category | Title | Description | Level |
 |---|---|---|---|
-| 📘 Docs | [Ace the Data Science Interview — Book](https://example.com/ace-ds) | Comprehensive Q&A for DS interviews | All levels |
-| 🎥 Video | [ML Interview Prep Playlist — YouTube](https://example.com/ml-interview-playlist) | Mock interviews and topic reviews | Intermediate |
-| 📰 Blog | [ML System Design Interview Guide — ByteByteGo](https://example.com/bytebytego-ml) | Structured approach to ML design questions | Advanced |
+|  Docs | [Ace the Data Science Interview — Book](https://example.com/ace-ds) | Comprehensive Q&A for DS interviews | All levels |
+|  Video | [ML Interview Prep Playlist — YouTube](https://example.com/ml-interview-playlist) | Mock interviews and topic reviews | Intermediate |
+|  Blog | [ML System Design Interview Guide — ByteByteGo](https://example.com/bytebytego-ml) | Structured approach to ML design questions | Advanced |
 
 ---
 

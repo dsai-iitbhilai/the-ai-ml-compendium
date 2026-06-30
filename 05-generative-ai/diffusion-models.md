@@ -4,7 +4,7 @@
 
 **Last Reviewed:** 2026-06
 
-**Prerequisites:** [Deep Learning](../visualizers-and-playgrounds/README.md) · Probability Theory · Calculus
+**Prerequisites:** [Deep Learning](../04-deep-learning/README.md) · Probability Theory · Calculus
 
 ---
 
@@ -131,6 +131,6 @@ Random latent z_T                       │
 
 ## See also
 
-- [Deep Learning](../visualizers-and-playgrounds/README.md) — Fundamental neural network and CNN architectures underlying the UNet.
+- [Deep Learning](../04-deep-learning/README.md) — Fundamental neural network and CNN architectures underlying the UNet.
 - [Fine-Tuning & PEFT](fine-tuning-and-peft.md) — techniques for adapting diffusion models (e.g., DreamBooth, LoRA) to diffusion models.
-- [MLOps](../visualizers-and-playgrounds/README.md) — Hosting heavy image/video generation endpoints in production.
+- [MLOps](../07-mlops-and-deployment/README.md) — Hosting heavy image/video generation endpoints in production.

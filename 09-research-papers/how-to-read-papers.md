@@ -6,12 +6,12 @@
 
 | Category | Title | Description | Level |
 |---|---|---|---|
-| 📰 Blog | [How to Read a Research Paper — S. Keshav](https://example.com/keshav-reading) | The classic three-pass approach | Beginner |
-| 🎥 Video | [How to Read ML Papers Effectively — Yannic Kilcher](https://example.com/yannic-reading) | Practical advice from an ML YouTuber | Beginner |
-| 📘 Docs | [Papers with Code — Reading Guide](https://example.com/pwc-reading) | Connecting papers to code for deeper understanding | Beginner |
-| 🎓 Course | [Stanford CS230 — Reading Research Papers Guide](https://example.com/cs230-reading) | Structured approach from Stanford DL course | Beginner |
-| 📰 Blog | [How to Read a Paper in ML — Yale CS](https://example.com/yale-reading) | Template with questions for each section | Beginner |
-| 💻 Code/Notebook | [Zotero + Obsidian Paper Workflow](https://example.com/zotero-obsidian) | Tool setup for managing paper notes | Intermediate |
+|  Blog | [How to Read a Research Paper — S. Keshav](https://example.com/keshav-reading) | The classic three-pass approach | Beginner |
+|  Video | [How to Read ML Papers Effectively — Yannic Kilcher](https://example.com/yannic-reading) | Practical advice from an ML YouTuber | Beginner |
+|  Docs | [Papers with Code — Reading Guide](https://example.com/pwc-reading) | Connecting papers to code for deeper understanding | Beginner |
+|  Course | [Stanford CS230 — Reading Research Papers Guide](https://example.com/cs230-reading) | Structured approach from Stanford DL course | Beginner |
+|  Blog | [How to Read a Paper in ML — Yale CS](https://example.com/yale-reading) | Template with questions for each section | Beginner |
+|  Code/Notebook | [Zotero + Obsidian Paper Workflow](https://example.com/zotero-obsidian) | Tool setup for managing paper notes | Intermediate |
 
 ## The Three-Pass Method (Keshav)
 

@@ -6,12 +6,12 @@
 
 | Category | Title | Description | Level |
 |---|---|---|---|
-| 🕹️ Visualizer/Playground | [LeetCode](https://example.com/leetcode) | Algorithm problems with editor, test cases, and solutions | All levels |
-| 💻 Code/Notebook | [NeetCode 150 Solutions](https://example.com/neetcode150) | Curated 150 problems with video explanations | All levels |
-| 💻 Code/Notebook | [ML Coding Notebook — From Scratch](https://example.com/ml-coding-scratch) | Implement KNN, Logistic Regression, K-Means from scratch | Intermediate |
-| 🎥 Video | [Python for ML Interviews — YouTube](https://example.com/python-ml-interview) | Python tricks, numpy/pandas/sklearn coding challenges | Intermediate |
-| 📘 Docs | [HackerRank ML Preparation Guide](https://example.com/hackerrank-ml) | Platform-specific ML coding challenges | Beginner |
-| 📰 Blog | [Take-Home ML Assignments — Guide & Examples](https://example.com/takehome-ml) | How to approach ML take-home tests | Intermediate |
+|  Visualizer/Playground | [LeetCode](https://example.com/leetcode) | Algorithm problems with editor, test cases, and solutions | All levels |
+|  Code/Notebook | [NeetCode 150 Solutions](https://example.com/neetcode150) | Curated 150 problems with video explanations | All levels |
+|  Code/Notebook | [ML Coding Notebook — From Scratch](https://example.com/ml-coding-scratch) | Implement KNN, Logistic Regression, K-Means from scratch | Intermediate |
+|  Video | [Python for ML Interviews — YouTube](https://example.com/python-ml-interview) | Python tricks, numpy/pandas/sklearn coding challenges | Intermediate |
+|  Docs | [HackerRank ML Preparation Guide](https://example.com/hackerrank-ml) | Platform-specific ML coding challenges | Beginner |
+|  Blog | [Take-Home ML Assignments — Guide & Examples](https://example.com/takehome-ml) | How to approach ML take-home tests | Intermediate |
 
 ## Types of Coding Rounds
 

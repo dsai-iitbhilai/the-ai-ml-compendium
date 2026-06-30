@@ -76,4 +76,4 @@
 - [Optimization](mathematics/optimization.md)
 - [Python for AI](programming/python-for-ai.md)
 - [Data Structures & Algorithms](programming/data-structures-algorithms.md)
-- [🏠 Foundations / README](README.md)
+- [ Foundations / README](README.md)

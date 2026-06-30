@@ -6,12 +6,12 @@
 
 | Category | Title | Description | Level |
 |---|---|---|---|
-| 📘 Docs | [100+ ML Interview Questions — GitHub Repo](https://example.com/100-ml-questions) | Curated list with answers across all ML topics | All levels |
-| 🎥 Video | [ML Interview Q&A Walkthrough — StatQuest](https://example.com/statquest-interview) | Video explanations of classic ML questions | Beginner |
-| 📰 Blog | [Deep Learning Interview Questions — Springboard](https://example.com/dl-interview-questions) | Neural network fundamentals, backprop, CNNs, RNNs | Intermediate |
-| 💻 Code/Notebook | [ML from Scratch Interview Notebook](https://example.com/ml-from-scratch) | Implement KNN, Linear Regression, Logistic Regression | Intermediate |
-| 📘 Docs | [Google ML Interview Prep Guide](https://example.com/google-ml-prep) | Official guide with sample questions and format | All levels |
-| 🎓 Course | [ML Interview Prep — DataCamp](https://example.com/datacamp-interview) | 8-hour course covering theory and practice | Intermediate |
+|  Docs | [100+ ML Interview Questions — GitHub Repo](https://example.com/100-ml-questions) | Curated list with answers across all ML topics | All levels |
+|  Video | [ML Interview Q&A Walkthrough — StatQuest](https://example.com/statquest-interview) | Video explanations of classic ML questions | Beginner |
+|  Blog | [Deep Learning Interview Questions — Springboard](https://example.com/dl-interview-questions) | Neural network fundamentals, backprop, CNNs, RNNs | Intermediate |
+|  Code/Notebook | [ML from Scratch Interview Notebook](https://example.com/ml-from-scratch) | Implement KNN, Linear Regression, Logistic Regression | Intermediate |
+|  Docs | [Google ML Interview Prep Guide](https://example.com/google-ml-prep) | Official guide with sample questions and format | All levels |
+|  Course | [ML Interview Prep — DataCamp](https://example.com/datacamp-interview) | 8-hour course covering theory and practice | Intermediate |
 
 ## Topic Checklist
 

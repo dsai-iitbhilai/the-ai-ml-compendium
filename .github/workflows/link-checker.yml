@@ -3,9 +3,6 @@ name: Link Checker
 on:
   schedule:
     - cron: '0 0 1 * *'  # Monthly on the 1st
-  pull_request:
-    paths:
-      - '**.md'
   workflow_dispatch:
 
 permissions:

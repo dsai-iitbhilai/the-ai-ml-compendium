@@ -4,7 +4,7 @@
 
 **Last Reviewed:** 2026-06
 
-**Prerequisites:** [Agent Fundamentals](../../docs/06-agentic-ai/fundamentals/agent-fundamentals.md) · [Multi-Agent Systems](../../docs/06-agentic-ai/fundamentals/multi-agent-systems.md)
+**Prerequisites:** [Agent Fundamentals](../fundamentals/agent-fundamentals.md) · [Multi-Agent Systems](../fundamentals/multi-agent-systems.md)
 
 ---
 
@@ -106,6 +106,6 @@
 
 ## See also
 
-- [Agent Fundamentals](../../docs/06-agentic-ai/fundamentals/agent-fundamentals.md) — Core mechanics of the ReAct loop powering these frameworks.
-- [Multi-Agent Systems](../../docs/06-agentic-ai/fundamentals/multi-agent-systems.md) — The theoretical communication topologies these frameworks attempt to solve.
-- [Agent Evaluation & Production](../../visualizers-and-playgrounds/README.md) — Benchmarks required before taking these frameworks into production.
+- [Agent Fundamentals](../fundamentals/agent-fundamentals.md) — Core mechanics of the ReAct loop powering these frameworks.
+- [Multi-Agent Systems](../fundamentals/multi-agent-systems.md) — The theoretical communication topologies these frameworks attempt to solve.
+- [Agent Evaluation & Production](../../07-mlops-and-deployment/README.md) — Benchmarks required before taking these frameworks into production.

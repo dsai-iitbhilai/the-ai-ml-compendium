@@ -4,7 +4,7 @@
 
 **Last Reviewed:** 2026-06
 
-**Prerequisites:** [Deep Learning](../visualizers-and-playgrounds/README.md) · Linear Algebra · Multivariate Calculus
+**Prerequisites:** [Deep Learning](../04-deep-learning/README.md) · Linear Algebra · Multivariate Calculus
 
 ---
 
@@ -96,8 +96,8 @@
 ## See also
 
 - [Linear Algebra](../docs/01-foundations/mathematics/linear-algebra.md) — The fundamental matrix operations driving attention mechanisms.
-- [Agentic AI](../visualizers-and-playgrounds/README.md) — Leveraging LLMs as reasoning engines within autonomous loops and tool-calling frameworks.
-- [MLOps](../visualizers-and-playgrounds/README.md) — Scalable engineering practices for deploying and serving heavy machine learning models in production.
+- [Agentic AI](../06-agentic-ai/README.md) — Leveraging LLMs as reasoning engines within autonomous loops and tool-calling frameworks.
+- [MLOps](../07-mlops-and-deployment/README.md) — Scalable engineering practices for deploying and serving heavy machine learning models in production.
 
 ## References
 

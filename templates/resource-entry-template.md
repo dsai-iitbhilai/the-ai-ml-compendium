@@ -6,11 +6,11 @@ Use this format when adding resources to any topic `.md` file.
 
 ```markdown
 ## Topic Name
-*Prerequisites: [Prerequisite Topic](../path/to/prerequisite.md)*
+*Prerequisites: [Prerequisite Topic](../01-foundations/mathematics/calculus.md)*
 
 | Resource | Type | Level | Last Reviewed | Notes |
 |---|---|---|---|---|
-| [Title](https://example.com) | Type | Level | YYYY-MM | Brief note on why this resource |
+| [Title](https://www.youtube.com/) | Type | Level | YYYY-MM | Brief note on why this resource |
 ```
 
 ## Type Taxonomy
@@ -20,7 +20,7 @@ Use this format when adding resources to any topic `.md` file.
 | Documentation | ` Docs` |
 | Video | ` Video` |
 | Course | ` Course` |
-| Visualizer / Playground | `️ Visualizer/Playground` |
+| Visualizer / Playground | ` Visualizer/Playground` |
 | Research Paper | ` Paper` |
 | Code / Notebook | ` Code/Notebook` |
 | Blog Post | ` Blog` |
@@ -41,7 +41,7 @@ Rows should be ordered by learning sequence, not alphabetically:
 
 ## See Also
 
-Use `**See also:** [Topic Name](./file.md)` instead of duplicating tables when a topic belongs in multiple places.
+Use `**See also:** [Topic Name](../01-foundations/mathematics/calculus.md)` instead of duplicating tables when a topic belongs in multiple places.
 
 ## Example
 
@@ -51,9 +51,9 @@ Use `**See also:** [Topic Name](./file.md)` instead of duplicating tables when a
 
 | Resource | Type | Level | Last Reviewed | Notes |
 |---|---|---|---|---|
-| [StatQuest: Linear Regression](https://youtube.com/...) |  Video | Beginner | 2026-06 | Best first intuition-builder |
-| [Scikit-learn Docs: Linear Models](https://scikit-learn.org/...) |  Docs | Beginner | 2026-06 | Reference implementation |
-| [Andrew Ng — ML Specialization](https://coursera.org/...) |  Course | Beginner | 2026-06 | Full module on regression |
+| [StatQuest: Linear Regression](https://youtube.com/) |  Video | Beginner | 2026-06 | Best first intuition-builder |
+| [Scikit-learn Docs: Linear Models](https://scikit-learn.org/) |  Docs | Beginner | 2026-06 | Reference implementation |
+| [Andrew Ng — ML Specialization](https://coursera.org/) |  Course | Beginner | 2026-06 | Full module on regression |
 
-**See also:** [Logistic Regression](./classification.md) for the classification analogue
+**See also:** [Logistic Regression](../01-foundations/mathematics/calculus.md) for the classification analogue
 ```

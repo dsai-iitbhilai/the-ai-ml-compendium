@@ -84,5 +84,5 @@ Machine learning is the study of algorithms that improve through experience. Thi
 ## See also
 
 - [04 – Deep Learning](../04-deep-learning/README.md) — neural network–based approaches (once created)
-- [🧩 Visualizers & Playgrounds](../visualizers-and-playgrounds/README.md) — interactive ML demos
+- [ Visualizers & Playgrounds](../visualizers-and-playgrounds/README.md) — interactive ML demos
 - [Templates / Resource Entry Template](../templates/resource-entry-template.md)

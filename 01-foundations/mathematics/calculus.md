@@ -95,5 +95,5 @@
 
 - [Linear Algebra](linear-algebra.md) — Jacobians and Hessians are matrices; gradients live in vector spaces
 - [Optimization](optimization.md) — gradient descent and its variants are direct applications of calculus
-- [🧩 Visualizers](../visualizers.md) — interactive tools for derivatives and gradient descent
-- [🔢 Mathematics](../README.md)
+- [ Visualizers](../visualizers.md) — interactive tools for derivatives and gradient descent
+- [ Mathematics](../README.md)

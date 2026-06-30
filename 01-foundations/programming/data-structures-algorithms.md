@@ -94,5 +94,5 @@
 ## See also
 
 - [Python for AI](python-for-ai.md) — practical Python for implementing these structures
-- [🧩 Visualizers](../visualizers.md) — Visualgo, sorting animations
-- [💻 Programming](../README.md)
+- [ Visualizers](../visualizers.md) — Visualgo, sorting animations
+- [ Programming](../README.md)
