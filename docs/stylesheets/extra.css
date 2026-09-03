@@ -1,0 +1,12 @@
+.md-tabs__inner {
+  overflow-x: auto;
+}
+
+.md-tabs__list {
+  flex-wrap: nowrap;
+  width: max-content;
+}
+
+.md-tabs__item {
+  flex-shrink: 0;
+}
