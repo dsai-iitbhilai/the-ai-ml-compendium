@@ -53,6 +53,7 @@ extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
 
 extra_css:
+  - stylesheets/extra.css
   - https://unpkg.com/mermaid@10/dist/mermaid.min.css
 
 nav:

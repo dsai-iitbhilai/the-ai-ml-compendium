@@ -1,0 +1,20 @@
+.md-tabs__list {
+  overflow-x: auto;
+  scrollbar-width: auto;
+  /* scrollbar-color: rgba(255, 255, 255, 0.35) transparent; */
+  -webkit-overflow-scrolling:touch;
+}
+
+.md-tabs__list::-webkit-scrollbar {
+  display: block;
+  height: 3px;
+}
+
+.md-tabs__list::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 3px;
+}
+
+.md-tabs__item {
+  flex-shrink: 0;
+}
